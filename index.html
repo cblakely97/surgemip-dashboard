@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SurgeMIP Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>SurgeMIP Dashboard <span>| Global Storm Surge Simulations</span></h1>
+  <nav>
+    <a href="index.html" class="active">Progress</a>
+    <a href="comparison.html">Station Comparison</a>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="card">
+    <h2>Simulation Progress</h2>
+    <div id="progress-chart"></div>
+    <div id="last-updated" class="last-updated"></div>
+  </div>
+
+  <div class="card">
+    <h2>About</h2>
+    <p>
+      STOFS2D-Global SurgeMIP runs multi-decade storm surge simulations on
+      a global unstructured mesh using ADCIRC. Three scenarios are in progress:
+    </p>
+    <ul style="margin: 0.75rem 0 0 1.5rem; line-height: 1.8">
+      <li><strong>CFS/CFSv2 Reanalysis</strong> (1979&ndash;2024) &mdash;
+        Historical hindcast driven by NCEP CFS and CFSv2 atmospheric reanalysis</li>
+      <li><strong>HadGEM3-GC31-HM Present</strong> (1979&ndash;2014) &mdash;
+        CMIP6 HighResMIP present-climate simulation</li>
+      <li><strong>HadGEM3-GC31-HM Future</strong> (2015&ndash;2050) &mdash;
+        CMIP6 HighResMIP future-climate projection</li>
+    </ul>
+  </div>
+</div>
+
+<script src="js/progress.js"></script>
+</body>
+</html>

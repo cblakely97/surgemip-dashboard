@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SurgeMIP &mdash; Station Comparison</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>SurgeMIP Dashboard <span>| Station Comparison</span></h1>
+  <nav>
+    <a href="index.html">Progress</a>
+    <a href="comparison.html" class="active">Station Comparison</a>
+  </nav>
+</header>
+
+<div class="comparison-layout">
+  <div id="map"></div>
+  <div id="timeseries-panel">
+    <div class="placeholder">Click a station on the map to view its time series comparison</div>
+    <div id="timeseries-plot"></div>
+  </div>
+</div>
+
+<script src="js/comparison.js"></script>
+</body>
+</html>

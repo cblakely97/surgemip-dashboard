@@ -1,0 +1,29 @@
+{
+  "last_updated": "2026-03-19",
+  "scenarios": [
+    {
+      "id": "cfs-reanalysis",
+      "name": "CFS/CFSv2 Reanalysis",
+      "start_year": 1979,
+      "end_year": 2024,
+      "completed_years": [1979, 1980],
+      "status": "running"
+    },
+    {
+      "id": "hadgem-present",
+      "name": "HadGEM3-GC31-HM Present",
+      "start_year": 1979,
+      "end_year": 2014,
+      "completed_years": [],
+      "status": "running"
+    },
+    {
+      "id": "hadgem-future",
+      "name": "HadGEM3-GC31-HM Future",
+      "start_year": 2015,
+      "end_year": 2050,
+      "completed_years": [],
+      "status": "pending"
+    }
+  ]
+}

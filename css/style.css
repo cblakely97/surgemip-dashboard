@@ -1,0 +1,155 @@
+/* SurgeMIP Dashboard */
+:root {
+  --bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text: #212529;
+  --text-muted: #6c757d;
+  --border: #dee2e6;
+  --accent: #1f77b4;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+header {
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+header h1 span {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+nav a {
+  color: var(--accent);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 0.9rem;
+}
+
+nav a:hover { text-decoration: underline; }
+nav a.active { font-weight: 600; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.last-updated {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: right;
+  margin-top: 0.5rem;
+}
+
+/* Comparison page layout */
+.comparison-layout {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 57px);  /* minus header height */
+}
+
+#map {
+  flex: 0 0 45%;
+  min-height: 300px;
+}
+
+#timeseries-panel {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#timeseries-panel .placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+#timeseries-plot {
+  flex: 1;
+  min-height: 0;
+}
+
+/* Leaflet popup styling */
+.leaflet-popup-content {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.leaflet-popup-content b {
+  font-size: 0.95rem;
+}
+
+.metric-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+
+.metric-row span:first-child {
+  color: var(--text-muted);
+}
+
+/* Legend control */
+.legend {
+  background: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.legend i {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  margin-right: 6px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.legend b {
+  display: block;
+  margin-bottom: 2px;
+}

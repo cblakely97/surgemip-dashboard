@@ -1,0 +1,9 @@
+# Generated data files (populated by extract_station_data.py)
+data/stations.json
+data/station_node_map.json
+data/timeseries/
+
+# Keep progress.json tracked as a seed / example
+# (will be overwritten by extraction script)
+
+.DS_Store
