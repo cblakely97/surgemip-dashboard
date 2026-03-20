@@ -3,45 +3,210 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SurgeMIP Dashboard</title>
+<title>STOFS2D-Global for SurgeMIP</title>
 <link rel="stylesheet" href="css/style.css">
-<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 </head>
 <body>
 
 <header>
-  <h1>SurgeMIP Dashboard <span>| Global Storm Surge Simulations</span></h1>
+  <h1>STOFS2D-Global <span>for SurgeMIP</span></h1>
   <nav>
-    <a href="index.html" class="active">Progress</a>
+    <a href="index.html" class="active">About</a>
+    <a href="progress.html">Progress</a>
     <a href="comparison.html">Station Comparison</a>
-    <a href="about.html">About</a>
   </nav>
 </header>
 
 <div class="container">
+
   <div class="card">
-    <h2>Simulation Progress</h2>
-    <div id="progress-chart"></div>
-    <div id="last-updated" class="last-updated"></div>
+    <h2>Project Overview</h2>
+    <p>
+      This project contributes to
+      <a href="https://surgemip.org" target="_blank">SurgeMIP</a>, a model
+      intercomparison project for global storm surge simulation. We run the
+      STOFS2D-Global mesh in ADCIRC to produce multi-decade water level
+      hindcasts and climate projections, enabling analysis of extreme coastal
+      water levels under both historical and future climate conditions.
+    </p>
   </div>
 
   <div class="card">
-    <h2>About</h2>
-    <p>
-      STOFS2D-Global SurgeMIP runs multi-decade storm surge simulations on
-      a global unstructured mesh using ADCIRC. Three scenarios are in progress:
-    </p>
-    <ul style="margin: 0.75rem 0 0 1.5rem; line-height: 1.8">
-      <li><strong>CFS/CFSv2 Reanalysis</strong> (1979&ndash;2024) &mdash;
-        Historical hindcast driven by NCEP CFS and CFSv2 atmospheric reanalysis</li>
-      <li><strong>HadGEM3-GC31-HM Present</strong> (1979&ndash;2014) &mdash;
-        CMIP6 HighResMIP present-climate simulation</li>
-      <li><strong>HadGEM3-GC31-HM Future</strong> (2015&ndash;2050) &mdash;
-        CMIP6 HighResMIP future-climate projection</li>
-    </ul>
+    <h2>Model Configuration</h2>
+    <table class="config-table">
+      <tr><td>Model</td><td>ADCIRC v56.2 (2D barotropic)</td></tr>
+      <tr><td>Mesh</td><td>STOFS2D-Global &mdash; 13.4M nodes, 26.1M triangular elements</td></tr>
+      <tr><td>Timestep</td><td>6 seconds</td></tr>
+      <tr><td>Tidal forcing</td><td>8 constituents (Q1, O1, P1, K1, N2, M2, S2, K2)</td></tr>
+      <tr><td>Wetting/drying</td><td>Enabled (H0 = 0.1 m)</td></tr>
+      <tr><td>Bottom friction</td><td>Manning's n (spatially variable, default 0.022)</td></tr>
+      <tr><td>Wind drag</td><td>Capped at 0.0025</td></tr>
+      <tr><td>Compute resources</td><td>36 nodes &times; 128 MPI ranks = 4,608 cores (Improv, LCRC)</td></tr>
+    </table>
   </div>
+
+  <div class="card">
+    <h2>Scenarios</h2>
+    <h3 class="scenario-tier">Currently Running</h3>
+    <div class="scenario-grid">
+
+      <div class="scenario active-scenario">
+        <h3>CFS/CFSv2 Reanalysis</h3>
+        <p class="scenario-years">1979 &ndash; 2024 (46 years)</p>
+        <p>
+          Historical hindcast driven by NCEP Climate Forecast System atmospheric
+          reanalysis. CFS (pre-April 2011) and CFSv2 (post-March 2011) provide
+          hourly 10m winds, mean sea level pressure, and sea ice concentration
+          at 0.5&deg; resolution. Data sourced from NOAA THREDDS and NCEI.
+        </p>
+      </div>
+
+      <div class="scenario active-scenario">
+        <h3>HadGEM3-GC31-HM Present</h3>
+        <p class="scenario-years">1979 &ndash; 2014 (36 years)</p>
+        <p>
+          CMIP6 HighResMIP present-climate simulation using HadGEM3-GC31-HM
+          (~25 km atmosphere). 6-hourly winds and pressure from the
+          <code>hist-1950</code> experiment, regridded to the ADCIRC forcing
+          format with pole rotation and 360-day to Gregorian calendar conversion.
+        </p>
+      </div>
+
+      <div class="scenario active-scenario">
+        <h3>HadGEM3-GC31-HM Future</h3>
+        <p class="scenario-years">2015 &ndash; 2050 (36 years)</p>
+        <p>
+          CMIP6 HighResMIP future-climate projection using the same model.
+          Driven by the <code>highresSST-future</code> experiment, providing
+          a paired comparison with the present-climate run under identical
+          model physics and resolution.
+        </p>
+      </div>
+
+    </div>
+
+    <h3 class="scenario-tier">Planned Next</h3>
+    <div class="scenario-grid">
+
+      <div class="scenario planned-scenario">
+        <h3>EC-Earth3P-HR</h3>
+        <p class="scenario-years">~40 km atmosphere &middot; Gregorian calendar &middot; 3 ensemble members</p>
+        <p>
+          EC-Earth Consortium HighResMIP model. 3-hourly winds and 6-hourly
+          pressure from <code>highresSST-present</code> (1950&ndash;2014) and
+          <code>highresSST-future</code> (2015&ndash;2050). Standard Gregorian
+          calendar simplifies the forcing pipeline. Multiple ensemble members
+          enable uncertainty quantification.
+        </p>
+      </div>
+
+      <div class="scenario planned-scenario">
+        <h3>CNRM-CM6-1-HR</h3>
+        <p class="scenario-years">~50 km atmosphere &middot; Gregorian calendar &middot; 10 ensemble members</p>
+        <p>
+          CNRM-CERFACS (M&eacute;t&eacute;o-France) HighResMIP model. 6-hourly
+          winds and pressure. Largest HighResMIP ensemble with 10 members in
+          the future experiment, providing robust statistics on climate change
+          signals in storm surge.
+        </p>
+      </div>
+
+      <div class="scenario planned-scenario">
+        <h3>MRI-AGCM3-2-S</h3>
+        <p class="scenario-years">~20 km atmosphere &middot; Gregorian calendar &middot; 1 ensemble member</p>
+        <p>
+          MRI (Japan) super-high-resolution AGCM. The highest atmospheric
+          resolution in HighResMIP (~20 km), particularly valuable for
+          resolving tropical cyclone wind structure and landfall surge.
+          3-hourly winds, 6-hourly pressure. AMIP-only (prescribed SST).
+        </p>
+      </div>
+
+    </div>
+
+    <h3 class="scenario-tier">Other Candidates</h3>
+    <div class="scenario-grid">
+
+      <div class="scenario candidate-scenario">
+        <h3>CMCC-CM2-VHR4</h3>
+        <p class="scenario-years">~25 km &middot; 6-hourly only &middot; 1 member</p>
+        <p>
+          CMCC very-high-resolution model. Both AMIP and coupled experiments
+          available. Limited to 6-hourly output frequency.
+        </p>
+      </div>
+
+      <div class="scenario candidate-scenario">
+        <h3>GFDL-CM4C192</h3>
+        <p class="scenario-years">~50 km native, ~100 km output &middot; 1 member</p>
+        <p>
+          GFDL cubed-sphere model. 3-hourly winds but output is regridded to
+          coarser resolution. Has all four HighResMIP experiments.
+        </p>
+      </div>
+
+      <div class="scenario candidate-scenario">
+        <h3>HadGEM3-GC31-HH</h3>
+        <p class="scenario-years">~10 km &middot; 360-day calendar &middot; coupled only &middot; 1 member</p>
+        <p>
+          Highest-resolution coupled GCM ever run at climate timescales.
+          3-hourly output but extremely large data volumes. Only available
+          in coupled mode (no AMIP experiments).
+        </p>
+      </div>
+
+    </div>
+
+    <p class="disclaimer">
+      Candidate model selection is based on data availability on ESGF as of
+      March 2026. Actual runs depend on compute allocation, data access, and
+      forcing pipeline validation. Not all candidates may be run.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Forcing Data Pipeline</h2>
+    <ol class="pipeline">
+      <li>
+        <strong>Download</strong> &mdash;
+        CFS/CFSv2: GRIB2 files from NOAA THREDDS (6-hourly pressure-level
+        archives). CMIP6: NetCDF from ESGF (HighResMIP <code>hist-1950</code>
+        and <code>highresSST-future</code> experiments).
+      </li>
+      <li>
+        <strong>Convert</strong> &mdash;
+        CFS: wgrib2 extracts surface variables, merges to monthly NetCDF.
+        CMIP6: xarray-based regridding with 360-day to Gregorian calendar
+        interpolation.
+      </li>
+      <li>
+        <strong>Format</strong> &mdash;
+        Output as ADCIRC-compatible NetCDF:
+        fort.221 (pressure), fort.222 (wind), fort.225 (ice).
+        Hourly for CFS, 6-hourly for CMIP6.
+      </li>
+      <li>
+        <strong>Run</strong> &mdash;
+        Each simulation year runs as a separate PBS job, hotstarting from the
+        previous year. Coldstart includes a 10-day tidal ramp-up.
+      </li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Validation</h2>
+    <p>
+      Model output is compared against tide gauge observations from the
+      <a href="https://gesla787883612.wordpress.com/" target="_blank">GESLA v4</a> dataset
+      (Global Extreme Sea Level Analysis). For each station within 50 km of a
+      mesh node, we compute correlation, RMSE, and bias after applying a
+      5-day lagged bias correction to remove mean sea level offsets.
+      Results are shown on the
+      <a href="comparison.html">Station Comparison</a> page.
+    </p>
+  </div>
+
 </div>
 
-<script src="js/progress.js"></script>
 </body>
 </html>
