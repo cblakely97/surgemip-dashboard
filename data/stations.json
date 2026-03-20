@@ -1,0 +1,2339 @@
+[
+  {
+    "station_id": "aalesundtg-aal-nor-cmems",
+    "site_name": "AalesundTG",
+    "country": "NOR",
+    "latitude": 62.46941,
+    "longitude": 6.15195,
+    "dist_km": 1.18,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0011,
+      "rmse_m": 0.0633,
+      "correlation": 0.9924,
+      "scatter_index": 0.1232,
+      "obs_mean_m": -0.0194,
+      "obs_std_m": 0.5137,
+      "mod_mean_m": -0.0204,
+      "mod_std_m": 0.5096
+    }
+  },
+  {
+    "station_id": "argentia-835-can-meds",
+    "site_name": "Argentia",
+    "country": "CAN",
+    "latitude": 47.3,
+    "longitude": -53.98,
+    "dist_km": 1.39,
+    "metrics": {
+      "n_hours": 5583,
+      "bias_m": -0.0048,
+      "rmse_m": 0.1288,
+      "correlation": 0.9735,
+      "scatter_index": 0.2297,
+      "obs_mean_m": 1.2864,
+      "obs_std_m": 0.5608,
+      "mod_mean_m": 1.2816,
+      "mod_std_m": 0.5567
+    }
+  },
+  {
+    "station_id": "avonmouth-avo-gbr-bodc",
+    "site_name": "Avonmouth",
+    "country": "GBR",
+    "latitude": 51.50775,
+    "longitude": -2.71275,
+    "dist_km": 0.69,
+    "metrics": {
+      "n_hours": 852,
+      "bias_m": -0.0113,
+      "rmse_m": 1.1382,
+      "correlation": 0.94,
+      "scatter_index": 0.3417,
+      "obs_mean_m": 7.0719,
+      "obs_std_m": 3.3308,
+      "mod_mean_m": 7.0607,
+      "mod_std_m": 3.0705
+    }
+  },
+  {
+    "station_id": "bath-bath-nld-rws_hist",
+    "site_name": "Bath",
+    "country": "NLD",
+    "latitude": 51.39915,
+    "longitude": 4.20999,
+    "dist_km": 3.56,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0016,
+      "rmse_m": 0.5804,
+      "correlation": 0.956,
+      "scatter_index": 0.3577,
+      "obs_mean_m": 0.1478,
+      "obs_std_m": 1.6229,
+      "mod_mean_m": 0.1462,
+      "mod_std_m": 1.8838
+    }
+  },
+  {
+    "station_id": "bergentg-ber-nor-cmems",
+    "site_name": "BergenTG",
+    "country": "NOR",
+    "latitude": 60.39805,
+    "longitude": 5.32049,
+    "dist_km": 9.48,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0009,
+      "rmse_m": 0.0632,
+      "correlation": 0.9865,
+      "scatter_index": 0.1647,
+      "obs_mean_m": -0.0284,
+      "obs_std_m": 0.3835,
+      "mod_mean_m": -0.0293,
+      "mod_std_m": 0.3722
+    }
+  },
+  {
+    "station_id": "bodoetg-bod-nor-cmems",
+    "site_name": "BodoeTG",
+    "country": "NOR",
+    "latitude": 67.29233,
+    "longitude": 14.39977,
+    "dist_km": 2.43,
+    "metrics": {
+      "n_hours": 5640,
+      "bias_m": 0.0076,
+      "rmse_m": 0.1219,
+      "correlation": 0.9854,
+      "scatter_index": 0.1711,
+      "obs_mean_m": 0.0149,
+      "obs_std_m": 0.7126,
+      "mod_mean_m": 0.0225,
+      "mod_std_m": 0.6937
+    }
+  },
+  {
+    "station_id": "bruinisse_zijpe-bruinse-nld-rws_hist",
+    "site_name": "Bruinisse_Zijpe",
+    "country": "NLD",
+    "latitude": 51.65512,
+    "longitude": 4.10276,
+    "dist_km": 10.97,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.001,
+      "rmse_m": 0.2908,
+      "correlation": 0.9773,
+      "scatter_index": 0.2319,
+      "obs_mean_m": 0.0661,
+      "obs_std_m": 1.2537,
+      "mod_mean_m": 0.065,
+      "mod_std_m": 1.107
+    }
+  },
+  {
+    "station_id": "cadiz-cadi-esp-ieo",
+    "site_name": "Cadiz",
+    "country": "ESP",
+    "latitude": 36.54,
+    "longitude": -6.283,
+    "dist_km": 0.99,
+    "metrics": {
+      "n_hours": 6384,
+      "bias_m": -0.0023,
+      "rmse_m": 0.1538,
+      "correlation": 0.9818,
+      "scatter_index": 0.1904,
+      "obs_mean_m": 1.9514,
+      "obs_std_m": 0.808,
+      "mod_mean_m": 1.9491,
+      "mod_std_m": 0.7858
+    }
+  },
+  {
+    "station_id": "cadzand-cadzd-nld-rws",
+    "site_name": "Cadzand",
+    "country": "NLD",
+    "latitude": 51.3793,
+    "longitude": 3.37627,
+    "dist_km": 1.12,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.0018,
+      "rmse_m": 0.5563,
+      "correlation": 0.9266,
+      "scatter_index": 0.4191,
+      "obs_mean_m": -0.0355,
+      "obs_std_m": 1.3276,
+      "mod_mean_m": -0.0373,
+      "mod_std_m": 1.476
+    }
+  },
+  {
+    "station_id": "cadzand-cadzd-nld-rws_hist",
+    "site_name": "Cadzand",
+    "country": "NLD",
+    "latitude": 51.3793,
+    "longitude": 3.37628,
+    "dist_km": 1.12,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0011,
+      "rmse_m": 0.2372,
+      "correlation": 0.9919,
+      "scatter_index": 0.1787,
+      "obs_mean_m": -0.0357,
+      "obs_std_m": 1.3276,
+      "mod_mean_m": -0.0368,
+      "mod_std_m": 1.484
+    }
+  },
+  {
+    "station_id": "catania-cat-ita-ispra",
+    "site_name": "Catania",
+    "country": "ITA",
+    "latitude": 37.49808,
+    "longitude": 15.09383,
+    "dist_km": 0.96,
+    "metrics": {
+      "n_hours": 6393,
+      "bias_m": -0.002,
+      "rmse_m": 0.1377,
+      "correlation": 0.155,
+      "scatter_index": 1.5047,
+      "obs_mean_m": 4.672,
+      "obs_std_m": 0.0915,
+      "mod_mean_m": 4.67,
+      "mod_std_m": 0.118
+    }
+  },
+  {
+    "station_id": "ceuta-ceta-esp-ieo",
+    "site_name": "Ceuta",
+    "country": "ESP",
+    "latitude": 35.89,
+    "longitude": -5.314,
+    "dist_km": 0.31,
+    "metrics": {
+      "n_hours": 6000,
+      "bias_m": 0.0036,
+      "rmse_m": 0.0744,
+      "correlation": 0.9596,
+      "scatter_index": 0.2914,
+      "obs_mean_m": 0.8345,
+      "obs_std_m": 0.2554,
+      "mod_mean_m": 0.8381,
+      "mod_std_m": 0.2643
+    }
+  },
+  {
+    "station_id": "colijnsplaat-colpt-nld-rws_hist",
+    "site_name": "Colijnsplaat",
+    "country": "NLD",
+    "latitude": 51.60088,
+    "longitude": 3.85938,
+    "dist_km": 1.14,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0014,
+      "rmse_m": 0.2582,
+      "correlation": 0.9739,
+      "scatter_index": 0.2285,
+      "obs_mean_m": 0.0029,
+      "obs_std_m": 1.1302,
+      "mod_mean_m": 0.0015,
+      "mod_std_m": 1.1309
+    }
+  },
+  {
+    "station_id": "coruna-coru-esp-ieo",
+    "site_name": "Coruna",
+    "country": "ESP",
+    "latitude": 43.3683,
+    "longitude": -8.3977,
+    "dist_km": 2.36,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0015,
+      "rmse_m": 0.1173,
+      "correlation": 0.9924,
+      "scatter_index": 0.1251,
+      "obs_mean_m": 2.6455,
+      "obs_std_m": 0.9378,
+      "mod_mean_m": 2.644,
+      "mod_std_m": 0.9099
+    }
+  },
+  {
+    "station_id": "cruz-cruz-esp-ieo",
+    "site_name": "Cruz",
+    "country": "ESP",
+    "latitude": 28.6722,
+    "longitude": -17.768,
+    "dist_km": 2.01,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": 0.0002,
+      "rmse_m": 0.2377,
+      "correlation": 0.8959,
+      "scatter_index": 0.4554,
+      "obs_mean_m": 1.4045,
+      "obs_std_m": 0.5219,
+      "mod_mean_m": 1.4048,
+      "mod_std_m": 0.5199
+    }
+  },
+  {
+    "station_id": "culemborg_brug-culbbg-nld-rws_hist",
+    "site_name": "Culemborg_brug",
+    "country": "NLD",
+    "latitude": 51.96135,
+    "longitude": 5.21697,
+    "dist_km": 42.07,
+    "metrics": {
+      "n_hours": 275,
+      "bias_m": -0.0946,
+      "rmse_m": 0.4032,
+      "correlation": 0.4048,
+      "scatter_index": 1.9093,
+      "obs_mean_m": 2.9143,
+      "obs_std_m": 0.2112,
+      "mod_mean_m": 2.8197,
+      "mod_std_m": 0.4266
+    }
+  },
+  {
+    "station_id": "deeneplaat-deenpt-nld-rws_hist",
+    "site_name": "Deeneplaat",
+    "country": "NLD",
+    "latitude": 51.73962,
+    "longitude": 4.71672,
+    "dist_km": 16.32,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.001,
+      "rmse_m": 0.9661,
+      "correlation": 0.2046,
+      "scatter_index": 4.4516,
+      "obs_mean_m": 0.5395,
+      "obs_std_m": 0.217,
+      "mod_mean_m": 0.5386,
+      "mod_std_m": 0.9869
+    }
+  },
+  {
+    "station_id": "delfzijl-delfzl-nld-rws_hist",
+    "site_name": "Delfzijl",
+    "country": "NLD",
+    "latitude": 53.32635,
+    "longitude": 6.93312,
+    "dist_km": 1.39,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0008,
+      "rmse_m": 0.3391,
+      "correlation": 0.9494,
+      "scatter_index": 0.3179,
+      "obs_mean_m": 0.0403,
+      "obs_std_m": 1.0665,
+      "mod_mean_m": 0.0395,
+      "mod_std_m": 0.9589
+    }
+  },
+  {
+    "station_id": "den_helder-denhdr-nld-rws_hist",
+    "site_name": "Den_Helder",
+    "country": "NLD",
+    "latitude": 52.96436,
+    "longitude": 4.74499,
+    "dist_km": 1.16,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0012,
+      "rmse_m": 0.1302,
+      "correlation": 0.9743,
+      "scatter_index": 0.2306,
+      "obs_mean_m": -0.0246,
+      "obs_std_m": 0.5648,
+      "mod_mean_m": -0.0259,
+      "mod_std_m": 0.5231
+    }
+  },
+  {
+    "station_id": "den_oever_buiten-denovbtn-nld-rws_hist",
+    "site_name": "Den_Oever_buiten",
+    "country": "NLD",
+    "latitude": 52.93153,
+    "longitude": 5.0456,
+    "dist_km": 0.92,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0015,
+      "rmse_m": 0.3107,
+      "correlation": 0.8533,
+      "scatter_index": 0.524,
+      "obs_mean_m": 0.0577,
+      "obs_std_m": 0.5929,
+      "mod_mean_m": 0.0563,
+      "mod_std_m": 0.4759
+    }
+  },
+  {
+    "station_id": "dordrecht-dordt-nld-rws_hist",
+    "site_name": "Dordrecht",
+    "country": "NLD",
+    "latitude": 51.81952,
+    "longitude": 4.67072,
+    "dist_km": 17.71,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0005,
+      "rmse_m": 0.7302,
+      "correlation": 0.8436,
+      "scatter_index": 2.237,
+      "obs_mean_m": 0.4696,
+      "obs_std_m": 0.3264,
+      "mod_mean_m": 0.4691,
+      "mod_std_m": 0.9842
+    }
+  },
+  {
+    "station_id": "dover-dov-gbr-bodc",
+    "site_name": "Dover",
+    "country": "GBR",
+    "latitude": 51.11439,
+    "longitude": 1.32253,
+    "dist_km": 0.5,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0019,
+      "rmse_m": 0.303,
+      "correlation": 0.9975,
+      "scatter_index": 0.1716,
+      "obs_mean_m": 3.7208,
+      "obs_std_m": 1.7659,
+      "mod_mean_m": 3.7189,
+      "mod_std_m": 2.0381
+    }
+  },
+  {
+    "station_id": "eemshaven-eemshvn-nld-rws",
+    "site_name": "Eemshaven",
+    "country": "NLD",
+    "latitude": 53.4487,
+    "longitude": 6.82839,
+    "dist_km": 1.64,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": 0.0004,
+      "rmse_m": 0.3989,
+      "correlation": 0.9118,
+      "scatter_index": 0.4192,
+      "obs_mean_m": -0.0435,
+      "obs_std_m": 0.9514,
+      "mod_mean_m": -0.0432,
+      "mod_std_m": 0.9478
+    }
+  },
+  {
+    "station_id": "eemshaven-eemshvn-nld-rws_hist",
+    "site_name": "Eemshaven",
+    "country": "NLD",
+    "latitude": 53.4487,
+    "longitude": 6.82839,
+    "dist_km": 1.64,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0005,
+      "rmse_m": 0.1749,
+      "correlation": 0.9831,
+      "scatter_index": 0.1838,
+      "obs_mean_m": -0.0435,
+      "obs_std_m": 0.9514,
+      "mod_mean_m": -0.044,
+      "mod_std_m": 0.9529
+    }
+  },
+  {
+    "station_id": "fishguard-fis-gbr-bodc",
+    "site_name": "Fishguard",
+    "country": "GBR",
+    "latitude": 52.01322,
+    "longitude": -4.98375,
+    "dist_km": 1.45,
+    "metrics": {
+      "n_hours": 6522,
+      "bias_m": 0.0011,
+      "rmse_m": 0.23,
+      "correlation": 0.9791,
+      "scatter_index": 0.2092,
+      "obs_mean_m": 2.6033,
+      "obs_std_m": 1.0997,
+      "mod_mean_m": 2.6044,
+      "mod_std_m": 1.0231
+    }
+  },
+  {
+    "station_id": "geulhaven-geulhvn-nld-rws",
+    "site_name": "Geulhaven",
+    "country": "NLD",
+    "latitude": 51.88863,
+    "longitude": 4.31375,
+    "dist_km": 12.72,
+    "metrics": {
+      "n_hours": 6273,
+      "bias_m": -0.0043,
+      "rmse_m": 0.3714,
+      "correlation": 0.9476,
+      "scatter_index": 0.5922,
+      "obs_mean_m": 0.1632,
+      "obs_std_m": 0.6271,
+      "mod_mean_m": 0.1589,
+      "mod_std_m": 0.9069
+    }
+  },
+  {
+    "station_id": "goidschalxoord-goidsod-nld-rws",
+    "site_name": "Goidschalxoord",
+    "country": "NLD",
+    "latitude": 51.8303,
+    "longitude": 4.45162,
+    "dist_km": 12.28,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.0013,
+      "rmse_m": 0.606,
+      "correlation": 0.9086,
+      "scatter_index": 1.3902,
+      "obs_mean_m": 0.2964,
+      "obs_std_m": 0.4359,
+      "mod_mean_m": 0.2951,
+      "mod_std_m": 0.9741
+    }
+  },
+  {
+    "station_id": "goidschalxoord-goidsod-nld-rws_hist",
+    "site_name": "Goidschalxoord",
+    "country": "NLD",
+    "latitude": 51.83029,
+    "longitude": 4.45162,
+    "dist_km": 12.28,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0007,
+      "rmse_m": 0.5885,
+      "correlation": 0.9368,
+      "scatter_index": 1.35,
+      "obs_mean_m": 0.2963,
+      "obs_std_m": 0.4359,
+      "mod_mean_m": 0.2957,
+      "mod_std_m": 0.9768
+    }
+  },
+  {
+    "station_id": "gorinchem-gorcm-nld-rws_hist",
+    "site_name": "Gorinchem",
+    "country": "NLD",
+    "latitude": 51.82692,
+    "longitude": 4.97552,
+    "dist_km": 36.21,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": 0.0046,
+      "rmse_m": 0.9575,
+      "correlation": 0.4041,
+      "scatter_index": 2.2837,
+      "obs_mean_m": 0.9622,
+      "obs_std_m": 0.4193,
+      "mod_mean_m": 0.9668,
+      "mod_std_m": 1.0467
+    }
+  },
+  {
+    "station_id": "hagestein_beneden-hagsbndn-nld-rws_hist",
+    "site_name": "Hagestein_beneden",
+    "country": "NLD",
+    "latitude": 51.99329,
+    "longitude": 5.13211,
+    "dist_km": 37.95,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": 0.0052,
+      "rmse_m": 0.6329,
+      "correlation": 0.6551,
+      "scatter_index": 0.8341,
+      "obs_mean_m": 1.0048,
+      "obs_std_m": 0.7588,
+      "mod_mean_m": 1.01,
+      "mod_std_m": 0.7652
+    }
+  },
+  {
+    "station_id": "hammerfesttg-ham-nor-cmems",
+    "site_name": "HammerfestTG",
+    "country": "NOR",
+    "latitude": 70.66475,
+    "longitude": 23.67869,
+    "dist_km": 1.04,
+    "metrics": {
+      "n_hours": 6238,
+      "bias_m": -0.0072,
+      "rmse_m": 0.096,
+      "correlation": 0.9911,
+      "scatter_index": 0.1344,
+      "obs_mean_m": -0.057,
+      "obs_std_m": 0.7144,
+      "mod_mean_m": -0.0642,
+      "mod_std_m": 0.6967
+    }
+  },
+  {
+    "station_id": "hansweert-hanswt-nld-rws_hist",
+    "site_name": "Hansweert",
+    "country": "NLD",
+    "latitude": 51.44556,
+    "longitude": 4.00696,
+    "dist_km": 0.29,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0025,
+      "rmse_m": 0.413,
+      "correlation": 0.9866,
+      "scatter_index": 0.2692,
+      "obs_mean_m": 0.0412,
+      "obs_std_m": 1.5342,
+      "mod_mean_m": 0.0387,
+      "mod_std_m": 1.8422
+    }
+  },
+  {
+    "station_id": "harlingen-harlgn-nld-rws_hist",
+    "site_name": "Harlingen",
+    "country": "NLD",
+    "latitude": 53.17563,
+    "longitude": 5.40934,
+    "dist_km": 0.69,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0006,
+      "rmse_m": 0.2859,
+      "correlation": 0.9336,
+      "scatter_index": 0.4079,
+      "obs_mean_m": 0.0455,
+      "obs_std_m": 0.7008,
+      "mod_mean_m": 0.0449,
+      "mod_std_m": 0.5178
+    }
+  },
+  {
+    "station_id": "harstadtg-har-nor-cmems",
+    "site_name": "HarstadTG",
+    "country": "NOR",
+    "latitude": 68.80126,
+    "longitude": 16.54824,
+    "dist_km": 2.23,
+    "metrics": {
+      "n_hours": 6288,
+      "bias_m": -0.0001,
+      "rmse_m": 0.2299,
+      "correlation": 0.9164,
+      "scatter_index": 0.414,
+      "obs_mean_m": -0.0375,
+      "obs_std_m": 0.5555,
+      "mod_mean_m": -0.0376,
+      "mod_std_m": 0.5675
+    }
+  },
+  {
+    "station_id": "heesbeen-heesbn-nld-rws_hist",
+    "site_name": "Heesbeen",
+    "country": "NLD",
+    "latitude": 51.73585,
+    "longitude": 5.12474,
+    "dist_km": 44.17,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": 0.0023,
+      "rmse_m": 1.0444,
+      "correlation": 0.0701,
+      "scatter_index": 3.2045,
+      "obs_mean_m": 0.651,
+      "obs_std_m": 0.3259,
+      "mod_mean_m": 0.6532,
+      "mod_std_m": 1.0153
+    }
+  },
+  {
+    "station_id": "heimsjoetg-hei-nor-cmems",
+    "site_name": "HeimsjoeTG",
+    "country": "NOR",
+    "latitude": 63.42522,
+    "longitude": 9.1015,
+    "dist_km": 1.46,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0008,
+      "rmse_m": 0.0859,
+      "correlation": 0.9917,
+      "scatter_index": 0.1343,
+      "obs_mean_m": 0.0215,
+      "obs_std_m": 0.6396,
+      "mod_mean_m": 0.0208,
+      "mod_std_m": 0.6093
+    }
+  },
+  {
+    "station_id": "hellevoetsluis-hellvss-nld-rws_hist",
+    "site_name": "Hellevoetsluis",
+    "country": "NLD",
+    "latitude": 51.81972,
+    "longitude": 4.12824,
+    "dist_km": 0.27,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0019,
+      "rmse_m": 0.9226,
+      "correlation": -0.0085,
+      "scatter_index": 4.6642,
+      "obs_mean_m": 0.458,
+      "obs_std_m": 0.1978,
+      "mod_mean_m": 0.456,
+      "mod_std_m": 0.8995
+    }
+  },
+  {
+    "station_id": "herwijnen-herwnn-nld-rws_hist",
+    "site_name": "Herwijnen",
+    "country": "NLD",
+    "latitude": 51.82676,
+    "longitude": 5.10477,
+    "dist_km": 44.61,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": 0.0094,
+      "rmse_m": 1.0043,
+      "correlation": 0.5381,
+      "scatter_index": 1.4417,
+      "obs_mean_m": 1.5527,
+      "obs_std_m": 0.6966,
+      "mod_mean_m": 1.5621,
+      "mod_std_m": 1.1895
+    }
+  },
+  {
+    "station_id": "heysham-hey-gbr-bodc",
+    "site_name": "Heysham",
+    "country": "GBR",
+    "latitude": 54.03183,
+    "longitude": -2.92025,
+    "dist_km": 0.92,
+    "metrics": {
+      "n_hours": 4205,
+      "bias_m": -0.0173,
+      "rmse_m": 0.7032,
+      "correlation": 0.9599,
+      "scatter_index": 0.296,
+      "obs_mean_m": 5.1133,
+      "obs_std_m": 2.376,
+      "mod_mean_m": 5.096,
+      "mod_std_m": 2.5067
+    }
+  },
+  {
+    "station_id": "holwerd-holwd-nld-rws_hist",
+    "site_name": "Holwerd",
+    "country": "NLD",
+    "latitude": 53.39535,
+    "longitude": 5.87658,
+    "dist_km": 1.09,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0002,
+      "rmse_m": 0.2407,
+      "correlation": 0.9516,
+      "scatter_index": 0.3105,
+      "obs_mean_m": -0.0089,
+      "obs_std_m": 0.7752,
+      "mod_mean_m": -0.0091,
+      "mod_std_m": 0.7729
+    }
+  },
+  {
+    "station_id": "holyhead-hol-gbr-bodc",
+    "site_name": "Holyhead",
+    "country": "GBR",
+    "latitude": 53.31394,
+    "longitude": -4.62042,
+    "dist_km": 1.63,
+    "metrics": {
+      "n_hours": 5375,
+      "bias_m": -0.0025,
+      "rmse_m": 0.1721,
+      "correlation": 0.9934,
+      "scatter_index": 0.1216,
+      "obs_mean_m": 3.2512,
+      "obs_std_m": 1.4156,
+      "mod_mean_m": 3.2487,
+      "mod_std_m": 1.3498
+    }
+  },
+  {
+    "station_id": "honningsvaagtg-hon-nor-cmems",
+    "site_name": "HonningsvaagTG",
+    "country": "NOR",
+    "latitude": 70.98032,
+    "longitude": 25.9727,
+    "dist_km": 2.31,
+    "metrics": {
+      "n_hours": 6432,
+      "bias_m": 0.0024,
+      "rmse_m": 0.0835,
+      "correlation": 0.9931,
+      "scatter_index": 0.1195,
+      "obs_mean_m": -0.0749,
+      "obs_std_m": 0.6991,
+      "mod_mean_m": -0.0725,
+      "mod_std_m": 0.7106
+    }
+  },
+  {
+    "station_id": "huibertgat-huibgt-nld-rws_hist",
+    "site_name": "Huibertgat",
+    "country": "NLD",
+    "latitude": 53.57375,
+    "longitude": 6.39843,
+    "dist_km": 1.4,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": 0.0006,
+      "rmse_m": 0.1615,
+      "correlation": 0.9859,
+      "scatter_index": 0.1966,
+      "obs_mean_m": -0.1094,
+      "obs_std_m": 0.8212,
+      "mod_mean_m": -0.1089,
+      "mod_std_m": 0.8946
+    }
+  },
+  {
+    "station_id": "ijmuiden_noordersluis-ijmdndss-nld-rws_hist",
+    "site_name": "Ijmuiden_Noordersluis",
+    "country": "NLD",
+    "latitude": 52.46725,
+    "longitude": 4.60506,
+    "dist_km": 1.62,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0016,
+      "rmse_m": 0.2596,
+      "correlation": 0.9731,
+      "scatter_index": 0.4311,
+      "obs_mean_m": 0.007,
+      "obs_std_m": 0.6023,
+      "mod_mean_m": 0.0053,
+      "mod_std_m": 0.8055
+    }
+  },
+  {
+    "station_id": "ijmuiden_zuidelijk_havenhoofd-ijmdzdlhvhd-nld-rws_hist",
+    "site_name": "Ijmuiden_zuidelijk_havenhoofd",
+    "country": "NLD",
+    "latitude": 52.46369,
+    "longitude": 4.53228,
+    "dist_km": 0.58,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0014,
+      "rmse_m": 0.2475,
+      "correlation": 0.9762,
+      "scatter_index": 0.4149,
+      "obs_mean_m": -0.0274,
+      "obs_std_m": 0.5966,
+      "mod_mean_m": -0.0288,
+      "mod_std_m": 0.7934
+    }
+  },
+  {
+    "station_id": "ilfracombe-ilf-gbr-bodc",
+    "site_name": "Ilfracombe",
+    "country": "GBR",
+    "latitude": 51.21114,
+    "longitude": -4.11239,
+    "dist_km": 1.34,
+    "metrics": {
+      "n_hours": 484,
+      "bias_m": -0.0068,
+      "rmse_m": 0.4006,
+      "correlation": 0.9851,
+      "scatter_index": 0.1878,
+      "obs_mean_m": 4.9582,
+      "obs_std_m": 2.133,
+      "mod_mean_m": 4.9513,
+      "mod_std_m": 2.2632
+    }
+  },
+  {
+    "station_id": "immingham-imm-gbr-bodc",
+    "site_name": "Immingham",
+    "country": "GBR",
+    "latitude": 53.63042,
+    "longitude": -0.18753,
+    "dist_km": 0.68,
+    "metrics": {
+      "n_hours": 6528,
+      "bias_m": -0.0038,
+      "rmse_m": 0.4264,
+      "correlation": 0.9718,
+      "scatter_index": 0.238,
+      "obs_mean_m": 4.1535,
+      "obs_std_m": 1.7916,
+      "mod_mean_m": 4.1497,
+      "mod_std_m": 1.7995
+    }
+  },
+  {
+    "station_id": "jaarsveld-jaarsvd-nld-rws_hist",
+    "site_name": "Jaarsveld",
+    "country": "NLD",
+    "latitude": 51.96994,
+    "longitude": 4.97872,
+    "dist_km": 41.35,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": 0.0019,
+      "rmse_m": 0.6351,
+      "correlation": 0.3783,
+      "scatter_index": 1.118,
+      "obs_mean_m": 0.7272,
+      "obs_std_m": 0.568,
+      "mod_mean_m": 0.7291,
+      "mod_std_m": 0.571
+    }
+  },
+  {
+    "station_id": "k13a_platform-k13apfm-nld-rws",
+    "site_name": "K13a_platform",
+    "country": "NLD",
+    "latitude": 53.217,
+    "longitude": 3.21889,
+    "dist_km": 3.65,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.0011,
+      "rmse_m": 0.2463,
+      "correlation": 0.8928,
+      "scatter_index": 0.526,
+      "obs_mean_m": -0.0078,
+      "obs_std_m": 0.4682,
+      "mod_mean_m": -0.0089,
+      "mod_std_m": 0.5452
+    }
+  },
+  {
+    "station_id": "keizersveer-keizvr-nld-rws_hist",
+    "site_name": "Keizersveer",
+    "country": "NLD",
+    "latitude": 51.72018,
+    "longitude": 4.89444,
+    "dist_km": 28.24,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0005,
+      "rmse_m": 0.9923,
+      "correlation": 0.1007,
+      "scatter_index": 4.2853,
+      "obs_mean_m": 0.5068,
+      "obs_std_m": 0.2316,
+      "mod_mean_m": 0.5063,
+      "mod_std_m": 0.9885
+    }
+  },
+  {
+    "station_id": "kornwerderzand_buiten-kornwdzbtn-nld-rws_hist",
+    "site_name": "Kornwerderzand_buiten",
+    "country": "NLD",
+    "latitude": 53.06986,
+    "longitude": 5.33663,
+    "dist_km": 0.1,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0011,
+      "rmse_m": 0.2515,
+      "correlation": 0.9604,
+      "scatter_index": 0.3806,
+      "obs_mean_m": 0.0336,
+      "obs_std_m": 0.661,
+      "mod_mean_m": 0.0325,
+      "mod_std_m": 0.4635
+    }
+  },
+  {
+    "station_id": "kreekrak_noord-kreekrnd-nld-rws_hist",
+    "site_name": "Kreekrak_noord",
+    "country": "NLD",
+    "latitude": 51.45005,
+    "longitude": 4.22983,
+    "dist_km": 1.45,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0,
+      "rmse_m": 0.7175,
+      "correlation": 0.8463,
+      "scatter_index": 0.5353,
+      "obs_mean_m": 0.0577,
+      "obs_std_m": 1.3403,
+      "mod_mean_m": 0.0577,
+      "mod_std_m": 1.206
+    }
+  },
+  {
+    "station_id": "krimpen_ad_ijssel-krimpadijsl-nld-rws_hist",
+    "site_name": "Krimpen_ad_IJssel",
+    "country": "NLD",
+    "latitude": 51.91645,
+    "longitude": 4.57847,
+    "dist_km": 23.92,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0006,
+      "rmse_m": 0.4617,
+      "correlation": 0.9713,
+      "scatter_index": 0.8308,
+      "obs_mean_m": 0.295,
+      "obs_std_m": 0.5557,
+      "mod_mean_m": 0.2944,
+      "mod_std_m": 0.9821
+    }
+  },
+  {
+    "station_id": "krimpen_ad_lek-krimpadlk-nld-rws_hist",
+    "site_name": "Krimpen_ad_Lek",
+    "country": "NLD",
+    "latitude": 51.89072,
+    "longitude": 4.62891,
+    "dist_km": 22.48,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0003,
+      "rmse_m": 0.5252,
+      "correlation": 0.9568,
+      "scatter_index": 1.051,
+      "obs_mean_m": 0.3509,
+      "obs_std_m": 0.4998,
+      "mod_mean_m": 0.3506,
+      "mod_std_m": 0.9829
+    }
+  },
+  {
+    "station_id": "kristiansundtg-kri-nor-cmems",
+    "site_name": "KristiansundTG",
+    "country": "NOR",
+    "latitude": 63.11386,
+    "longitude": 7.73435,
+    "dist_km": 2.18,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0009,
+      "rmse_m": 0.0685,
+      "correlation": 0.9927,
+      "scatter_index": 0.1225,
+      "obs_mean_m": -0.0028,
+      "obs_std_m": 0.5593,
+      "mod_mean_m": -0.0037,
+      "mod_std_m": 0.5438
+    }
+  },
+  {
+    "station_id": "lark_harbour-2685-can-meds",
+    "site_name": "Lark_Harbour",
+    "country": "CAN",
+    "latitude": 49.1,
+    "longitude": -58.37,
+    "dist_km": 2.56,
+    "metrics": {
+      "n_hours": 592,
+      "bias_m": -0.0452,
+      "rmse_m": 0.1553,
+      "correlation": 0.9435,
+      "scatter_index": 0.3471,
+      "obs_mean_m": 0.8899,
+      "obs_std_m": 0.4474,
+      "mod_mean_m": 0.8447,
+      "mod_std_m": 0.4313
+    }
+  },
+  {
+    "station_id": "lauwersoog-lauwog-nld-rws",
+    "site_name": "Lauwersoog",
+    "country": "NLD",
+    "latitude": 53.40869,
+    "longitude": 6.19695,
+    "dist_km": 1.13,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.0002,
+      "rmse_m": 0.3117,
+      "correlation": 0.9363,
+      "scatter_index": 0.3604,
+      "obs_mean_m": -0.0341,
+      "obs_std_m": 0.8649,
+      "mod_mean_m": -0.0343,
+      "mod_std_m": 0.8796
+    }
+  },
+  {
+    "station_id": "lauwersoog-lauwog-nld-rws_hist",
+    "site_name": "Lauwersoog",
+    "country": "NLD",
+    "latitude": 53.40868,
+    "longitude": 6.19695,
+    "dist_km": 1.13,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0008,
+      "rmse_m": 0.2673,
+      "correlation": 0.9536,
+      "scatter_index": 0.3091,
+      "obs_mean_m": -0.034,
+      "obs_std_m": 0.8648,
+      "mod_mean_m": -0.0349,
+      "mod_std_m": 0.885
+    }
+  },
+  {
+    "station_id": "lerwick-ler-gbr-bodc",
+    "site_name": "Lerwick",
+    "country": "GBR",
+    "latitude": 60.15403,
+    "longitude": -1.14031,
+    "dist_km": 2.78,
+    "metrics": {
+      "n_hours": 6368,
+      "bias_m": 0.0028,
+      "rmse_m": 0.0717,
+      "correlation": 0.9899,
+      "scatter_index": 0.1491,
+      "obs_mean_m": 1.2853,
+      "obs_std_m": 0.4808,
+      "mod_mean_m": 1.288,
+      "mod_std_m": 0.4979
+    }
+  },
+  {
+    "station_id": "lowestoft-low-gbr-bodc",
+    "site_name": "Lowestoft",
+    "country": "GBR",
+    "latitude": 52.47308,
+    "longitude": 1.75025,
+    "dist_km": 0.74,
+    "metrics": {
+      "n_hours": 6553,
+      "bias_m": -0.0047,
+      "rmse_m": 0.1436,
+      "correlation": 0.9826,
+      "scatter_index": 0.2378,
+      "obs_mean_m": 1.454,
+      "obs_std_m": 0.6041,
+      "mod_mean_m": 1.4494,
+      "mod_std_m": 0.683
+    }
+  },
+  {
+    "station_id": "maassluis-maasss-nld-rws_hist",
+    "site_name": "Maassluis",
+    "country": "NLD",
+    "latitude": 51.9175,
+    "longitude": 4.24979,
+    "dist_km": 12.54,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0014,
+      "rmse_m": 0.3045,
+      "correlation": 0.9766,
+      "scatter_index": 0.4895,
+      "obs_mean_m": 0.1204,
+      "obs_std_m": 0.6221,
+      "mod_mean_m": 0.119,
+      "mod_std_m": 0.881
+    }
+  },
+  {
+    "station_id": "maloytg-mal-nor-cmems",
+    "site_name": "MaloyTG",
+    "country": "NOR",
+    "latitude": 61.93378,
+    "longitude": 5.11331,
+    "dist_km": 0.61,
+    "metrics": {
+      "n_hours": 4440,
+      "bias_m": 0.0071,
+      "rmse_m": 0.0987,
+      "correlation": 0.9786,
+      "scatter_index": 0.2066,
+      "obs_mean_m": -0.024,
+      "obs_std_m": 0.4774,
+      "mod_mean_m": -0.0169,
+      "mod_std_m": 0.4716
+    }
+  },
+  {
+    "station_id": "messina-mes-ita-ispra",
+    "site_name": "Messina",
+    "country": "ITA",
+    "latitude": 38.19631,
+    "longitude": 15.56351,
+    "dist_km": 1.28,
+    "metrics": {
+      "n_hours": 6402,
+      "bias_m": -0.0008,
+      "rmse_m": 0.1161,
+      "correlation": 0.2894,
+      "scatter_index": 1.3149,
+      "obs_mean_m": 3.7896,
+      "obs_std_m": 0.0883,
+      "mod_mean_m": 3.7889,
+      "mod_std_m": 0.1051
+    }
+  },
+  {
+    "station_id": "middelharnis-middhns-nld-rws_hist",
+    "site_name": "Middelharnis",
+    "country": "NLD",
+    "latitude": 51.77356,
+    "longitude": 4.19241,
+    "dist_km": 0.85,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0017,
+      "rmse_m": 0.9129,
+      "correlation": 0.0935,
+      "scatter_index": 4.5555,
+      "obs_mean_m": 0.508,
+      "obs_std_m": 0.2004,
+      "mod_mean_m": 0.5063,
+      "mod_std_m": 0.9096
+    }
+  },
+  {
+    "station_id": "milford_haven-mha-gbr-bodc",
+    "site_name": "Milford_Haven",
+    "country": "GBR",
+    "latitude": 51.70739,
+    "longitude": -5.05178,
+    "dist_km": 5.56,
+    "metrics": {
+      "n_hours": 4652,
+      "bias_m": -0.1232,
+      "rmse_m": 0.5098,
+      "correlation": 0.9613,
+      "scatter_index": 0.2895,
+      "obs_mean_m": 3.8108,
+      "obs_std_m": 1.7609,
+      "mod_mean_m": 3.6875,
+      "mod_std_m": 1.7879
+    }
+  },
+  {
+    "station_id": "moerdijk-moerdk-nld-rws",
+    "site_name": "Moerdijk",
+    "country": "NLD",
+    "latitude": 51.7047,
+    "longitude": 4.62248,
+    "dist_km": 9.49,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.002,
+      "rmse_m": 0.9878,
+      "correlation": 0.1045,
+      "scatter_index": 4.634,
+      "obs_mean_m": 0.5164,
+      "obs_std_m": 0.2132,
+      "mod_mean_m": 0.5144,
+      "mod_std_m": 0.9871
+    }
+  },
+  {
+    "station_id": "moerdijk-moerdk-nld-rws_hist",
+    "site_name": "Moerdijk",
+    "country": "NLD",
+    "latitude": 51.7047,
+    "longitude": 4.62248,
+    "dist_km": 9.49,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0013,
+      "rmse_m": 0.9582,
+      "correlation": 0.2387,
+      "scatter_index": 4.4953,
+      "obs_mean_m": 0.5163,
+      "obs_std_m": 0.2132,
+      "mod_mean_m": 0.515,
+      "mod_std_m": 0.9865
+    }
+  },
+  {
+    "station_id": "narviktg-nar-nor-cmems",
+    "site_name": "NarvikTG",
+    "country": "NOR",
+    "latitude": 68.42828,
+    "longitude": 17.42576,
+    "dist_km": 1.55,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0011,
+      "rmse_m": 0.1686,
+      "correlation": 0.9786,
+      "scatter_index": 0.2085,
+      "obs_mean_m": 0.0078,
+      "obs_std_m": 0.8085,
+      "mod_mean_m": 0.0067,
+      "mod_std_m": 0.764
+    }
+  },
+  {
+    "station_id": "nes-nes-nld-rws_hist",
+    "site_name": "Nes",
+    "country": "NLD",
+    "latitude": 53.42994,
+    "longitude": 5.75891,
+    "dist_km": 1.83,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0009,
+      "rmse_m": 0.2603,
+      "correlation": 0.9462,
+      "scatter_index": 0.3241,
+      "obs_mean_m": 0.0065,
+      "obs_std_m": 0.803,
+      "mod_mean_m": 0.0056,
+      "mod_std_m": 0.7453
+    }
+  },
+  {
+    "station_id": "newlyn-new-gbr-bodc",
+    "site_name": "Newlyn",
+    "country": "GBR",
+    "latitude": 50.103,
+    "longitude": -5.54275,
+    "dist_km": 1.46,
+    "metrics": {
+      "n_hours": 5333,
+      "bias_m": -0.1028,
+      "rmse_m": 0.428,
+      "correlation": 0.9579,
+      "scatter_index": 0.3259,
+      "obs_mean_m": 3.1563,
+      "obs_std_m": 1.3134,
+      "mod_mean_m": 3.0535,
+      "mod_std_m": 1.4331
+    }
+  },
+  {
+    "station_id": "nieuwe_statenzijl-nieuwstzl-nld-rws_hist",
+    "site_name": "Nieuwe_Statenzijl",
+    "country": "NLD",
+    "latitude": 53.23156,
+    "longitude": 7.20742,
+    "dist_km": 1.18,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0005,
+      "rmse_m": 0.4492,
+      "correlation": 0.899,
+      "scatter_index": 0.4549,
+      "obs_mean_m": 0.2305,
+      "obs_std_m": 0.9875,
+      "mod_mean_m": 0.2299,
+      "mod_std_m": 1.0089
+    }
+  },
+  {
+    "station_id": "north_shields-nsh-gbr-bodc",
+    "site_name": "North_Shields",
+    "country": "GBR",
+    "latitude": 55.00744,
+    "longitude": -1.43978,
+    "dist_km": 2.46,
+    "metrics": {
+      "n_hours": 2162,
+      "bias_m": -0.0463,
+      "rmse_m": 0.2678,
+      "correlation": 0.9838,
+      "scatter_index": 0.208,
+      "obs_mean_m": 2.8958,
+      "obs_std_m": 1.2874,
+      "mod_mean_m": 2.8495,
+      "mod_std_m": 1.394
+    }
+  },
+  {
+    "station_id": "ny_alesundtg-ny_-nor-cmems",
+    "site_name": "Ny_AlesundTG",
+    "country": "NOR",
+    "latitude": 78.92854,
+    "longitude": 11.93802,
+    "dist_km": 1.36,
+    "metrics": {
+      "n_hours": 6480,
+      "bias_m": -0.001,
+      "rmse_m": 0.0544,
+      "correlation": 0.9906,
+      "scatter_index": 0.1372,
+      "obs_mean_m": 0.1109,
+      "obs_std_m": 0.3962,
+      "mod_mean_m": 0.1099,
+      "mod_std_m": 0.3871
+    }
+  },
+  {
+    "station_id": "oscarsborgtg-osc-nor-cmems",
+    "site_name": "OscarsborgTG",
+    "country": "NOR",
+    "latitude": 59.67807,
+    "longitude": 10.60486,
+    "dist_km": 9.28,
+    "metrics": {
+      "n_hours": 5904,
+      "bias_m": 0.0004,
+      "rmse_m": 0.1205,
+      "correlation": 0.8717,
+      "scatter_index": 0.4922,
+      "obs_mean_m": 0.0378,
+      "obs_std_m": 0.2448,
+      "mod_mean_m": 0.0382,
+      "mod_std_m": 0.2245
+    }
+  },
+  {
+    "station_id": "oslotg-osl-nor-cmems",
+    "site_name": "OsloTG",
+    "country": "NOR",
+    "latitude": 59.90856,
+    "longitude": 10.73451,
+    "dist_km": 34.81,
+    "metrics": {
+      "n_hours": 6528,
+      "bias_m": -0.0009,
+      "rmse_m": 0.1279,
+      "correlation": 0.8631,
+      "scatter_index": 0.5072,
+      "obs_mean_m": 0.1194,
+      "obs_std_m": 0.2522,
+      "mod_mean_m": 0.1184,
+      "mod_std_m": 0.2291
+    }
+  },
+  {
+    "station_id": "oudeschild-oudsd-nld-rws",
+    "site_name": "Oudeschild",
+    "country": "NLD",
+    "latitude": 53.03884,
+    "longitude": 4.85019,
+    "dist_km": 0.56,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.0014,
+      "rmse_m": 0.2271,
+      "correlation": 0.914,
+      "scatter_index": 0.4158,
+      "obs_mean_m": 0.0191,
+      "obs_std_m": 0.5461,
+      "mod_mean_m": 0.0177,
+      "mod_std_m": 0.4494
+    }
+  },
+  {
+    "station_id": "oudeschild-oudsd-nld-rws_hist",
+    "site_name": "Oudeschild",
+    "country": "NLD",
+    "latitude": 53.03883,
+    "longitude": 4.85019,
+    "dist_km": 0.56,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0017,
+      "rmse_m": 0.3064,
+      "correlation": 0.8277,
+      "scatter_index": 0.5612,
+      "obs_mean_m": 0.0192,
+      "obs_std_m": 0.5461,
+      "mod_mean_m": 0.0175,
+      "mod_std_m": 0.4535
+    }
+  },
+  {
+    "station_id": "pluz-pluz-esp-ieo",
+    "site_name": "Pluz",
+    "country": "ESP",
+    "latitude": 28.1467,
+    "longitude": -15.4076,
+    "dist_km": 1.01,
+    "metrics": {
+      "n_hours": 5761,
+      "bias_m": -0.0071,
+      "rmse_m": 0.12,
+      "correlation": 0.9798,
+      "scatter_index": 0.2008,
+      "obs_mean_m": 1.4886,
+      "obs_std_m": 0.5975,
+      "mod_mean_m": 1.4815,
+      "mod_std_m": 0.5791
+    }
+  },
+  {
+    "station_id": "port_ellen_islay-isl-gbr-bodc",
+    "site_name": "Port_Ellen_Islay",
+    "country": "GBR",
+    "latitude": 55.62758,
+    "longitude": -6.18992,
+    "dist_km": 1.17,
+    "metrics": {
+      "n_hours": 4468,
+      "bias_m": -0.0008,
+      "rmse_m": 0.1936,
+      "correlation": 0.742,
+      "scatter_index": 0.7315,
+      "obs_mean_m": 0.3659,
+      "obs_std_m": 0.2647,
+      "mod_mean_m": 0.3651,
+      "mod_std_m": 0.2739
+    }
+  },
+  {
+    "station_id": "portpatrick-por-gbr-bodc",
+    "site_name": "Portpatrick",
+    "country": "GBR",
+    "latitude": 54.84256,
+    "longitude": -5.12003,
+    "dist_km": 0.59,
+    "metrics": {
+      "n_hours": 5562,
+      "bias_m": -0.0563,
+      "rmse_m": 0.2397,
+      "correlation": 0.9762,
+      "scatter_index": 0.2376,
+      "obs_mean_m": 2.1011,
+      "obs_std_m": 1.0087,
+      "mod_mean_m": 2.0448,
+      "mod_std_m": 1.0652
+    }
+  },
+  {
+    "station_id": "rak_noord-raknd-nld-rws_hist",
+    "site_name": "Rak_noord",
+    "country": "NLD",
+    "latitude": 51.69504,
+    "longitude": 4.42159,
+    "dist_km": 1.11,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0013,
+      "rmse_m": 0.9634,
+      "correlation": 0.1978,
+      "scatter_index": 4.6206,
+      "obs_mean_m": 0.49,
+      "obs_std_m": 0.2085,
+      "mod_mean_m": 0.4888,
+      "mod_std_m": 0.9828
+    }
+  },
+  {
+    "station_id": "rak_zuid-rakzd-nld-rws_hist",
+    "site_name": "Rak_zuid",
+    "country": "NLD",
+    "latitude": 51.68243,
+    "longitude": 4.39742,
+    "dist_km": 2.12,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0003,
+      "rmse_m": 0.7181,
+      "correlation": 0.8678,
+      "scatter_index": 0.5208,
+      "obs_mean_m": 0.0993,
+      "obs_std_m": 1.3787,
+      "mod_mean_m": 0.099,
+      "mod_std_m": 0.981
+    }
+  },
+  {
+    "station_id": "reykjavik-reyk-isl-icg",
+    "site_name": "Reykjavik",
+    "country": "ISL",
+    "latitude": 64.15058,
+    "longitude": -21.93989,
+    "dist_km": 0.11,
+    "metrics": {
+      "n_hours": 6567,
+      "bias_m": 0.0022,
+      "rmse_m": 0.1615,
+      "correlation": 0.9886,
+      "scatter_index": 0.1515,
+      "obs_mean_m": 2.2191,
+      "obs_std_m": 1.0656,
+      "mod_mean_m": 2.2213,
+      "mod_std_m": 1.0337
+    }
+  },
+  {
+    "station_id": "rorviktg-ror-nor-cmems",
+    "site_name": "RorvikTG",
+    "country": "NOR",
+    "latitude": 64.85946,
+    "longitude": 11.23011,
+    "dist_km": 3.99,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0004,
+      "rmse_m": 0.0962,
+      "correlation": 0.9889,
+      "scatter_index": 0.15,
+      "obs_mean_m": 0.0388,
+      "obs_std_m": 0.6412,
+      "mod_mean_m": 0.0384,
+      "mod_std_m": 0.6213
+    }
+  },
+  {
+    "station_id": "rotterdam-rottdm-nld-rws_hist",
+    "site_name": "Rotterdam",
+    "country": "NLD",
+    "latitude": 51.92002,
+    "longitude": 4.49976,
+    "dist_km": 22.79,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0005,
+      "rmse_m": 0.4341,
+      "correlation": 0.9488,
+      "scatter_index": 0.6991,
+      "obs_mean_m": 0.2277,
+      "obs_std_m": 0.6209,
+      "mod_mean_m": 0.2272,
+      "mod_std_m": 0.9764
+    }
+  },
+  {
+    "station_id": "santander-sant-esp-ieo",
+    "site_name": "Santander",
+    "country": "ESP",
+    "latitude": 43.4614,
+    "longitude": -3.7908,
+    "dist_km": 1.78,
+    "metrics": {
+      "n_hours": 6348,
+      "bias_m": -0.0089,
+      "rmse_m": 0.2016,
+      "correlation": 0.9817,
+      "scatter_index": 0.1917,
+      "obs_mean_m": 2.8294,
+      "obs_std_m": 1.0518,
+      "mod_mean_m": 2.8204,
+      "mod_std_m": 1.0126
+    }
+  },
+  {
+    "station_id": "savage_cove-2633-can-meds",
+    "site_name": "Savage_Cove",
+    "country": "CAN",
+    "latitude": 51.33,
+    "longitude": -56.7,
+    "dist_km": 0.7,
+    "metrics": {
+      "n_hours": 6156,
+      "bias_m": 0.0012,
+      "rmse_m": 0.1159,
+      "correlation": 0.9335,
+      "scatter_index": 0.3676,
+      "obs_mean_m": 0.8007,
+      "obs_std_m": 0.3153,
+      "mod_mean_m": 0.8019,
+      "mod_std_m": 0.269
+    }
+  },
+  {
+    "station_id": "scheveningen-schevngn-nld-rws",
+    "site_name": "Scheveningen",
+    "country": "NLD",
+    "latitude": 52.09904,
+    "longitude": 4.26356,
+    "dist_km": 1.27,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.0017,
+      "rmse_m": 0.3702,
+      "correlation": 0.9138,
+      "scatter_index": 0.5789,
+      "obs_mean_m": -0.0199,
+      "obs_std_m": 0.6395,
+      "mod_mean_m": -0.0216,
+      "mod_std_m": 0.8481
+    }
+  },
+  {
+    "station_id": "scheveningen-schevngn-nld-rws_hist",
+    "site_name": "Scheveningen",
+    "country": "NLD",
+    "latitude": 52.09903,
+    "longitude": 4.26356,
+    "dist_km": 1.27,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0011,
+      "rmse_m": 0.2576,
+      "correlation": 0.9805,
+      "scatter_index": 0.4028,
+      "obs_mean_m": -0.02,
+      "obs_std_m": 0.6395,
+      "mod_mean_m": -0.0212,
+      "mod_std_m": 0.8518
+    }
+  },
+  {
+    "station_id": "schiermonnikoog-schiermnog-nld-rws",
+    "site_name": "Schiermonnikoog",
+    "country": "NLD",
+    "latitude": 53.46894,
+    "longitude": 6.20291,
+    "dist_km": 0.74,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.0002,
+      "rmse_m": 0.3366,
+      "correlation": 0.926,
+      "scatter_index": 0.396,
+      "obs_mean_m": -0.0596,
+      "obs_std_m": 0.8499,
+      "mod_mean_m": -0.0598,
+      "mod_std_m": 0.8889
+    }
+  },
+  {
+    "station_id": "schiermonnikoog-schiermnog-nld-rws_hist",
+    "site_name": "Schiermonnikoog",
+    "country": "NLD",
+    "latitude": 53.46894,
+    "longitude": 6.20291,
+    "dist_km": 0.74,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0009,
+      "rmse_m": 0.2327,
+      "correlation": 0.9656,
+      "scatter_index": 0.2738,
+      "obs_mean_m": -0.0596,
+      "obs_std_m": 0.8499,
+      "mod_mean_m": -0.0604,
+      "mod_std_m": 0.8938
+    }
+  },
+  {
+    "station_id": "schoonhoven-schoonhvn-nld-rws",
+    "site_name": "Schoonhoven",
+    "country": "NLD",
+    "latitude": 51.94309,
+    "longitude": 4.85127,
+    "dist_km": 36.19,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": 0.0008,
+      "rmse_m": 0.879,
+      "correlation": 0.4927,
+      "scatter_index": 1.8219,
+      "obs_mean_m": 0.545,
+      "obs_std_m": 0.4824,
+      "mod_mean_m": 0.5458,
+      "mod_std_m": 1.0099
+    }
+  },
+  {
+    "station_id": "schoonhoven-schoonhvn-nld-rws_hist",
+    "site_name": "Schoonhoven",
+    "country": "NLD",
+    "latitude": 51.94309,
+    "longitude": 4.85127,
+    "dist_km": 36.19,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": 0.0014,
+      "rmse_m": 0.7501,
+      "correlation": 0.708,
+      "scatter_index": 1.5548,
+      "obs_mean_m": 0.545,
+      "obs_std_m": 0.4824,
+      "mod_mean_m": 0.5463,
+      "mod_std_m": 1.0098
+    }
+  },
+  {
+    "station_id": "southampton-sou-gbr-da_idh",
+    "site_name": "Southampton",
+    "country": "GBR",
+    "latitude": 50.8839,
+    "longitude": -1.3931,
+    "dist_km": 7.16,
+    "metrics": {
+      "n_hours": 6514,
+      "bias_m": -0.0004,
+      "rmse_m": 0.2289,
+      "correlation": 0.9791,
+      "scatter_index": 0.2086,
+      "obs_mean_m": 2.8283,
+      "obs_std_m": 1.097,
+      "mod_mean_m": 2.8279,
+      "mod_std_m": 1.022
+    }
+  },
+  {
+    "station_id": "spijkenisse-spijknse-nld-rws",
+    "site_name": "Spijkenisse",
+    "country": "NLD",
+    "latitude": 51.86166,
+    "longitude": 4.33395,
+    "dist_km": 11.17,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.0016,
+      "rmse_m": 0.4286,
+      "correlation": 0.9328,
+      "scatter_index": 0.755,
+      "obs_mean_m": 0.2024,
+      "obs_std_m": 0.5677,
+      "mod_mean_m": 0.2008,
+      "mod_std_m": 0.9062
+    }
+  },
+  {
+    "station_id": "spijkenisse-spijknse-nld-rws_hist",
+    "site_name": "Spijkenisse",
+    "country": "NLD",
+    "latitude": 51.86166,
+    "longitude": 4.33395,
+    "dist_km": 11.17,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.001,
+      "rmse_m": 0.3935,
+      "correlation": 0.9634,
+      "scatter_index": 0.6932,
+      "obs_mean_m": 0.2023,
+      "obs_std_m": 0.5677,
+      "mod_mean_m": 0.2014,
+      "mod_std_m": 0.9098
+    }
+  },
+  {
+    "station_id": "st_johns-276a-can-uhslc_rq",
+    "site_name": "St_Johns",
+    "country": "CAN",
+    "latitude": 47.567,
+    "longitude": -52.7,
+    "dist_km": 1.42,
+    "metrics": {
+      "n_hours": 6233,
+      "bias_m": -0.0065,
+      "rmse_m": 0.0826,
+      "correlation": 0.9804,
+      "scatter_index": 0.2568,
+      "obs_mean_m": 0.741,
+      "obs_std_m": 0.3218,
+      "mod_mean_m": 0.7345,
+      "mod_std_m": 0.3681
+    }
+  },
+  {
+    "station_id": "st_johns-905-can-meds",
+    "site_name": "St_Johns",
+    "country": "CAN",
+    "latitude": 47.57,
+    "longitude": -52.72,
+    "dist_km": 2.95,
+    "metrics": {
+      "n_hours": 6230,
+      "bias_m": -0.0065,
+      "rmse_m": 0.0826,
+      "correlation": 0.9804,
+      "scatter_index": 0.2569,
+      "obs_mean_m": 0.7412,
+      "obs_std_m": 0.3217,
+      "mod_mean_m": 0.7347,
+      "mod_std_m": 0.3681
+    }
+  },
+  {
+    "station_id": "stavangertg-sta-nor-cmems",
+    "site_name": "StavangerTG",
+    "country": "NOR",
+    "latitude": 58.97434,
+    "longitude": 5.73012,
+    "dist_km": 2.18,
+    "metrics": {
+      "n_hours": 5928,
+      "bias_m": 0.0017,
+      "rmse_m": 0.0596,
+      "correlation": 0.9609,
+      "scatter_index": 0.2948,
+      "obs_mean_m": -0.0307,
+      "obs_std_m": 0.2022,
+      "mod_mean_m": -0.0291,
+      "mod_std_m": 0.2148
+    }
+  },
+  {
+    "station_id": "stavenisse-stavnse-nld-rws",
+    "site_name": "Stavenisse",
+    "country": "NLD",
+    "latitude": 51.59541,
+    "longitude": 4.00601,
+    "dist_km": 1.63,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.0015,
+      "rmse_m": 0.3532,
+      "correlation": 0.9551,
+      "scatter_index": 0.2974,
+      "obs_mean_m": 0.0123,
+      "obs_std_m": 1.1877,
+      "mod_mean_m": 0.0108,
+      "mod_std_m": 1.1039
+    }
+  },
+  {
+    "station_id": "stavenisse-stavnse-nld-rws_hist",
+    "site_name": "Stavenisse",
+    "country": "NLD",
+    "latitude": 51.5954,
+    "longitude": 4.00601,
+    "dist_km": 1.63,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0007,
+      "rmse_m": 0.3783,
+      "correlation": 0.948,
+      "scatter_index": 0.3185,
+      "obs_mean_m": 0.0121,
+      "obs_std_m": 1.1877,
+      "mod_mean_m": 0.0114,
+      "mod_std_m": 1.1126
+    }
+  },
+  {
+    "station_id": "steenbergse_sas-steenbsss-nld-rws_hist",
+    "site_name": "Steenbergse_Sas",
+    "country": "NLD",
+    "latitude": 51.62667,
+    "longitude": 4.25493,
+    "dist_km": 10.93,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0001,
+      "rmse_m": 0.6734,
+      "correlation": 0.8782,
+      "scatter_index": 0.5037,
+      "obs_mean_m": 0.1165,
+      "obs_std_m": 1.3368,
+      "mod_mean_m": 0.1164,
+      "mod_std_m": 0.9626
+    }
+  },
+  {
+    "station_id": "streefkerk-streefkk-nld-rws_hist",
+    "site_name": "Streefkerk",
+    "country": "NLD",
+    "latitude": 51.90763,
+    "longitude": 4.75127,
+    "dist_km": 28.67,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": 0.0008,
+      "rmse_m": 0.6192,
+      "correlation": 0.8759,
+      "scatter_index": 1.3078,
+      "obs_mean_m": 0.3924,
+      "obs_std_m": 0.4734,
+      "mod_mean_m": 0.3931,
+      "mod_std_m": 0.9902
+    }
+  },
+  {
+    "station_id": "tarifa-tari-esp-ieo",
+    "site_name": "Tarifa",
+    "country": "ESP",
+    "latitude": 36.0086,
+    "longitude": -5.6026,
+    "dist_km": 0.37,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0007,
+      "rmse_m": 0.073,
+      "correlation": 0.9824,
+      "scatter_index": 0.2142,
+      "obs_mean_m": 1.0535,
+      "obs_std_m": 0.3411,
+      "mod_mean_m": 1.0528,
+      "mod_std_m": 0.3707
+    }
+  },
+  {
+    "station_id": "tenerife-ten-esp-da_mm",
+    "site_name": "Tenerife",
+    "country": "ESP",
+    "latitude": 28.48,
+    "longitude": -16.24,
+    "dist_km": 0.73,
+    "metrics": {
+      "n_hours": 6281,
+      "bias_m": 0.0028,
+      "rmse_m": 0.2696,
+      "correlation": 0.8866,
+      "scatter_index": 0.4695,
+      "obs_mean_m": -4.6598,
+      "obs_std_m": 0.5741,
+      "mod_mean_m": -4.657,
+      "mod_std_m": 0.5555
+    }
+  },
+  {
+    "station_id": "terneuzen-ternzn-nld-rws",
+    "site_name": "Terneuzen",
+    "country": "NLD",
+    "latitude": 51.33621,
+    "longitude": 3.81981,
+    "dist_km": 1.4,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.0024,
+      "rmse_m": 0.6444,
+      "correlation": 0.9314,
+      "scatter_index": 0.4421,
+      "obs_mean_m": 0.0372,
+      "obs_std_m": 1.4578,
+      "mod_mean_m": 0.0348,
+      "mod_std_m": 1.7238
+    }
+  },
+  {
+    "station_id": "terneuzen-ternzn-nld-rws_hist",
+    "site_name": "Terneuzen",
+    "country": "NLD",
+    "latitude": 51.33621,
+    "longitude": 3.81981,
+    "dist_km": 1.4,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0014,
+      "rmse_m": 0.3874,
+      "correlation": 0.9853,
+      "scatter_index": 0.2657,
+      "obs_mean_m": 0.0369,
+      "obs_std_m": 1.4579,
+      "mod_mean_m": 0.0355,
+      "mod_std_m": 1.7329
+    }
+  },
+  {
+    "station_id": "tregdetg-tre-nor-cmems",
+    "site_name": "TregdeTG",
+    "country": "NOR",
+    "latitude": 58.00638,
+    "longitude": 7.55476,
+    "dist_km": 1.18,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0006,
+      "rmse_m": 0.0693,
+      "correlation": 0.9072,
+      "scatter_index": 0.423,
+      "obs_mean_m": -0.0229,
+      "obs_std_m": 0.1639,
+      "mod_mean_m": -0.0235,
+      "mod_std_m": 0.1559
+    }
+  },
+  {
+    "station_id": "tromsoetg-tro-nor-cmems",
+    "site_name": "TromsoeTG",
+    "country": "NOR",
+    "latitude": 69.64611,
+    "longitude": 18.95479,
+    "dist_km": 2.43,
+    "metrics": {
+      "n_hours": 5786,
+      "bias_m": 0.0084,
+      "rmse_m": 0.2633,
+      "correlation": 0.9363,
+      "scatter_index": 0.3545,
+      "obs_mean_m": -0.0454,
+      "obs_std_m": 0.7426,
+      "mod_mean_m": -0.0369,
+      "mod_std_m": 0.6605
+    }
+  },
+  {
+    "station_id": "vigo-vigo-esp-ieo",
+    "site_name": "Vigo",
+    "country": "ESP",
+    "latitude": 42.238,
+    "longitude": -8.73,
+    "dist_km": 1.09,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0022,
+      "rmse_m": 0.1027,
+      "correlation": 0.9936,
+      "scatter_index": 0.1185,
+      "obs_mean_m": 1.9719,
+      "obs_std_m": 0.8667,
+      "mod_mean_m": 1.9697,
+      "mod_std_m": 0.8303
+    }
+  },
+  {
+    "station_id": "vlaardingen-vlaardgn-nld-rws_hist",
+    "site_name": "Vlaardingen",
+    "country": "NLD",
+    "latitude": 51.89964,
+    "longitude": 4.34905,
+    "dist_km": 15.07,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.001,
+      "rmse_m": 0.3591,
+      "correlation": 0.9567,
+      "scatter_index": 0.5712,
+      "obs_mean_m": 0.1883,
+      "obs_std_m": 0.6286,
+      "mod_mean_m": 0.1873,
+      "mod_std_m": 0.9104
+    }
+  },
+  {
+    "station_id": "vlieland_haven-vlielhvn-nld-rws_hist",
+    "site_name": "Vlieland_haven",
+    "country": "NLD",
+    "latitude": 53.29613,
+    "longitude": 5.09146,
+    "dist_km": 0.41,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0018,
+      "rmse_m": 0.2778,
+      "correlation": 0.9084,
+      "scatter_index": 0.4195,
+      "obs_mean_m": -0.0383,
+      "obs_std_m": 0.6623,
+      "mod_mean_m": -0.04,
+      "mod_std_m": 0.5792
+    }
+  },
+  {
+    "station_id": "vlissingen-vlissgn-nld-rws_hist",
+    "site_name": "Vlissingen",
+    "country": "NLD",
+    "latitude": 51.44231,
+    "longitude": 3.59606,
+    "dist_km": 0.74,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.001,
+      "rmse_m": 0.4805,
+      "correlation": 0.9612,
+      "scatter_index": 0.3534,
+      "obs_mean_m": -0.0275,
+      "obs_std_m": 1.3599,
+      "mod_mean_m": -0.0285,
+      "mod_std_m": 1.6077
+    }
+  },
+  {
+    "station_id": "wemeldinge-wemdge-nld-rws_hist",
+    "site_name": "Wemeldinge",
+    "country": "NLD",
+    "latitude": 51.49684,
+    "longitude": 4.05696,
+    "dist_km": 0.35,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0,
+      "rmse_m": 0.7461,
+      "correlation": 0.8072,
+      "scatter_index": 0.6059,
+      "obs_mean_m": 0.0165,
+      "obs_std_m": 1.2314,
+      "mod_mean_m": 0.0165,
+      "mod_std_m": 1.1622
+    }
+  },
+  {
+    "station_id": "werkendam_buiten-werkdbtn-nld-rws",
+    "site_name": "Werkendam_buiten",
+    "country": "NLD",
+    "latitude": 51.80604,
+    "longitude": 4.87682,
+    "dist_km": 29.04,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": 0.0011,
+      "rmse_m": 0.9698,
+      "correlation": 0.2515,
+      "scatter_index": 3.4035,
+      "obs_mean_m": 0.7292,
+      "obs_std_m": 0.285,
+      "mod_mean_m": 0.7303,
+      "mod_std_m": 1.0015
+    }
+  },
+  {
+    "station_id": "werkendam_buiten-werkdbtn-nld-rws_hist",
+    "site_name": "Werkendam_buiten",
+    "country": "NLD",
+    "latitude": 51.80604,
+    "longitude": 4.87683,
+    "dist_km": 29.04,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": 0.0017,
+      "rmse_m": 0.9309,
+      "correlation": 0.3805,
+      "scatter_index": 3.2665,
+      "obs_mean_m": 0.7292,
+      "obs_std_m": 0.285,
+      "mod_mean_m": 0.7309,
+      "mod_std_m": 1.0012
+    }
+  },
+  {
+    "station_id": "west_ste_modeste-2595-can-meds",
+    "site_name": "West_Ste_Modeste",
+    "country": "CAN",
+    "latitude": 51.6,
+    "longitude": -56.7,
+    "dist_km": 1.66,
+    "metrics": {
+      "n_hours": 4403,
+      "bias_m": 0.001,
+      "rmse_m": 0.1033,
+      "correlation": 0.9412,
+      "scatter_index": 0.3405,
+      "obs_mean_m": 0.8835,
+      "obs_std_m": 0.3033,
+      "mod_mean_m": 0.8845,
+      "mod_std_m": 0.2984
+    }
+  },
+  {
+    "station_id": "west_terschelling-westtslg-nld-rws",
+    "site_name": "West_Terschelling",
+    "country": "NLD",
+    "latitude": 53.36305,
+    "longitude": 5.22003,
+    "dist_km": 1.63,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.0011,
+      "rmse_m": 0.2182,
+      "correlation": 0.9501,
+      "scatter_index": 0.3324,
+      "obs_mean_m": -0.0291,
+      "obs_std_m": 0.6565,
+      "mod_mean_m": -0.0301,
+      "mod_std_m": 0.5486
+    }
+  },
+  {
+    "station_id": "west_terschelling-westtslg-nld-rws_hist",
+    "site_name": "West_Terschelling",
+    "country": "NLD",
+    "latitude": 53.36304,
+    "longitude": 5.22003,
+    "dist_km": 1.63,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0014,
+      "rmse_m": 0.2506,
+      "correlation": 0.9282,
+      "scatter_index": 0.3817,
+      "obs_mean_m": -0.029,
+      "obs_std_m": 0.6565,
+      "mod_mean_m": -0.0304,
+      "mod_std_m": 0.5531
+    }
+  },
+  {
+    "station_id": "westkapelle-westkple-nld-rws",
+    "site_name": "Westkapelle",
+    "country": "NLD",
+    "latitude": 51.52145,
+    "longitude": 3.44003,
+    "dist_km": 1.21,
+    "metrics": {
+      "n_hours": 6599,
+      "bias_m": -0.0021,
+      "rmse_m": 0.5024,
+      "correlation": 0.941,
+      "scatter_index": 0.4151,
+      "obs_mean_m": -0.0561,
+      "obs_std_m": 1.2104,
+      "mod_mean_m": -0.0582,
+      "mod_std_m": 1.4302
+    }
+  },
+  {
+    "station_id": "westkapelle-westkple-nld-rws_hist",
+    "site_name": "Westkapelle",
+    "country": "NLD",
+    "latitude": 51.52144,
+    "longitude": 3.44003,
+    "dist_km": 1.21,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0013,
+      "rmse_m": 0.3257,
+      "correlation": 0.9844,
+      "scatter_index": 0.269,
+      "obs_mean_m": -0.0563,
+      "obs_std_m": 1.2104,
+      "mod_mean_m": -0.0576,
+      "mod_std_m": 1.4382
+    }
+  },
+  {
+    "station_id": "wick-wic-gbr-bodc",
+    "site_name": "Wick",
+    "country": "GBR",
+    "latitude": 58.44097,
+    "longitude": -3.08639,
+    "dist_km": 1.6,
+    "metrics": {
+      "n_hours": 6024,
+      "bias_m": -0.0013,
+      "rmse_m": 0.15,
+      "correlation": 0.9884,
+      "scatter_index": 0.1843,
+      "obs_mean_m": 2.0475,
+      "obs_std_m": 0.8137,
+      "mod_mean_m": 2.0462,
+      "mod_std_m": 0.8893
+    }
+  },
+  {
+    "station_id": "zierikzee-zierze-nld-rws_hist",
+    "site_name": "Zierikzee",
+    "country": "NLD",
+    "latitude": 51.64216,
+    "longitude": 3.91081,
+    "dist_km": 1.34,
+    "metrics": {
+      "n_hours": 6600,
+      "bias_m": -0.0012,
+      "rmse_m": 0.2575,
+      "correlation": 0.9742,
+      "scatter_index": 0.2264,
+      "obs_mean_m": -0.0054,
+      "obs_std_m": 1.1375,
+      "mod_mean_m": -0.0066,
+      "mod_std_m": 1.1277
+    }
+  }
+]
