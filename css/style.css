@@ -153,3 +153,66 @@ nav a.active { font-weight: 600; }
   display: block;
   margin-bottom: 2px;
 }
+
+/* About page */
+.config-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.config-table td {
+  padding: 0.4rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.config-table td:first-child {
+  font-weight: 600;
+  width: 180px;
+  color: var(--text-muted);
+}
+
+.scenario-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.scenario {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.scenario h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.scenario-years {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.scenario p:last-child {
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.scenario code {
+  background: var(--bg);
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+.pipeline {
+  margin: 0.5rem 0 0 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.pipeline li {
+  margin-bottom: 0.5rem;
+}
