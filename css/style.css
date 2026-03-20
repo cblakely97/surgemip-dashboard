@@ -249,3 +249,31 @@ nav a.active { font-weight: 600; }
 .pipeline li {
   margin-bottom: 0.5rem;
 }
+
+/* References list */
+.references {
+  margin: 0.5rem 0 0 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.references li {
+  margin-bottom: 0.75rem;
+}
+
+/* Detail page headings */
+.card h3 {
+  font-size: 0.95rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.card h3:first-of-type {
+  margin-top: 0;
+}
+
+/* Info link on scenario cards */
+.scenario-info {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}

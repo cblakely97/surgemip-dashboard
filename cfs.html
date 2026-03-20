@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CFS/CFSv2 Reanalysis | STOFS2D-Global for SurgeMIP</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>STOFS2D-Global <span>for SurgeMIP</span></h1>
+  <nav>
+    <a href="index.html">About</a>
+    <a href="progress.html">Progress</a>
+    <a href="comparison.html">Station Comparison</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>CFS/CFSv2 Reanalysis</h2>
+    <p>
+      The CFS reanalysis scenario is a 46-year historical hindcast (1979&ndash;2024)
+      driven by atmospheric forcing from the NCEP Climate Forecast System.
+      This is the primary reanalysis run for the SurgeMIP intercomparison,
+      providing a continuous baseline of global storm surge over the satellite era.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Atmospheric Forcing</h2>
+    <p>
+      Forcing data comes from two generations of the NCEP Climate Forecast System:
+    </p>
+
+    <h3>CFSR (1979&ndash;March 2011)</h3>
+    <p>
+      The Climate Forecast System Reanalysis is a global, high-resolution coupled
+      atmosphere&ndash;ocean&ndash;land&ndash;sea&nbsp;ice reanalysis produced by NCEP.
+      The atmospheric component runs at T382 spectral resolution (~38 km) with
+      64 vertical levels from the surface to 0.26 hPa. The ocean model uses
+      0.25&deg; equatorial spacing (0.5&deg; elsewhere) with 40 levels.
+      CFSR assimilates satellite radiances, conventional observations, and
+      ocean/ice data to produce a consistent global atmospheric state estimate.
+    </p>
+
+    <h3>CFSv2 (April 2011&ndash;present)</h3>
+    <p>
+      The Climate Forecast System version 2 is the operational successor to CFSR,
+      maintaining the same coupled architecture with improvements to model physics,
+      data assimilation, and the underlying GFS atmospheric model.
+      CFSv2 provides a seamless extension of the reanalysis record into the present day.
+    </p>
+
+    <table class="config-table">
+      <tr><td>Atmosphere resolution</td><td>T382 (~38 km), 64 vertical levels</td></tr>
+      <tr><td>Ocean resolution</td><td>0.25&deg; equatorial / 0.5&deg; global, 40 levels</td></tr>
+      <tr><td>Output grid</td><td>0.5&deg; &times; 0.5&deg; latitude&ndash;longitude</td></tr>
+      <tr><td>Temporal resolution</td><td>Hourly (output), 6-hourly (analysis cycles)</td></tr>
+      <tr><td>Format</td><td>GRIB-2</td></tr>
+      <tr><td>Producer</td><td>NCEP / NWS / NOAA</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Variables Used</h2>
+    <p>
+      Three surface variables are extracted from the CFS/CFSv2 pressure-level
+      GRIB2 archives and converted to ADCIRC-compatible NetCDF forcing files:
+    </p>
+    <table class="config-table">
+      <tr><td>fort.221.nc</td><td>Sea level pressure (prmsl) &mdash; mean sea level pressure in Pa</td></tr>
+      <tr><td>fort.222.nc</td><td>10-meter wind (wnd10m) &mdash; u and v wind components in m/s</td></tr>
+      <tr><td>fort.225.nc</td><td>Sea ice concentration (icecon) &mdash; fractional ice cover (0&ndash;1)</td></tr>
+    </table>
+    <p>
+      Conversion is performed by <code>make_adcirc_forcing.py</code> using
+      <a href="https://www.cpc.ncep.noaa.gov/products/wesley/wgrib2/" target="_blank">wgrib2</a>
+      to extract variables from monthly GRIB2 archives and merge them into
+      per-month NetCDF files at hourly resolution.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Data Sources</h2>
+    <p>
+      Raw GRIB2 files are downloaded from multiple sources depending on availability.
+      The primary source is the NOAA THREDDS server; months unavailable there
+      are recovered from NCEI or reconstructed from 6-hourly pressure-level files.
+    </p>
+    <table class="config-table">
+      <tr>
+        <td>THREDDS (primary)</td>
+        <td>
+          NOAA CFS/CFSv2 THREDDS &mdash; monthly time-series GRIB2 files.
+          Full-resolution and reduced ("light") variants.
+          1,652 of 1,656 files sourced here.
+        </td>
+      </tr>
+      <tr>
+        <td>NCEI (fallback)</td>
+        <td>
+          NCEI Climate Forecast System archive &mdash; used for 3 files
+          (Dec 2023 prmsl, wnd10m, icecon) missing from THREDDS.
+        </td>
+      </tr>
+      <tr>
+        <td>Reconstructed</td>
+        <td>
+          Jul 1985 wnd10m rebuilt from 6-hourly pgb (pressure-level GRIB)
+          files &mdash; the only month where no pre-built time-series file
+          was available from any source.
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Forcing Data Provenance</h2>
+    <p>
+      The chart below shows the source of each of the 1,656 monthly forcing
+      files (552 months &times; 3 variables) spanning January 1979 through
+      December 2024. Each cell represents one month&ndash;variable combination,
+      color-coded by data source.
+    </p>
+    <img src="img/forcing_provenance.png" alt="CFS/CFSv2 forcing data provenance chart showing source of each monthly file from 1979 to 2024"
+         style="width:100%; max-width:1000px; display:block; margin:1rem auto;">
+  </div>
+
+  <div class="card">
+    <h2>References</h2>
+    <ol class="references">
+      <li>
+        Saha, S., et al. (2010). The NCEP Climate Forecast System Reanalysis.
+        <em>Bulletin of the American Meteorological Society</em>, 91(8), 1015&ndash;1058.
+        <a href="https://doi.org/10.1175/2010BAMS3001.1" target="_blank">doi:10.1175/2010BAMS3001.1</a>
+      </li>
+      <li>
+        Saha, S., et al. (2014). The NCEP Climate Forecast System Version 2.
+        <em>Journal of Climate</em>, 27(6), 2185&ndash;2208.
+        <!-- TODO: confirm DOI -->
+        <a href="https://doi.org/10.1175/JCLI-D-12-00823.1" target="_blank">doi:10.1175/JCLI-D-12-00823.1</a>
+      </li>
+      <li>
+        NCEI dataset record:
+        <a href="https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00765" target="_blank">gov.noaa.ncdc:C00765</a>
+      </li>
+    </ol>
+  </div>
+
+</div>
+
+</body>
+</html>
