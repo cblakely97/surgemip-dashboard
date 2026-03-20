@@ -46,9 +46,10 @@
 
   <div class="card">
     <h2>Scenarios</h2>
+    <h3 class="scenario-tier">Currently Running</h3>
     <div class="scenario-grid">
 
-      <div class="scenario">
+      <div class="scenario active-scenario">
         <h3>CFS/CFSv2 Reanalysis</h3>
         <p class="scenario-years">1979 &ndash; 2024 (46 years)</p>
         <p>
@@ -59,7 +60,7 @@
         </p>
       </div>
 
-      <div class="scenario">
+      <div class="scenario active-scenario">
         <h3>HadGEM3-GC31-HM Present</h3>
         <p class="scenario-years">1979 &ndash; 2014 (36 years)</p>
         <p>
@@ -70,7 +71,7 @@
         </p>
       </div>
 
-      <div class="scenario">
+      <div class="scenario active-scenario">
         <h3>HadGEM3-GC31-HM Future</h3>
         <p class="scenario-years">2015 &ndash; 2050 (36 years)</p>
         <p>
@@ -82,6 +83,84 @@
       </div>
 
     </div>
+
+    <h3 class="scenario-tier">Planned Next</h3>
+    <div class="scenario-grid">
+
+      <div class="scenario planned-scenario">
+        <h3>EC-Earth3P-HR</h3>
+        <p class="scenario-years">~40 km atmosphere &middot; Gregorian calendar &middot; 3 ensemble members</p>
+        <p>
+          EC-Earth Consortium HighResMIP model. 3-hourly winds and 6-hourly
+          pressure from <code>highresSST-present</code> (1950&ndash;2014) and
+          <code>highresSST-future</code> (2015&ndash;2050). Standard Gregorian
+          calendar simplifies the forcing pipeline. Multiple ensemble members
+          enable uncertainty quantification.
+        </p>
+      </div>
+
+      <div class="scenario planned-scenario">
+        <h3>CNRM-CM6-1-HR</h3>
+        <p class="scenario-years">~50 km atmosphere &middot; Gregorian calendar &middot; 10 ensemble members</p>
+        <p>
+          CNRM-CERFACS (M&eacute;t&eacute;o-France) HighResMIP model. 6-hourly
+          winds and pressure. Largest HighResMIP ensemble with 10 members in
+          the future experiment, providing robust statistics on climate change
+          signals in storm surge.
+        </p>
+      </div>
+
+      <div class="scenario planned-scenario">
+        <h3>MRI-AGCM3-2-S</h3>
+        <p class="scenario-years">~20 km atmosphere &middot; Gregorian calendar &middot; 1 ensemble member</p>
+        <p>
+          MRI (Japan) super-high-resolution AGCM. The highest atmospheric
+          resolution in HighResMIP (~20 km), particularly valuable for
+          resolving tropical cyclone wind structure and landfall surge.
+          3-hourly winds, 6-hourly pressure. AMIP-only (prescribed SST).
+        </p>
+      </div>
+
+    </div>
+
+    <h3 class="scenario-tier">Other Candidates</h3>
+    <div class="scenario-grid">
+
+      <div class="scenario candidate-scenario">
+        <h3>CMCC-CM2-VHR4</h3>
+        <p class="scenario-years">~25 km &middot; 6-hourly only &middot; 1 member</p>
+        <p>
+          CMCC very-high-resolution model. Both AMIP and coupled experiments
+          available. Limited to 6-hourly output frequency.
+        </p>
+      </div>
+
+      <div class="scenario candidate-scenario">
+        <h3>GFDL-CM4C192</h3>
+        <p class="scenario-years">~50 km native, ~100 km output &middot; 1 member</p>
+        <p>
+          GFDL cubed-sphere model. 3-hourly winds but output is regridded to
+          coarser resolution. Has all four HighResMIP experiments.
+        </p>
+      </div>
+
+      <div class="scenario candidate-scenario">
+        <h3>HadGEM3-GC31-HH</h3>
+        <p class="scenario-years">~10 km &middot; 360-day calendar &middot; coupled only &middot; 1 member</p>
+        <p>
+          Highest-resolution coupled GCM ever run at climate timescales.
+          3-hourly output but extremely large data volumes. Only available
+          in coupled mode (no AMIP experiments).
+        </p>
+      </div>
+
+    </div>
+
+    <p class="disclaimer">
+      Candidate model selection is based on data availability on ESGF as of
+      March 2026. Actual runs depend on compute allocation, data access, and
+      forcing pipeline validation. Not all candidates may be run.
+    </p>
   </div>
 
   <div class="card">
