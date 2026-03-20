@@ -8,13 +8,22 @@
     pending: '#adb5bd',
   };
 
+  var FALLBACK_DATA = {
+    last_updated: 'unavailable (serve via HTTP for live data)',
+    scenarios: [
+      { id: 'cfs-reanalysis', name: 'CFS/CFSv2 Reanalysis',
+        start_year: 1979, end_year: 2024, completed_years: [], status: 'pending' },
+      { id: 'hadgem-present', name: 'HadGEM3-GC31-HM Present',
+        start_year: 1979, end_year: 2014, completed_years: [], status: 'pending' },
+      { id: 'hadgem-future', name: 'HadGEM3-GC31-HM Future',
+        start_year: 2015, end_year: 2050, completed_years: [], status: 'pending' },
+    ],
+  };
+
   fetch('data/progress.json')
     .then(function (r) { return r.json(); })
     .then(render)
-    .catch(function (err) {
-      document.getElementById('progress-chart').textContent =
-        'Failed to load progress data: ' + err.message;
-    });
+    .catch(function () { render(FALLBACK_DATA); });
 
   function render(data) {
     var scenarios = data.scenarios;
