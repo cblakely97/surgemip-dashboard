@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CMIP6 HighResMIP | STOFS2D-Global for SurgeMIP</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>STOFS2D-Global <span>for SurgeMIP</span></h1>
+  <nav>
+    <a href="index.html">About</a>
+    <a href="progress.html">Progress</a>
+    <a href="comparison.html">Station Comparison</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>CMIP6 HighResMIP &mdash; HadGEM3-GC31-HM</h2>
+    <p>
+      The CMIP6 scenarios use atmospheric forcing from HadGEM3-GC31-HM, a
+      high-resolution configuration of the UK Met Office Hadley Centre model
+      participating in the
+      <a href="https://www.highresmip.org/" target="_blank">HighResMIP</a>
+      protocol. Two paired experiments are run: a present-climate simulation
+      (1979&ndash;2014) and a future-climate projection (2015&ndash;2050), enabling
+      direct comparison of storm surge statistics under historical and projected
+      climate conditions using identical model physics.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Model Details</h2>
+    <p>
+      HadGEM3-GC31-HM is the high-resolution member of the HadGEM3-GC31
+      model family. The atmospheric component (Unified Model) runs at
+      N512 resolution (~25 km at mid-latitudes) with 85 vertical levels.
+      The model uses prescribed sea surface temperatures (AMIP-style) in the
+      HighResMIP <code>highresSST</code> experiments.
+    </p>
+
+    <table class="config-table">
+      <tr><td>Source ID</td><td>HadGEM3-GC31-HM</td></tr>
+      <tr><td>Institution</td><td>Met Office Hadley Centre (MOHC), UK</td></tr>
+      <tr><td>Atmosphere resolution</td><td>N512 (~25 km), 85 vertical levels</td></tr>
+      <tr><td>Ensemble member</td><td>r1i1p1f1</td></tr>
+      <tr><td>Calendar</td><td>360-day (converted to Gregorian for ADCIRC)</td></tr>
+      <tr><td>Grid</td><td>Native N512: 768 lat &times; 1024 lon</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Experiments</h2>
+
+    <h3>highresSST-present (1979&ndash;2014)</h3>
+    <p>
+      AMIP-style simulation with prescribed observed sea surface temperatures
+      and sea ice concentrations. Provides a high-resolution atmospheric
+      reanalysis-like dataset for evaluating the model against observations
+      before using it for projections.
+    </p>
+
+    <h3>highresSST-future (2015&ndash;2050)</h3>
+    <p>
+      Future projection using SST and sea ice fields derived from CMIP6
+      coupled model projections. The atmospheric model and resolution are
+      identical to the present experiment, isolating the effect of changing
+      boundary conditions on storm surge climatology.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Variables Used</h2>
+    <p>
+      Four variables are extracted from the HighResMIP output and converted
+      to ADCIRC-compatible NetCDF forcing files:
+    </p>
+    <table class="config-table">
+      <tr><td>fort.221.nc</td><td>Sea level pressure (psl, E3hr table) &mdash; Pa</td></tr>
+      <tr><td>fort.222.nc</td><td>10-meter wind (uas + vas, 3hr table) &mdash; u and v components in m/s</td></tr>
+      <tr><td>fort.225.nc</td><td>Sea ice concentration (siconc, SIday table) &mdash; fraction 0&ndash;1</td></tr>
+      <tr><td>fort.22</td><td>Text config listing NetCDF variable and dimension names for ADCIRC</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Calendar Conversion</h2>
+    <p>
+      HadGEM3-GC31-HM uses a 360-day calendar (12 months of 30 days each).
+      Forcing data is converted to the standard Gregorian calendar via linear
+      interpolation (nearest-neighbour for sea ice) using
+      <code>make_cmip6_forcing.py</code>. Each output file spans January 1
+      through January 1 of the following year in Gregorian time, matching
+      the ADCIRC simulation year boundaries.
+    </p>
+    <p>
+      The wind V-component (<code>vas</code>) is provided on a staggered
+      latitude grid (769 points vs. 768 for other variables) and is regridded
+      to the T-grid before writing.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Data Source</h2>
+    <p>
+      All CMIP6 data is downloaded from the
+      <a href="https://esgf-node.llnl.gov/search/cmip6/" target="_blank">Earth System Grid Federation (ESGF)</a>
+      using <code>download_cmip6.py</code>. Files are retrieved as NetCDF from
+      the ESGF distributed archive.
+    </p>
+    <table class="config-table">
+      <tr><td>Activity</td><td>HighResMIP</td></tr>
+      <tr><td>Source</td><td>HadGEM3-GC31-HM</td></tr>
+      <tr><td>Experiments</td><td>highresSST-present, highresSST-future</td></tr>
+      <tr><td>Member</td><td>r1i1p1f1</td></tr>
+      <tr><td>Grid</td><td>gn (native grid)</td></tr>
+      <tr><td>Variables</td><td>psl (E3hr), uas (3hr), vas (3hr), siconc (SIday)</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>References</h2>
+    <ol class="references">
+      <li>
+        <!-- TODO: verify -->
+        Roberts, M.J., et al. (2019). Description of the resolution hierarchy
+        of the global coupled HadGEM3-GC3.1 model as used in CMIP6 HighResMIP
+        experiments.
+        <em>Geoscientific Model Development</em>, 12(12), 4999&ndash;5028.
+        <a href="https://doi.org/10.5194/gmd-12-4999-2019" target="_blank">doi:10.5194/gmd-12-4999-2019</a>
+      </li>
+      <li>
+        <!-- TODO: verify -->
+        Haarsma, R.J., et al. (2016). High Resolution Model Intercomparison
+        Project (HighResMIP v1.0) for CMIP6.
+        <em>Geoscientific Model Development</em>, 9(11), 4185&ndash;4208.
+        <a href="https://doi.org/10.5194/gmd-9-4185-2016" target="_blank">doi:10.5194/gmd-9-4185-2016</a>
+      </li>
+      <li>
+        <!-- TODO: verify -->
+        Eyring, V., et al. (2016). Overview of the Coupled Model
+        Intercomparison Project Phase 6 (CMIP6) experimental design and
+        organization.
+        <em>Geoscientific Model Development</em>, 9(5), 1937&ndash;1958.
+        <a href="https://doi.org/10.5194/gmd-9-1937-2016" target="_blank">doi:10.5194/gmd-9-1937-2016</a>
+      </li>
+    </ol>
+  </div>
+
+</div>
+
+</body>
+</html>

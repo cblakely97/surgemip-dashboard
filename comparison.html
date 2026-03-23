@@ -20,12 +20,31 @@
   </nav>
 </header>
 
+<div class="container">
+  <div class="disclaimer-banner">
+    <strong>Preliminary results.</strong> Simulations are still in progress and
+    validation is ongoing. Station comparisons shown here are based on a subset
+    of completed simulation years and should not be cited or used for
+    decision-making.
+  </div>
+</div>
+
 <div class="comparison-layout">
   <div id="map"></div>
   <div id="timeseries-panel">
     <div class="placeholder">Click a station on the map to view its time series comparison</div>
     <div id="timeseries-plot"></div>
   </div>
+</div>
+
+<div class="container">
+  <p class="disclaimer">
+    Tide gauge observations from the
+    <a href="https://gesla787883612.wordpress.com/" target="_blank">GESLA v4</a> dataset
+    (Haigh et al., 2023;
+    <a href="https://doi.org/10.1038/s41597-023-02568-3" target="_blank">doi:10.1038/s41597-023-02568-3</a>).
+    <!-- TODO: verify citation -->
+  </p>
 </div>
 
 <script src="js/comparison.js"></script>
