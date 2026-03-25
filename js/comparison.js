@@ -207,34 +207,53 @@
       });
   }
 
+  // -----------------------------------------------------------------------
+  // Reconstruct timestamps from compact t0/dt_hours/n format
+  // -----------------------------------------------------------------------
+
+  function buildTimeAxis(t0, dtHours, n) {
+    var times = new Array(n);
+    var startMs = new Date(t0).getTime();
+    var stepMs = dtHours * 3600000;
+    for (var i = 0; i < n; i++) {
+      times[i] = new Date(startMs + i * stepMs).toISOString().slice(0, 19);
+    }
+    return times;
+  }
+
   function renderTimeseries(data, plotDiv) {
     plotDiv.innerHTML = '';
 
-    // Upper subplot: GESLA + ADCIRC
+    // Reconstruct shared time axis from compact format
+    var times = buildTimeAxis(data.t0, data.dt_hours, data.n);
+
+    // Upper subplot: GESLA + ADCIRC (nulls create gaps in the lines)
     var geslaTrace = {
-      x: data.gesla.time,
-      y: data.gesla.sea_level,
+      x: times,
+      y: data.gesla,
       type: 'scattergl',
       mode: 'lines',
       name: 'GESLA',
       line: { color: '#000000', width: 1 },
+      connectgaps: false,
       xaxis: 'x',
       yaxis: 'y',
     };
 
     var adcircTrace = {
-      x: data.adcirc.time,
-      y: data.adcirc.zeta,
+      x: times,
+      y: data.adcirc,
       type: 'scattergl',
       mode: 'lines',
       name: 'ADCIRC',
       line: { color: '#1f77b4', width: 1 },
+      connectgaps: false,
       xaxis: 'x',
       yaxis: 'y',
     };
 
-    // Lower subplot: residual (compute on aligned hourly data)
-    var residTrace = computeResidualTrace(data);
+    // Lower subplot: residual (arrays are already aligned)
+    var residTrace = computeResidualTrace(times, data.adcirc, data.gesla);
 
     var traces = [geslaTrace, adcircTrace];
     if (residTrace) traces.push(residTrace);
@@ -298,39 +317,31 @@
     });
   }
 
-  function computeResidualTrace(data) {
-    // Build a simple residual by matching timestamps
-    if (!data.adcirc || !data.gesla) return null;
-    if (!data.adcirc.time.length || !data.gesla.time.length) return null;
+  function computeResidualTrace(times, adcirc, gesla) {
+    // Arrays are already aligned — compute element-wise residual
+    if (!adcirc || !gesla || !times.length) return null;
 
-    // Build lookup from GESLA times (truncated to hour) to values
-    var geslaMap = {};
-    for (var i = 0; i < data.gesla.time.length; i++) {
-      var t = data.gesla.time[i].substring(0, 13); // YYYY-MM-DDTHH
-      // Average if multiple per hour (take last for simplicity)
-      geslaMap[t] = data.gesla.sea_level[i];
-    }
-
-    var residTimes = [];
-    var residValues = [];
-
-    for (var j = 0; j < data.adcirc.time.length; j++) {
-      var ta = data.adcirc.time[j].substring(0, 13);
-      if (ta in geslaMap && data.adcirc.zeta[j] !== null) {
-        residTimes.push(data.adcirc.time[j]);
-        residValues.push(data.adcirc.zeta[j] - geslaMap[ta]);
+    var residValues = new Array(times.length);
+    var hasData = false;
+    for (var i = 0; i < times.length; i++) {
+      if (adcirc[i] !== null && gesla[i] !== null) {
+        residValues[i] = adcirc[i] - gesla[i];
+        hasData = true;
+      } else {
+        residValues[i] = null;
       }
     }
 
-    if (residTimes.length < 2) return null;
+    if (!hasData) return null;
 
     return {
-      x: residTimes,
+      x: times,
       y: residValues,
       type: 'scattergl',
       mode: 'lines',
       name: 'Residual',
       line: { color: '#d62728', width: 1 },
+      connectgaps: false,
       xaxis: 'x2',
       yaxis: 'y2',
     };
