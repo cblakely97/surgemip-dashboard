@@ -14,6 +14,8 @@
 
   var selectedMarker = null;
   var markerLayer = L.layerGroup().addTo(map);
+  var allStations = [];   // populated after fetch
+  var markerById = {};    // station_id → marker
 
   // -----------------------------------------------------------------------
   // Color by correlation
@@ -76,15 +78,73 @@
         });
 
         marker.stationId = stn.station_id;
+        markerById[stn.station_id] = marker;
         markerLayer.addLayer(marker);
       });
 
-      // Add legend
+      allStations = stations;
+      addSearchControl();
       addLegend();
     })
     .catch(function (err) {
       console.error('Failed to load stations.json:', err);
     });
+
+  // -----------------------------------------------------------------------
+  // Search control
+  // -----------------------------------------------------------------------
+
+  function addSearchControl() {
+    var search = L.control({ position: 'topright' });
+    search.onAdd = function () {
+      var wrap = L.DomUtil.create('div', 'station-search');
+      wrap.innerHTML =
+        '<input type="text" id="station-search-input" placeholder="Search stations...">' +
+        '<ul id="station-search-results"></ul>';
+      L.DomEvent.disableClickPropagation(wrap);
+      L.DomEvent.disableScrollPropagation(wrap);
+      return wrap;
+    };
+    search.addTo(map);
+
+    var input = document.getElementById('station-search-input');
+    var resultsList = document.getElementById('station-search-results');
+
+    input.addEventListener('input', function () {
+      var q = input.value.trim().toLowerCase();
+      resultsList.innerHTML = '';
+      if (q.length < 2) return;
+
+      var matches = allStations.filter(function (s) {
+        return s.site_name.toLowerCase().indexOf(q) !== -1 ||
+          (s.country && s.country.toLowerCase().indexOf(q) !== -1) ||
+          s.station_id.toLowerCase().indexOf(q) !== -1;
+      }).slice(0, 12);
+
+      matches.forEach(function (s) {
+        var li = document.createElement('li');
+        li.textContent = s.site_name + (s.country ? ' (' + s.country + ')' : '');
+        li.addEventListener('click', function () {
+          resultsList.innerHTML = '';
+          input.value = s.site_name;
+          var marker = markerById[s.station_id];
+          if (marker) {
+            map.flyTo([s.latitude, s.longitude], 8, { duration: 0.8 });
+            marker.openPopup();
+            selectStation(s.station_id, marker);
+          }
+        });
+        resultsList.appendChild(li);
+      });
+    });
+
+    // Close results on outside click
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.station-search')) {
+        resultsList.innerHTML = '';
+      }
+    });
+  }
 
   // -----------------------------------------------------------------------
   // Legend

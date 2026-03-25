@@ -120,6 +120,40 @@ nav a.active { font-weight: 600; }
   min-height: 0;
 }
 
+/* Station search control */
+.station-search {
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+  width: 260px;
+}
+
+.station-search input {
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.station-search ul {
+  list-style: none;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.station-search li {
+  padding: 6px 10px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  border-top: 1px solid var(--border);
+}
+
+.station-search li:hover {
+  background: var(--bg);
+}
+
 /* Leaflet popup styling */
 .leaflet-popup-content {
   font-size: 0.85rem;
