@@ -50,6 +50,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/aberdeen-abe-gbr-bodc"
   },
   {
+    "station_id": "abidjanridi-230a-civ-uhslc_rq",
+    "site_name": "Abidjanridi",
+    "country": "CIV",
+    "latitude": 5.242,
+    "longitude": -4.0,
+    "node_index": 7432059,
+    "dist_km": 1.29,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/abidjanridi-230a-civ-uhslc_rq"
+  },
+  {
     "station_id": "aburatsu-354-jpn-uhslc_fd",
     "site_name": "Aburatsu",
     "country": "JPN",
@@ -148,6 +158,36 @@
     "node_index": 3885453,
     "dist_km": 0.1,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/adak_island-9461380-usa-noaa"
+  },
+  {
+    "station_id": "ajaccio_aspretto-300-fra-refmar",
+    "site_name": "Ajaccio_Aspretto",
+    "country": "FRA",
+    "latitude": 41.9228,
+    "longitude": 8.76285,
+    "node_index": 6904532,
+    "dist_km": 0.55,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/ajaccio_aspretto-300-fra-refmar"
+  },
+  {
+    "station_id": "ajacciotg_60minute-aja-fra-cmems",
+    "site_name": "AjaccioTG_60minute",
+    "country": "FRA",
+    "latitude": 41.9227,
+    "longitude": 8.7629,
+    "node_index": 6904532,
+    "dist_km": 0.55,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/ajacciotg_60minute-aja-fra-cmems"
+  },
+  {
+    "station_id": "akreavenek_island-5141-can-meds",
+    "site_name": "Akreavenek_Island",
+    "country": "CAN",
+    "latitude": 63.42,
+    "longitude": -90.67,
+    "node_index": 7646843,
+    "dist_km": 0.31,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/akreavenek_island-5141-can-meds"
   },
   {
     "station_id": "akune-gs15-jpn-jodc_giaj",
@@ -268,6 +308,16 @@
     "node_index": 7107927,
     "dist_km": 1.02,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/alicante_i_outer_harbour-alio-esp-da_mm"
+  },
+  {
+    "station_id": "allison_inlet-65602-can-meds",
+    "site_name": "Allison_Inlet",
+    "country": "CAN",
+    "latitude": 74.97,
+    "longitude": -99.37,
+    "node_index": 7520425,
+    "dist_km": 1.01,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/allison_inlet-65602-can-meds"
   },
   {
     "station_id": "alvarado-400-mex-unam_hist",
@@ -730,6 +780,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/bath-bath-nld-rws_hist"
   },
   {
+    "station_id": "bay_of_woe-66580-can-meds",
+    "site_name": "Bay_Of_Woe",
+    "country": "CAN",
+    "latitude": 76.42,
+    "longitude": -89.07,
+    "node_index": 8151398,
+    "dist_km": 1.15,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/bay_of_woe-66580-can-meds"
+  },
+  {
     "station_id": "bay_waveland_yacht_club-8747437-usa-noaa",
     "site_name": "Bay_Waveland_Yacht_Club",
     "country": "USA",
@@ -838,6 +898,16 @@
     "node_index": 10965250,
     "dist_km": 1.13,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/belledune-2145-can-meds"
+  },
+  {
+    "station_id": "bere_bay-66588-can-meds",
+    "site_name": "Bere_Bay",
+    "country": "CAN",
+    "latitude": 76.95,
+    "longitude": -94.17,
+    "node_index": 7376859,
+    "dist_km": 0.54,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/bere_bay-66588-can-meds"
   },
   {
     "station_id": "bergen-bgo-nor-nhs",
@@ -1058,6 +1128,16 @@
     "node_index": 11263959,
     "dist_km": 0.03,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/boston_ma-741a-usa-uhslc_rq"
+  },
+  {
+    "station_id": "botany_bay-60390-aus-bom",
+    "site_name": "Botany_Bay",
+    "country": "AUS",
+    "latitude": -33.9684,
+    "longitude": 151.2204,
+    "node_index": 4687259,
+    "dist_km": 4.4,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/botany_bay-60390-aus-bom"
   },
   {
     "station_id": "boulogne_sur_mer-111-fra-refmar",
@@ -1600,6 +1680,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/cape_parry-6360-can-meds"
   },
   {
+    "station_id": "cape_southwest-66598-can-meds",
+    "site_name": "Cape_Southwest",
+    "country": "CAN",
+    "latitude": 78.22,
+    "longitude": -91.83,
+    "node_index": 7271733,
+    "dist_km": 1.41,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/cape_southwest-66598-can-meds"
+  },
+  {
     "station_id": "cape_stang-66128-can-meds",
     "site_name": "Cape_Stang",
     "country": "CAN",
@@ -1728,6 +1818,16 @@
     "node_index": 6331404,
     "dist_km": 0.96,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/catania-cat-ita-ispra"
+  },
+  {
+    "station_id": "cedar_creek-8537101-usa-noaa",
+    "site_name": "Cedar_Creek",
+    "country": "USA",
+    "latitude": 39.2983,
+    "longitude": -75.2467,
+    "node_index": 11897224,
+    "dist_km": 0.04,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/cedar_creek-8537101-usa-noaa"
   },
   {
     "station_id": "cedar_island-8655151-usa-noaa",
@@ -2490,6 +2590,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/dauphin_island-8735180-usa-noaa"
   },
   {
+    "station_id": "dauphin_island_al-763a-usa-uhslc_rq",
+    "site_name": "Dauphin_Island_AL",
+    "country": "USA",
+    "latitude": 30.25,
+    "longitude": -88.075,
+    "node_index": 9900714,
+    "dist_km": 0.04,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/dauphin_island_al-763a-usa-uhslc_rq"
+  },
+  {
     "station_id": "daytona_beach_shores-8721120-usa-noaa",
     "site_name": "Daytona_Beach_Shores",
     "country": "USA",
@@ -2518,6 +2628,16 @@
     "node_index": 7506197,
     "dist_km": 16.32,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/deeneplaat-deenpt-nld-rws_hist"
+  },
+  {
+    "station_id": "deepwater-8538231-usa-noaa",
+    "site_name": "Deepwater",
+    "country": "USA",
+    "latitude": 39.6833,
+    "longitude": -75.51,
+    "node_index": 8612241,
+    "dist_km": 0.06,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/deepwater-8538231-usa-noaa"
   },
   {
     "station_id": "deer_island-8743812-usa-noaa",
@@ -2778,6 +2898,26 @@
     "node_index": 6074343,
     "dist_km": 1.06,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/durban-181a-zaf-uhslc_rq"
+  },
+  {
+    "station_id": "dutch_harbor_ak-041-usa-uhslc_fd",
+    "site_name": "Dutch_Harbor_AK",
+    "country": "USA",
+    "latitude": 53.88,
+    "longitude": -166.538,
+    "node_index": 3471001,
+    "dist_km": 0.12,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/dutch_harbor_ak-041-usa-uhslc_fd"
+  },
+  {
+    "station_id": "dutch_harbor_ak-041b-usa-uhslc_rq",
+    "site_name": "Dutch_Harbor_AK",
+    "country": "USA",
+    "latitude": 53.88,
+    "longitude": -166.537,
+    "node_index": 3471001,
+    "dist_km": 0.09,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/dutch_harbor_ak-041b-usa-uhslc_rq"
   },
   {
     "station_id": "dzaoudzi-155-fra-uhslc_fd",
@@ -3078,6 +3218,16 @@
     "node_index": 5955598,
     "dist_km": 1.26,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/faraday-700a-ata-uhslc_rq"
+  },
+  {
+    "station_id": "felixstowe-fel-gbr-bodc",
+    "site_name": "Felixstowe",
+    "country": "GBR",
+    "latitude": 51.95769,
+    "longitude": 1.34656,
+    "node_index": 7572892,
+    "dist_km": 1.73,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/felixstowe-fel-gbr-bodc"
   },
   {
     "station_id": "fernandina_beach-240a-usa-uhslc_rq",
@@ -3680,6 +3830,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/goods_island-58200-aus-bom"
   },
   {
+    "station_id": "gooseneck_bridge-8531925-usa-noaa",
+    "site_name": "Gooseneck_Bridge",
+    "country": "USA",
+    "latitude": 40.3267,
+    "longitude": -74.0167,
+    "node_index": 13310349,
+    "dist_km": 0.11,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/gooseneck_bridge-8531925-usa-noaa"
+  },
+  {
     "station_id": "gordon_floridawestcoast-gordo-usa-sfwmd",
     "site_name": "Gordon_FloridaWestCoast",
     "country": "USA",
@@ -3748,6 +3908,26 @@
     "node_index": 7468702,
     "dist_km": 1.23,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/goteborgtorshamnen-got-swe-cmems"
+  },
+  {
+    "station_id": "gouda_brug-goudbg-nld-rws",
+    "site_name": "Gouda_brug",
+    "country": "NLD",
+    "latitude": 52.00678,
+    "longitude": 4.72059,
+    "node_index": 7751918,
+    "dist_km": 30.85,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/gouda_brug-goudbg-nld-rws"
+  },
+  {
+    "station_id": "gouda_brug-goudbg-nld-rws_hist",
+    "site_name": "Gouda_brug",
+    "country": "NLD",
+    "latitude": 52.00678,
+    "longitude": 4.72059,
+    "node_index": 7751918,
+    "dist_km": 30.85,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/gouda_brug-goudbg-nld-rws_hist"
   },
   {
     "station_id": "gouda_hanepraaisluis-goudhnpss-nld-rws_hist",
@@ -3980,6 +4160,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/hakodate-ma06-jpn-jodc_jma"
   },
   {
+    "station_id": "haldeman_navd88-halde-usa-sfwmd",
+    "site_name": "Haldeman_NAVD88",
+    "country": "USA",
+    "latitude": 26.12306,
+    "longitude": -81.76278,
+    "node_index": 9984890,
+    "dist_km": 0.07,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/haldeman_navd88-halde-usa-sfwmd"
+  },
+  {
     "station_id": "halfmoon_bay_bc-7830-can-meds",
     "site_name": "Halfmoon_Bay_BC",
     "country": "CAN",
@@ -4118,6 +4308,16 @@
     "node_index": 7353861,
     "dist_km": 0.29,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/hansweert-hanswt-nld-rws_hist"
+  },
+  {
+    "station_id": "haringvliet_10-harvt10-nld-rws_hist",
+    "site_name": "Haringvliet_10",
+    "country": "NLD",
+    "latitude": 51.86313,
+    "longitude": 3.86077,
+    "node_index": 7674686,
+    "dist_km": 1.8,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/haringvliet_10-harvt10-nld-rws_hist"
   },
   {
     "station_id": "haringvlietsluizen_binnen-harvszbnn-nld-rws_hist",
@@ -4300,6 +4500,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/hellevoetsluis-hellvss-nld-rws_hist"
   },
   {
+    "station_id": "hellgate_north-66584-can-meds",
+    "site_name": "Hellgate_North",
+    "country": "CAN",
+    "latitude": 76.9,
+    "longitude": -89.42,
+    "node_index": 7801411,
+    "dist_km": 1.21,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/hellgate_north-66584-can-meds"
+  },
+  {
     "station_id": "helsinki-hel-fin-cmems",
     "site_name": "Helsinki",
     "country": "FIN",
@@ -4368,6 +4578,16 @@
     "node_index": 1650673,
     "dist_km": 0.74,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/higgins_passage_bc-9056-can-meds"
+  },
+  {
+    "station_id": "highlands_bridge-8531712-usa-noaa",
+    "site_name": "Highlands_Bridge",
+    "country": "USA",
+    "latitude": 40.3967,
+    "longitude": -73.9817,
+    "node_index": 13332093,
+    "dist_km": 0.07,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/highlands_bridge-8531712-usa-noaa"
   },
   {
     "station_id": "hilo-1617760-usa-noaa",
@@ -4740,6 +4960,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/hunts_pt-8518621-usa-noaa"
   },
   {
+    "station_id": "husted_lnd-8537103-usa-noaa",
+    "site_name": "Husted_Lnd",
+    "country": "USA",
+    "latitude": 39.3517,
+    "longitude": -75.2583,
+    "node_index": 11030247,
+    "dist_km": 0.04,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/husted_lnd-8537103-usa-noaa"
+  },
+  {
     "station_id": "hyde_parker_island-66770-can-meds",
     "site_name": "Hyde_Parker_Island",
     "country": "CAN",
@@ -4748,6 +4978,16 @@
     "node_index": 7354934,
     "dist_km": 1.33,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/hyde_parker_island-66770-can-meds"
+  },
+  {
+    "station_id": "hyperite_point-66605-can-meds",
+    "site_name": "Hyperite_Point",
+    "country": "CAN",
+    "latitude": 78.13,
+    "longitude": -88.88,
+    "node_index": 7344131,
+    "dist_km": 1.55,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/hyperite_point-66605-can-meds"
   },
   {
     "station_id": "ijmuiden_buitenhaven-ijmdbthvn-nld-rws",
@@ -5380,6 +5620,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/kemi_ajos-100539-fin-fmi"
   },
   {
+    "station_id": "keppel_harbour-327a-sgp-uhslc_rq",
+    "site_name": "Keppel_Harbour",
+    "country": "SGP",
+    "latitude": 1.263,
+    "longitude": 103.822,
+    "node_index": 3274697,
+    "dist_km": 1.44,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/keppel_harbour-327a-sgp-uhslc_rq"
+  },
+  {
     "station_id": "kerguelen-23-fra-refmar",
     "site_name": "Kerguelen",
     "country": "FRA",
@@ -5470,6 +5720,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/key_west_fl-242a-usa-uhslc_rq"
   },
   {
+    "station_id": "khal_10-135a-bgd-uhslc_rq",
+    "site_name": "Khal_10",
+    "country": "BGD",
+    "latitude": 22.267,
+    "longitude": 91.817,
+    "node_index": 4467687,
+    "dist_km": 4.42,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/khal_10-135a-bgd-uhslc_rq"
+  },
+  {
     "station_id": "kiptopeke-8632200-usa-noaa",
     "site_name": "Kiptopeke",
     "country": "USA",
@@ -5548,6 +5808,16 @@
     "node_index": 1146626,
     "dist_km": 0.1,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/kochi-ma38-jpn-jodc_jma"
+  },
+  {
+    "station_id": "kodiak-9457283-usa-noaa",
+    "site_name": "Kodiak",
+    "country": "USA",
+    "latitude": 57.745,
+    "longitude": -152.483,
+    "node_index": 920164,
+    "dist_km": 0.22,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/kodiak-9457283-usa-noaa"
   },
   {
     "station_id": "kodiak_isl_alaska-039a-usa-uhslc_rq",
@@ -5800,6 +6070,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/kushiro-ma04-jpn-jodc_jma"
   },
   {
+    "station_id": "kuujjuaq-4298-can-meds",
+    "site_name": "Kuujjuaq",
+    "country": "CAN",
+    "latitude": 58.1,
+    "longitude": -68.32,
+    "node_index": 9193209,
+    "dist_km": 37.2,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/kuujjuaq-4298-can-meds"
+  },
+  {
     "station_id": "kwajalein-055-mhl-uhslc_fd",
     "site_name": "Kwajalein",
     "country": "MHL",
@@ -5958,6 +6238,16 @@
     "node_index": 213346,
     "dist_km": 0.06,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/ladysmith_bc-7460-can-meds"
+  },
+  {
+    "station_id": "laiemaloo-1612702-usa-noaa",
+    "site_name": "Laiemaloo",
+    "country": "USA",
+    "latitude": 21.6367,
+    "longitude": -157.922,
+    "node_index": 2945316,
+    "dist_km": 0.07,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/laiemaloo-1612702-usa-noaa"
   },
   {
     "station_id": "lake_worth_pier-8722670-usa-noaa",
@@ -6320,6 +6610,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/lile_aux_grues-3180-can-meds"
   },
   {
+    "station_id": "lime_tree_bay-9751401-usa-noaa",
+    "site_name": "Lime_Tree_Bay",
+    "country": "USA",
+    "latitude": 17.6947,
+    "longitude": -64.7538,
+    "node_index": 11237750,
+    "dist_km": 0.04,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/lime_tree_bay-9751401-usa-noaa"
+  },
+  {
     "station_id": "limon-268a-cri-uhslc_rq",
     "site_name": "Limon",
     "country": "CRI",
@@ -6498,6 +6798,16 @@
     "node_index": 7615377,
     "dist_km": 0.74,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/lowestoft-low-gbr-bodc"
+  },
+  {
+    "station_id": "lowther_island-65590-can-meds",
+    "site_name": "Lowther_Island",
+    "country": "CAN",
+    "latitude": 74.65,
+    "longitude": -97.42,
+    "node_index": 7753428,
+    "dist_km": 0.2,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/lowther_island-65590-can-meds"
   },
   {
     "station_id": "luderitz-702-zaf-uhslc_fd",
@@ -6760,6 +7070,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/maloytg-mal-nor-cmems"
   },
   {
+    "station_id": "manasquan_inlet-8532591-usa-noaa",
+    "site_name": "Manasquan_Inlet",
+    "country": "USA",
+    "latitude": 40.1017,
+    "longitude": -74.035,
+    "node_index": 13310427,
+    "dist_km": 0.05,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/manasquan_inlet-8532591-usa-noaa"
+  },
+  {
     "station_id": "manta-089a-ecu-uhslc_rq",
     "site_name": "Manta",
     "country": "ECU",
@@ -6788,6 +7108,16 @@
     "node_index": 4301260,
     "dist_km": 0.33,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/manzanillo-395a-mex-uhslc_rq"
+  },
+  {
+    "station_id": "maputo-190b-moz-uhslc_rq",
+    "site_name": "Maputo",
+    "country": "MOZ",
+    "latitude": -25.975,
+    "longitude": 32.57,
+    "node_index": 5943442,
+    "dist_km": 2.54,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/maputo-190b-moz-uhslc_rq"
   },
   {
     "station_id": "marcus_hook-8540433-usa-noaa",
@@ -7810,6 +8140,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/neuville-3280-can-meds"
   },
   {
+    "station_id": "new_canal_station-8761927-usa-noaa",
+    "site_name": "New_Canal_Station",
+    "country": "USA",
+    "latitude": 30.02722,
+    "longitude": -90.11333,
+    "node_index": 6998549,
+    "dist_km": 0.07,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/new_canal_station-8761927-usa-noaa"
+  },
+  {
     "station_id": "new_london-8461490-usa-noaa",
     "site_name": "New_London",
     "country": "USA",
@@ -7828,6 +8168,16 @@
     "node_index": 12888014,
     "dist_km": 0.03,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/new_london_ct-744a-usa-uhslc_rq"
+  },
+  {
+    "station_id": "new_point-8637289-usa-noaa",
+    "site_name": "New_Point",
+    "country": "USA",
+    "latitude": 37.3467,
+    "longitude": -76.2733,
+    "node_index": 12212136,
+    "dist_km": 0.07,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/new_point-8637289-usa-noaa"
   },
   {
     "station_id": "new_point-8637590-usa-noaa",
@@ -7878,6 +8228,16 @@
     "node_index": 4640818,
     "dist_km": 0.74,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/newcastle-60310-aus-bom"
+  },
+  {
+    "station_id": "newhaven-nha-gbr-bodc",
+    "site_name": "Newhaven",
+    "country": "GBR",
+    "latitude": 50.78178,
+    "longitude": 0.05703,
+    "node_index": 8370521,
+    "dist_km": 1.11,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/newhaven-nha-gbr-bodc"
   },
   {
     "station_id": "newhaven-nha-gbr-da_idh",
@@ -7968,6 +8328,26 @@
     "node_index": 979146,
     "dist_km": 0.15,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/nezugaseki-gs07-jpn-jodc_giaj"
+  },
+  {
+    "station_id": "nice-339-fra-refmar",
+    "site_name": "Nice",
+    "country": "FRA",
+    "latitude": 43.69551,
+    "longitude": 7.28526,
+    "node_index": 6874621,
+    "dist_km": 0.38,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/nice-339-fra-refmar"
+  },
+  {
+    "station_id": "nicetg_60minute-nic-fra-cmems",
+    "site_name": "NiceTG_60minute",
+    "country": "FRA",
+    "latitude": 43.6956,
+    "longitude": 7.2855,
+    "node_index": 6874621,
+    "dist_km": 0.39,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/nicetg_60minute-nic-fra-cmems"
   },
   {
     "station_id": "nieuwe_statenzijl-nieuwstzl-nld-rws_hist",
@@ -8108,6 +8488,16 @@
     "node_index": 13121763,
     "dist_km": 0.12,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/northville-8512987-usa-noaa"
+  },
+  {
+    "station_id": "norwegian_bay-66595-can-meds",
+    "site_name": "Norwegian_Bay",
+    "country": "CAN",
+    "latitude": 77.7,
+    "longitude": -88.95,
+    "node_index": 7445481,
+    "dist_km": 1.22,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/norwegian_bay-66595-can-meds"
   },
   {
     "station_id": "nosy_be-150a-mdg-uhslc_rq",
@@ -8580,6 +8970,26 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/oudeschild-oudsd-nld-rws_hist"
   },
   {
+    "station_id": "ouinne-334-fra-refmar",
+    "site_name": "Ouinne",
+    "country": "FRA",
+    "latitude": -21.98288,
+    "longitude": 166.68328,
+    "node_index": 4114339,
+    "dist_km": 3.62,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/ouinne-334-fra-refmar"
+  },
+  {
+    "station_id": "ouinnetg_60minute-oui-fra-cmems",
+    "site_name": "OuinneTG_60minute",
+    "country": "FRA",
+    "latitude": -21.98288,
+    "longitude": 166.68327,
+    "node_index": 4114339,
+    "dist_km": 3.62,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/ouinnetg_60minute-oui-fra-cmems"
+  },
+  {
     "station_id": "ouistreham-311-fra-refmar",
     "site_name": "Ouistreham",
     "country": "FRA",
@@ -8628,6 +9038,26 @@
     "node_index": 417468,
     "dist_km": 0.09,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/oura-ma47-jpn-jodc_jma"
+  },
+  {
+    "station_id": "ouvea-380-fra-refmar",
+    "site_name": "Ouvea",
+    "country": "FRA",
+    "latitude": -20.54982,
+    "longitude": 166.56187,
+    "node_index": 4123841,
+    "dist_km": 0.64,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/ouvea-380-fra-refmar"
+  },
+  {
+    "station_id": "ouveatg_60minute-ouv-fra-cmems",
+    "site_name": "OuveaTG_60minute",
+    "country": "FRA",
+    "latitude": -20.54982,
+    "longitude": 166.56187,
+    "node_index": 4123841,
+    "dist_km": 0.64,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/ouveatg_60minute-ouv-fra-cmems"
   },
   {
     "station_id": "owase-ma24-jpn-jodc_jma",
@@ -9340,6 +9770,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/port_ellen_islay-isl-gbr-bodc"
   },
   {
+    "station_id": "port_giles-61685-aus-bom",
+    "site_name": "Port_Giles",
+    "country": "AUS",
+    "latitude": -35.0218,
+    "longitude": 137.7683,
+    "node_index": 4849586,
+    "dist_km": 0.43,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/port_giles-61685-aus-bom"
+  },
+  {
     "station_id": "port_hardy_bc-8408-can-meds",
     "site_name": "Port_Hardy_BC",
     "country": "CAN",
@@ -9560,6 +10000,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/port_tudy-71-fra-refmar"
   },
   {
+    "station_id": "port_vendres-75-fra-refmar",
+    "site_name": "Port_Vendres",
+    "country": "FRA",
+    "latitude": 42.51992,
+    "longitude": 3.10745,
+    "node_index": 6844952,
+    "dist_km": 1.12,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/port_vendres-75-fra-refmar"
+  },
+  {
     "station_id": "port_victoria-111a-syc-uhslc_rq",
     "site_name": "Port_Victoria",
     "country": "SYC",
@@ -9678,6 +10128,16 @@
     "node_index": 9242158,
     "dist_km": 0.01,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/porttudytg_60minute-por-fra-cmems"
+  },
+  {
+    "station_id": "portvendrestg_60minute-por-fra-cmems",
+    "site_name": "PortVendresTG_60minute",
+    "country": "FRA",
+    "latitude": 42.5201,
+    "longitude": 3.1073,
+    "node_index": 6844952,
+    "dist_km": 1.12,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/portvendrestg_60minute-por-fra-cmems"
   },
   {
     "station_id": "postville-1397-can-meds",
@@ -10040,6 +10500,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/razernijpolder-raznpdr-nld-rws_hist"
   },
   {
+    "station_id": "red_bank-8531833-usa-noaa",
+    "site_name": "Red_Bank",
+    "country": "USA",
+    "latitude": 40.355,
+    "longitude": -74.065,
+    "node_index": 13261588,
+    "dist_km": 0.08,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/red_bank-8531833-usa-noaa"
+  },
+  {
     "station_id": "redwood_city-9414523-usa-noaa",
     "site_name": "Redwood_City",
     "country": "USA",
@@ -10200,6 +10670,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/ringhals-rin-swe-cmems"
   },
   {
+    "station_id": "rio_grande-714a-bra-uhslc_rq",
+    "site_name": "Rio_Grande",
+    "country": "BRA",
+    "latitude": -32.138,
+    "longitude": -52.103,
+    "node_index": 6800397,
+    "dist_km": 0.92,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/rio_grande-714a-bra-uhslc_rq"
+  },
+  {
     "station_id": "riverdale-8518905-usa-noaa",
     "site_name": "Riverdale",
     "country": "USA",
@@ -10228,6 +10708,16 @@
     "node_index": 11623240,
     "dist_km": 0.91,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/riviere_au_renard-2330-can-meds"
+  },
+  {
+    "station_id": "roberts_bank_bc-7592-can-meds",
+    "site_name": "Roberts_Bank_BC",
+    "country": "CAN",
+    "latitude": 49.02,
+    "longitude": -123.16,
+    "node_index": 409105,
+    "dist_km": 0.11,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/roberts_bank_bc-7592-can-meds"
   },
   {
     "station_id": "rockport-8774770-usa-noaa",
@@ -10398,6 +10888,16 @@
     "node_index": 7506197,
     "dist_km": 12.43,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/s_gravendeel-gravdl-nld-rws_hist"
+  },
+  {
+    "station_id": "sable_island_2-40551-can-meds",
+    "site_name": "Sable_Island_2",
+    "country": "CAN",
+    "latitude": 44.03,
+    "longitude": -59.6,
+    "node_index": 12834804,
+    "dist_km": 0.74,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/sable_island_2-40551-can-meds"
   },
   {
     "station_id": "sachs_harbour-6424-can-meds",
@@ -11030,6 +11530,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/scruz_d_palma-206b-esp-uhslc_rq"
   },
   {
+    "station_id": "sea_bright-8531804-usa-noaa",
+    "site_name": "Sea_Bright",
+    "country": "USA",
+    "latitude": 40.365,
+    "longitude": -73.975,
+    "node_index": 13333005,
+    "dist_km": 0.04,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/sea_bright-8531804-usa-noaa"
+  },
+  {
     "station_id": "seal_cove_bc-9360-can-meds",
     "site_name": "Seal_Cove_BC",
     "country": "CAN",
@@ -11108,6 +11618,16 @@
     "node_index": 6800933,
     "dist_km": 1.36,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/setetg_60minute-set-fra-cmems"
+  },
+  {
+    "station_id": "sevigny_point-5310-can-meds",
+    "site_name": "Sevigny_Point",
+    "country": "CAN",
+    "latitude": 69.78,
+    "longitude": -82.12,
+    "node_index": 7272121,
+    "dist_km": 1.44,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/sevigny_point-5310-can-meds"
   },
   {
     "station_id": "seward-9455090-usa-noaa",
@@ -11208,6 +11728,16 @@
     "node_index": 11844476,
     "dist_km": 1.18,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/shelburne-425-can-meds"
+  },
+  {
+    "station_id": "shell_beach-8761305-usa-noaa",
+    "site_name": "Shell_Beach",
+    "country": "USA",
+    "latitude": 29.8683,
+    "longitude": -89.673,
+    "node_index": 7941618,
+    "dist_km": 0.11,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/shell_beach-8761305-usa-noaa"
   },
   {
     "station_id": "shibaura-hd07-jpn-jodc_jcg",
@@ -11328,6 +11858,16 @@
     "node_index": 1323850,
     "dist_km": 0.43,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/sitka_ak-559a-usa-uhslc_rq"
+  },
+  {
+    "station_id": "skagway-9452400-usa-noaa",
+    "site_name": "Skagway",
+    "country": "USA",
+    "latitude": 59.4508,
+    "longitude": -135.328,
+    "node_index": 468187,
+    "dist_km": 0.23,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/skagway-9452400-usa-noaa"
   },
   {
     "station_id": "smithers_island_bc-9067-can-meds",
@@ -11938,6 +12478,16 @@
     "node_index": 7722064,
     "dist_km": 1.0,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/stuart_bay-66760-can-meds"
+  },
+  {
+    "station_id": "suape-710a-bra-uhslc_rq",
+    "site_name": "Suape",
+    "country": "BRA",
+    "latitude": -8.35,
+    "longitude": -34.95,
+    "node_index": 8370201,
+    "dist_km": 1.26,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/suape-710a-bra-uhslc_rq"
   },
   {
     "station_id": "sumoto-ma32-jpn-jodc_jma",
@@ -12650,6 +13200,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/ullapool-ull-gbr-bodc"
   },
   {
+    "station_id": "unalaska-9462620-usa-noaa",
+    "site_name": "Unalaska",
+    "country": "USA",
+    "latitude": 53.87919,
+    "longitude": -166.54031,
+    "node_index": 3471001,
+    "dist_km": 0.29,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/unalaska-9462620-usa-noaa"
+  },
+  {
     "station_id": "union_city_hudson_river-8530645-usa-noaa",
     "site_name": "Union_City_Hudson_River",
     "country": "USA",
@@ -13240,6 +13800,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/waretown_barnegat_bay-8533541-usa-noaa"
   },
   {
+    "station_id": "warren_islands_bc-8254-can-meds",
+    "site_name": "Warren_Islands_BC",
+    "country": "CAN",
+    "latitude": 50.58,
+    "longitude": -126.19,
+    "node_index": 199231,
+    "dist_km": 0.05,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/warren_islands_bc-8254-can-meds"
+  },
+  {
     "station_id": "washington-8594900-usa-noaa",
     "site_name": "Washington",
     "country": "USA",
@@ -13258,6 +13828,16 @@
     "node_index": 3457387,
     "dist_km": 3.93,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/weipa_humbug_point-63620-aus-bom"
+  },
+  {
+    "station_id": "weiser_point-9435308-usa-noaa",
+    "site_name": "Weiser_Point",
+    "country": "USA",
+    "latitude": 44.5933,
+    "longitude": -124.008,
+    "node_index": 1719073,
+    "dist_km": 0.26,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/weiser_point-9435308-usa-noaa"
   },
   {
     "station_id": "wellington-071-nzl-uhslc_fd",
@@ -13530,6 +14110,16 @@
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/willets_point-8516990-usa-noaa"
   },
   {
+    "station_id": "wilmington-8550714-usa-noaa",
+    "site_name": "Wilmington",
+    "country": "USA",
+    "latitude": 39.7183,
+    "longitude": -75.52,
+    "node_index": 8331867,
+    "dist_km": 0.07,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/wilmington-8550714-usa-noaa"
+  },
+  {
     "station_id": "wilmington-8658120-usa-noaa",
     "site_name": "Wilmington",
     "country": "USA",
@@ -13748,6 +14338,16 @@
     "node_index": 909210,
     "dist_km": 1.02,
     "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/zeballos_bc-8670-can-meds"
+  },
+  {
+    "station_id": "zeelandbrug_noord-zeelbnd-nld-rws",
+    "site_name": "Zeelandbrug_noord",
+    "country": "NLD",
+    "latitude": 51.62668,
+    "longitude": 3.90973,
+    "node_index": 7545653,
+    "dist_km": 0.4,
+    "gesla_file": "/lcrc/project/CC_Nuc_Infra/STOFS2D-Global_SurgeMIP/GESLAv4/zeelandbrug_noord-zeelbnd-nld-rws"
   },
   {
     "station_id": "zhapo-635a-chn-uhslc_rq",

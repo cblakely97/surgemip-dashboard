@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "scenarios": [
     {
       "id": "cfs-reanalysis",
@@ -8,11 +8,10 @@
       "end_year": 2024,
       "completed_years": [
         1979,
-        1980
+        1980,
+        1981
       ],
-      "status": "running",
-      "running_year": 1981,
-      "running_pct": 54.8
+      "status": "running"
     },
     {
       "id": "hadgem-present",
@@ -20,8 +19,7 @@
       "start_year": 1979,
       "end_year": 2014,
       "completed_years": [],
-      "status": "queued",
-      "queued": true
+      "status": "pending"
     },
     {
       "id": "hadgem-future",
