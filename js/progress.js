@@ -37,7 +37,6 @@
       var total = sc.end_year - sc.start_year + 1;
       var completedSet = {};
       sc.completed_years.forEach(function (y) { completedSet[y] = true; });
-      var isCFS = sc.id === 'cfs-reanalysis';
       var runningYear = sc.running_year || null;
       var runningPct = sc.running_pct != null ? sc.running_pct : null;
       var isQueued = sc.queued || sc.status === 'queued';
@@ -58,7 +57,7 @@
         var year = sc.start_year + j;
         var done = !!completedSet[year];
         var isRunning = year === runningYear;
-        var label = isCFS ? String(year) : String(j + 1);
+        var label = String(year);
 
         var color, hoverSuffix;
         if (done) {
