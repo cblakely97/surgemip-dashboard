@@ -14,7 +14,8 @@
       ],
       "status": "running",
       "running_year": 1983,
-      "running_pct": 56.2
+      "running_pct": 75.3,
+      "queued": true
     },
     {
       "id": "hadgem-present",
@@ -30,8 +31,9 @@
       "start_year": 2015,
       "end_year": 2050,
       "completed_years": [],
-      "status": "queued",
-      "queued": true
+      "status": "running",
+      "running_year": 2015,
+      "running_pct": 9.6
     }
   ]
 }
