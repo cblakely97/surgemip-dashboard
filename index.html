@@ -32,6 +32,34 @@
   </div>
 
   <div class="card">
+    <h2>About STOFS-2D-Global</h2>
+    <p>
+      STOFS-2D-Global (Surge and Tide Operational Forecast System) is
+      NOAA's ADCIRC-driven global storm surge model, developed
+      collaboratively by NOAA/NOS/OCS and the
+      <a href="https://chl.crc.nd.edu/" target="_blank">Computational Hydraulics
+      Laboratory</a> at the University of Notre Dame. The system provides
+      global coverage with sub-kilometer resolution in US coastal waters.
+    </p>
+    <p>
+      The Notre Dame CHL operates a
+      <a href="https://chl.crc.nd.edu/" target="_blank">Shadow Model</a>,
+      a development instance of STOFS-2D-Global that runs once-daily
+      7-day forecasts beginning at midnight UTC. The Shadow Model is
+      validated daily against hundreds of NOAA CO-OPS and UNESCO
+      stations, with a complete forecast archive available for skill
+      assessment. Operational forecasts are also available via the
+      <a href="https://registry.opendata.aws/noaa-gestofs/" target="_blank">AWS
+      Open Data</a> registry.
+    </p>
+    <p>
+      For this SurgeMIP contribution, we use the same STOFS-2D-Global
+      mesh and model configuration to produce multi-decade hindcasts
+      and climate projections.
+    </p>
+  </div>
+
+  <div class="card">
     <h2>Model Configuration</h2>
     <table class="config-table">
       <tr><td>Model</td><td>ADCIRC v56.2 (2D barotropic)</td></tr>
@@ -201,7 +229,7 @@
     <p>
       Model output is compared against tide gauge observations from the
       <a href="https://gesla787883612.wordpress.com/" target="_blank">GESLA v4</a> dataset
-      (Global Extreme Sea Level Analysis). For each station within 50 km of a
+      (Global Extreme Sea Level Analysis). For each station within 5 km of a
       mesh node, we compute correlation, RMSE, and bias after applying a
       5-day lagged bias correction to remove mean sea level offsets.
       Results are shown on the
@@ -213,15 +241,13 @@
     <h2>References</h2>
     <ol class="references">
       <li>
-        <!-- TODO: verify -->
-        Dullaart, J.C.M., et al. (2024). Storm surges and extreme sea levels:
+        Bernier, N.B., et al. (2024). Storm surges and extreme sea levels:
         Review, establishment of model intercomparison and coordination of surge
         climate projection efforts (SurgeMIP).
         <em>Weather and Climate Extremes</em>, 45, 100689.
         <a href="https://doi.org/10.1016/j.wace.2024.100689" target="_blank">doi:10.1016/j.wace.2024.100689</a>
       </li>
       <li>
-        <!-- TODO: verify -->
         Luettich, R.A., Westerink, J.J., &amp; Scheffner, N.W. (1992).
         ADCIRC: An Advanced Three-Dimensional Circulation Model for Shelves,
         Coasts, and Estuaries. Report 1: Theory and Methodology of ADCIRC-2DDI
@@ -230,25 +256,31 @@
         Experiment Station, Vicksburg, MS.
       </li>
       <li>
-        <!-- TODO: verify -->
         Dietrich, J.C., et al. (2011). Modeling hurricane waves and storm surge
         using integrally-coupled, scalable computations.
         <em>Coastal Engineering</em>, 58(1), 45&ndash;65.
         <a href="https://doi.org/10.1016/j.coastaleng.2010.08.001" target="_blank">doi:10.1016/j.coastaleng.2010.08.001</a>
       </li>
       <li>
-        <!-- TODO: verify -->
-        Haigh, I.D., et al. (2023). The Global Extreme Sea Level Analysis
-        (GESLA) dataset (version 4).
-        <em>Scientific Data</em>, 10, 628.
-        <a href="https://doi.org/10.1038/s41597-023-02568-3" target="_blank">doi:10.1038/s41597-023-02568-3</a>
+        Haigh, I.D., et al. (2023). GESLA Version 3: A major update to the
+        global higher-frequency sea-level dataset.
+        <em>Geoscience Data Journal</em>, 10, 293-314.
+        <a href="https://doi.org/10.1002/gdj3.174"
+            target="_blank">doi:10.1002/gdj3.174</a>
       </li>
       <li>
-        <!-- TODO: verify -->
-        Zhang, Y.J., et al. (2024). Global storm tide modeling with ADCIRC v56:
-        Unstructured mesh design and performance.
-        <em>Geoscientific Model Development</em>.
-        (STOFS2D-Global mesh)
+        NOAA/NOS/OCS. STOFS-2D-Global (Surge and Tide Operational Forecast System).
+        <a href="https://polar.ncep.noaa.gov/estofs/global/index.htm" target="_blank">polar.ncep.noaa.gov/estofs/global</a>
+      </li>
+      <li>
+        University of Notre Dame, Computational Hydraulics Laboratory.
+        STOFS-2D-Global Shadow Model.
+        <a href="https://chl.crc.nd.edu/" target="_blank">chl.crc.nd.edu</a>
+      </li>
+      <li>
+        NOAA Global Surge and Tide Operational Forecast System 2-D
+        (STOFS-2D-Global) on AWS.
+        <a href="https://registry.opendata.aws/noaa-gestofs/" target="_blank">registry.opendata.aws/noaa-gestofs</a>
       </li>
     </ol>
   </div>
@@ -257,9 +289,9 @@
     <h2>Contact</h2>
     <p>
       This project is part of the
-      <a href="https://surgemip.org" target="_blank">SurgeMIP</a>
+      <a href="https://wmo.int/surge-model-intercomparison-project-surgemip" target="_blank">SurgeMIP</a>
       model intercomparison. For questions about this contribution,
-      contact <!-- TODO: add contact email -->.
+      contact <a href="mailto:cblakely@anl.gov">cblakely@anl.gov</a>.
     </p>
     <p>
       Source code:
