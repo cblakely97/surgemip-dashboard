@@ -40,7 +40,19 @@
       var isCFS = sc.id === 'cfs-reanalysis';
       var runningYear = sc.running_year || null;
       var runningPct = sc.running_pct != null ? sc.running_pct : null;
-      var isQueued = sc.queued || false;
+      var isQueued = sc.queued || sc.status === 'queued';
+
+      // Determine which year is queued (first uncompleted year after running)
+      var queuedYear = null;
+      if (isQueued) {
+        for (var q = 0; q < total; q++) {
+          var qy = sc.start_year + q;
+          if (!completedSet[qy] && qy !== runningYear) {
+            queuedYear = qy;
+            break;
+          }
+        }
+      }
 
       for (var j = 0; j < total; j++) {
         var year = sc.start_year + j;
@@ -57,6 +69,9 @@
           hoverSuffix = runningPct != null
             ? ' (running — ' + runningPct + '%)'
             : ' (running)';
+        } else if (year === queuedYear) {
+          color = QUEUED_COLOR;
+          hoverSuffix = ' (queued)';
         } else {
           color = TODO_COLOR;
           hoverSuffix = '';
