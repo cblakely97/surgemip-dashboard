@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30",
+  "last_updated": "2026-04-07",
   "scenarios": [
     {
       "id": "cfs-reanalysis",
@@ -13,9 +13,13 @@
         1982,
         1983,
         1984,
-        1985
+        1985,
+        1986,
+        1987
       ],
-      "status": "idle"
+      "status": "running",
+      "running_year": 1988,
+      "running_pct": 0.8
     },
     {
       "id": "hadgem-present",
@@ -23,7 +27,8 @@
       "start_year": 1979,
       "end_year": 2014,
       "completed_years": [],
-      "status": "pending"
+      "status": "running",
+      "running_year": 1979
     },
     {
       "id": "hadgem-future",
@@ -31,8 +36,7 @@
       "start_year": 2015,
       "end_year": 2050,
       "completed_years": [],
-      "status": "blocked",
-      "status_detail": "NWS14 ice index bug"
+      "status": "pending"
     }
   ]
 }
