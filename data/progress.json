@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-04-10",
   "scenarios": [
     {
       "id": "cfs-reanalysis",
@@ -15,28 +15,35 @@
         1984,
         1985,
         1986,
-        1987
+        1987,
+        1988,
+        1989,
+        1990
       ],
-      "status": "running",
-      "running_year": 1988,
-      "running_pct": 0.8
+      "status": "queued",
+      "queued": true
     },
     {
       "id": "hadgem-present",
       "name": "HadGEM3-GC31-HM Present",
       "start_year": 1979,
       "end_year": 2014,
-      "completed_years": [],
-      "status": "running",
-      "running_year": 1979
+      "completed_years": [
+        1979,
+        1980
+      ],
+      "status": "partial"
     },
     {
       "id": "hadgem-future",
       "name": "HadGEM3-GC31-HM Future",
       "start_year": 2015,
       "end_year": 2050,
-      "completed_years": [],
-      "status": "pending"
+      "completed_years": [
+        2015,
+        2016
+      ],
+      "status": "partial"
     }
   ]
 }

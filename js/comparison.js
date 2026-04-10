@@ -252,11 +252,40 @@
       yaxis: 'y',
     };
 
-    // Lower subplot: residual (arrays are already aligned)
-    var residTrace = computeResidualTrace(times, data.adcirc, data.gesla);
-
+    // Lower subplot: nontidal residuals if available, else raw residual
     var traces = [geslaTrace, adcircTrace];
-    if (residTrace) traces.push(residTrace);
+    var hasNontidal = data.gesla_nontidal && data.adcirc_nontidal;
+    var lowerTraces = [];
+
+    if (hasNontidal) {
+      lowerTraces.push({
+        x: times,
+        y: data.gesla_nontidal,
+        type: 'scattergl',
+        mode: 'lines',
+        name: 'GESLA nontidal',
+        line: { color: '#000000', width: 1 },
+        connectgaps: false,
+        xaxis: 'x2',
+        yaxis: 'y2',
+      });
+      lowerTraces.push({
+        x: times,
+        y: data.adcirc_nontidal,
+        type: 'scattergl',
+        mode: 'lines',
+        name: 'ADCIRC nontidal',
+        line: { color: '#1f77b4', width: 1 },
+        connectgaps: false,
+        xaxis: 'x2',
+        yaxis: 'y2',
+      });
+    } else {
+      var residTrace = computeResidualTrace(times, data.adcirc, data.gesla);
+      if (residTrace) lowerTraces.push(residTrace);
+    }
+
+    traces = traces.concat(lowerTraces);
 
     // Metrics annotation
     var annotations = [];
@@ -294,7 +323,7 @@
         title: 'Date',
       },
       yaxis2: {
-        title: 'Residual (m)',
+        title: hasNontidal ? 'Nontidal sea level (m)' : 'Residual (m)',
         domain: [0, 0.28],
       },
       title: { text: title, font: { size: 14 } },
@@ -302,7 +331,7 @@
       legend: { orientation: 'h', y: 1.06 },
       margin: { l: 60, r: 20, t: 50, b: 40 },
       template: 'plotly_white',
-      shapes: residTrace ? [{
+      shapes: (!hasNontidal && lowerTraces.length) ? [{
         type: 'line',
         xref: 'paper', yref: 'y2',
         x0: 0, x1: 1, y0: 0, y1: 0,
