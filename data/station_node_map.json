@@ -153,6 +153,24 @@
     "country": "USA"
   },
   {
+    "station_id": "admiralty_inlet-65865-can-meds",
+    "site_name": "Admiralty_Inlet",
+    "latitude": 73.52,
+    "longitude": -85.5,
+    "node_index": 8479467,
+    "dist_km": 0.33,
+    "country": "CAN"
+  },
+  {
+    "station_id": "admiralty_island-6220-can-meds",
+    "site_name": "Admiralty_Island",
+    "latitude": 69.45,
+    "longitude": -100.99,
+    "node_index": 6861608,
+    "dist_km": 1.13,
+    "country": "CAN"
+  },
+  {
     "station_id": "ajaccio_aspretto-300-fra-refmar",
     "site_name": "Ajaccio_Aspretto",
     "latitude": 41.9228,
@@ -333,6 +351,15 @@
     "country": "MEX"
   },
   {
+    "station_id": "ambon-133a-idn-uhslc_rq",
+    "site_name": "Ambon",
+    "latitude": -3.683,
+    "longitude": 128.183,
+    "node_index": 3764615,
+    "dist_km": 5.75,
+    "country": "IDN"
+  },
+  {
     "station_id": "ammassalik-297a-dnk-uhslc_rq",
     "site_name": "Ammassalik",
     "latitude": 65.6,
@@ -358,6 +385,42 @@
     "node_index": 5900263,
     "dist_km": 0.65,
     "country": "ITA"
+  },
+  {
+    "station_id": "andenes-800-nor-uhslc_fd",
+    "site_name": "Andenes",
+    "latitude": 69.317,
+    "longitude": 16.15,
+    "node_index": 8207894,
+    "dist_km": 0.36,
+    "country": "NOR"
+  },
+  {
+    "station_id": "andenes-800a-nor-uhslc_rq",
+    "site_name": "Andenes",
+    "latitude": 69.317,
+    "longitude": 16.15,
+    "node_index": 8207894,
+    "dist_km": 0.36,
+    "country": "NOR"
+  },
+  {
+    "station_id": "andenes-anx-nor-nhs",
+    "site_name": "Andenes",
+    "latitude": 69.32607,
+    "longitude": 16.13485,
+    "node_index": 8207894,
+    "dist_km": 1.09,
+    "country": "NOR"
+  },
+  {
+    "station_id": "andenestg-and-nor-cmems",
+    "site_name": "AndenesTG",
+    "latitude": 69.32606,
+    "longitude": 16.1348,
+    "node_index": 8207894,
+    "dist_km": 1.09,
+    "country": "NOR"
   },
   {
     "station_id": "angra_heroismo-215b-prt-uhslc_rq",
@@ -412,6 +475,33 @@
     "node_index": 9307350,
     "dist_km": 0.06,
     "country": "USA"
+  },
+  {
+    "station_id": "apia-401-wsm-uhslc_fd",
+    "site_name": "Apia",
+    "latitude": -13.817,
+    "longitude": -171.75,
+    "node_index": 4423215,
+    "dist_km": 0.37,
+    "country": "WSM"
+  },
+  {
+    "station_id": "apia-401b-wsm-uhslc_rq",
+    "site_name": "Apia",
+    "latitude": -13.82,
+    "longitude": -171.757,
+    "node_index": 4423215,
+    "dist_km": 1.2,
+    "country": "WSM"
+  },
+  {
+    "station_id": "apia-66840-wsm-bom",
+    "site_name": "Apia",
+    "latitude": -13.8268,
+    "longitude": -171.7613,
+    "node_index": 4417991,
+    "dist_km": 0.82,
+    "country": "WSM"
   },
   {
     "station_id": "apra_harbor-1630000-usa-noaa",
@@ -529,6 +619,33 @@
     "node_index": 1336785,
     "dist_km": 0.11,
     "country": "JPN"
+  },
+  {
+    "station_id": "ascension-291a-gbr-uhslc_rq",
+    "site_name": "Ascension",
+    "latitude": -7.917,
+    "longitude": -14.417,
+    "node_index": 7849489,
+    "dist_km": 1.08,
+    "country": "GBR"
+  },
+  {
+    "station_id": "ascension-asc-gbr-noc",
+    "site_name": "Ascension",
+    "latitude": -7.8928,
+    "longitude": -14.3857,
+    "node_index": 7883147,
+    "dist_km": 0.39,
+    "country": "GBR"
+  },
+  {
+    "station_id": "ashley_river_near_north_charleston_sc-21720869-usa-usgs",
+    "site_name": "Ashley_River_Near_North_Charleston_Sc",
+    "latitude": 32.83462,
+    "longitude": -80.0237,
+    "node_index": 11059175,
+    "dist_km": 0.1,
+    "country": "USA"
   },
   {
     "station_id": "astoria-9439040-usa-noaa",
@@ -756,6 +873,15 @@
     "country": "USA"
   },
   {
+    "station_id": "ballen-bal-dnk-cmems",
+    "site_name": "Ballen",
+    "latitude": 55.8167,
+    "longitude": 10.6444,
+    "node_index": 7066094,
+    "dist_km": 1.14,
+    "country": "DNK"
+  },
+  {
     "station_id": "baltimore-8574680-usa-noaa",
     "site_name": "Baltimore",
     "latitude": 39.26694,
@@ -801,6 +927,15 @@
     "country": "USA"
   },
   {
+    "station_id": "barcelonatg-bar-esp-cmems",
+    "site_name": "BarcelonaTG",
+    "latitude": 41.342,
+    "longitude": 2.163,
+    "node_index": 6896703,
+    "dist_km": 0.96,
+    "country": "ESP"
+  },
+  {
     "station_id": "bari-bar-ita-ispra",
     "site_name": "Bari",
     "latitude": 41.14021,
@@ -808,6 +943,24 @@
     "node_index": 6037091,
     "dist_km": 1.66,
     "country": "ITA"
+  },
+  {
+    "station_id": "barmouth-bar-gbr-bodc",
+    "site_name": "Barmouth",
+    "latitude": 52.71933,
+    "longitude": -4.04503,
+    "node_index": 8849336,
+    "dist_km": 1.38,
+    "country": "GBR"
+  },
+  {
+    "station_id": "barmouth-bar-gbr-cmems",
+    "site_name": "Barmouth",
+    "latitude": 52.7167,
+    "longitude": -4.03333,
+    "node_index": 8849336,
+    "dist_km": 1.05,
+    "country": "GBR"
   },
   {
     "station_id": "barnegat_inlet_inside-8533615-usa-noaa",
@@ -925,6 +1078,15 @@
     "node_index": 12682453,
     "dist_km": 0.01,
     "country": "USA"
+  },
+  {
+    "station_id": "bedford_institute-491-can-meds",
+    "site_name": "Bedford_Institute",
+    "latitude": 44.68,
+    "longitude": -63.62,
+    "node_index": 12506506,
+    "dist_km": 5.43,
+    "country": "CAN"
   },
   {
     "station_id": "beihai-636a-chn-uhslc_rq",
@@ -1125,6 +1287,24 @@
     "country": "USA"
   },
   {
+    "station_id": "beverly-8442417-usa-noaa",
+    "site_name": "Beverly",
+    "latitude": 42.54,
+    "longitude": -70.8867,
+    "node_index": 11648662,
+    "dist_km": 0.04,
+    "country": "USA"
+  },
+  {
+    "station_id": "biddeford-8418828-usa-noaa",
+    "site_name": "Biddeford",
+    "latitude": 43.4917,
+    "longitude": -70.4467,
+    "node_index": 11478652,
+    "dist_km": 0.05,
+    "country": "USA"
+  },
+  {
     "station_id": "bidwell_creek_entrance-8536581-usa-noaa",
     "site_name": "Bidwell_Creek_Entrance",
     "latitude": 39.1283,
@@ -1132,6 +1312,24 @@
     "node_index": 12280624,
     "dist_km": 0.09,
     "country": "USA"
+  },
+  {
+    "station_id": "big_lagoon-8729909-usa-noaa",
+    "site_name": "Big_Lagoon",
+    "latitude": 30.3267,
+    "longitude": -87.3567,
+    "node_index": 9782062,
+    "dist_km": 0.07,
+    "country": "USA"
+  },
+  {
+    "station_id": "bilbaotg-bil-esp-cmems",
+    "site_name": "BilbaoTG",
+    "latitude": 43.357,
+    "longitude": -3.05,
+    "node_index": 9295730,
+    "dist_km": 1.25,
+    "country": "ESP"
   },
   {
     "station_id": "bill_of_portland_island-4642-can-meds",
@@ -1159,6 +1357,15 @@
     "node_index": 9043938,
     "dist_km": 0.08,
     "country": "USA"
+  },
+  {
+    "station_id": "bintulu-387a-mys-uhslc_rq",
+    "site_name": "Bintulu",
+    "latitude": 3.217,
+    "longitude": 113.067,
+    "node_index": 2489538,
+    "dist_km": 1.59,
+    "country": "MYS"
   },
   {
     "station_id": "biscaynebay_s123_t-s123-usa-sfwmd",
@@ -1258,6 +1465,15 @@
     "node_index": 9848558,
     "dist_km": 0.09,
     "country": "USA"
+  },
+  {
+    "station_id": "bonanzatg-bon-esp-cmems",
+    "site_name": "BonanzaTG",
+    "latitude": 36.8,
+    "longitude": -6.34,
+    "node_index": 8631084,
+    "dist_km": 3.15,
+    "country": "ESP"
   },
   {
     "station_id": "bonaventure-2230-can-meds",
@@ -1458,6 +1674,15 @@
     "country": "BRB"
   },
   {
+    "station_id": "bridgetown-249c-brb-uhslc_rq",
+    "site_name": "Bridgetown",
+    "latitude": 13.1,
+    "longitude": -59.617,
+    "node_index": 11524945,
+    "dist_km": 1.18,
+    "country": "BRB"
+  },
+  {
     "station_id": "brisbane-331-aus-uhslc_fd",
     "site_name": "Brisbane",
     "latitude": -27.367,
@@ -1638,6 +1863,15 @@
     "country": "USA"
   },
   {
+    "station_id": "burnie-344a-aus-uhslc_rq",
+    "site_name": "Burnie",
+    "latitude": -41.05,
+    "longitude": 145.915,
+    "node_index": 4860965,
+    "dist_km": 1.5,
+    "country": "AUS"
+  },
+  {
     "station_id": "burnie-60910-aus-bom",
     "site_name": "Burnie",
     "latitude": -41.0528,
@@ -1717,6 +1951,15 @@
     "node_index": 3440452,
     "dist_km": 1.07,
     "country": "AUS"
+  },
+  {
+    "station_id": "calahootchieriver_markh-markh-usa-sfwmd",
+    "site_name": "CalahootchieRiver_MarkH",
+    "latitude": 26.52361,
+    "longitude": -82.00472,
+    "node_index": 9596475,
+    "dist_km": 0.02,
+    "country": "USA"
   },
   {
     "station_id": "calais-55-fra-refmar",
@@ -1809,6 +2052,15 @@
     "country": "CAN"
   },
   {
+    "station_id": "camp_ellis-8418606-usa-noaa",
+    "site_name": "Camp_Ellis",
+    "latitude": 43.4617,
+    "longitude": -70.3817,
+    "node_index": 12157759,
+    "dist_km": 0.08,
+    "country": "USA"
+  },
+  {
     "station_id": "campbell_river_bc-8074-can-meds",
     "site_name": "Campbell_River_BC",
     "latitude": 50.04,
@@ -1834,6 +2086,15 @@
     "node_index": 7010012,
     "dist_km": 4.57,
     "country": "BRA"
+  },
+  {
+    "station_id": "canoe_pass_bc-7603-can-meds",
+    "site_name": "Canoe_Pass_BC",
+    "latitude": 49.08,
+    "longitude": -123.13,
+    "node_index": 334954,
+    "dist_km": 0.12,
+    "country": "CAN"
   },
   {
     "station_id": "cap_aux_meules-1970-can-meds",
@@ -1879,6 +2140,15 @@
     "node_index": 7282022,
     "dist_km": 1.4,
     "country": "CAN"
+  },
+  {
+    "station_id": "cape_bouvard-dvbvd01-aus-bom",
+    "site_name": "Cape_Bouvard",
+    "latitude": -32.60138,
+    "longitude": 115.62998,
+    "node_index": 5010097,
+    "dist_km": 1.62,
+    "country": "AUS"
   },
   {
     "station_id": "cape_brodie-66093-can-meds",
@@ -1951,6 +2221,15 @@
     "node_index": 6958619,
     "dist_km": 1.26,
     "country": "CAN"
+  },
+  {
+    "station_id": "cape_ferguson-343a-aus-uhslc_rq",
+    "site_name": "Cape_Ferguson",
+    "latitude": -19.277,
+    "longitude": 147.058,
+    "node_index": 3591811,
+    "dist_km": 1.37,
+    "country": "AUS"
   },
   {
     "station_id": "cape_ferguson-59260-aus-bom",
@@ -2178,6 +2457,15 @@
     "country": "COL"
   },
   {
+    "station_id": "cartagena-265b-col-uhslc_rq",
+    "site_name": "Cartagena",
+    "latitude": 10.39,
+    "longitude": -75.532,
+    "node_index": 10714164,
+    "dist_km": 0.26,
+    "country": "COL"
+  },
+  {
     "station_id": "cascais-209a-prt-uhslc_rq",
     "site_name": "Cascais",
     "latitude": 38.692,
@@ -2383,6 +2671,24 @@
     "node_index": 11089712,
     "dist_km": 4.37,
     "country": "CAN"
+  },
+  {
+    "station_id": "chatham-079a-nzl-uhslc_rq",
+    "site_name": "Chatham",
+    "latitude": -43.947,
+    "longitude": -176.562,
+    "node_index": 5077364,
+    "dist_km": 1.46,
+    "country": "NZL"
+  },
+  {
+    "station_id": "chatham-8447505-usa-noaa",
+    "site_name": "Chatham",
+    "latitude": 41.6667,
+    "longitude": -69.9667,
+    "node_index": 12999622,
+    "dist_km": 0.03,
+    "country": "USA"
   },
   {
     "station_id": "cheniere_caminada-8761826-usa-noaa",
@@ -2628,6 +2934,15 @@
     "country": "MEX"
   },
   {
+    "station_id": "cocodrie-8762928-usa-noaa",
+    "site_name": "Cocodrie",
+    "latitude": 29.245,
+    "longitude": -90.6617,
+    "node_index": 8871979,
+    "dist_km": 0.05,
+    "country": "USA"
+  },
+  {
     "station_id": "cocos-171-aus-uhslc_fd",
     "site_name": "Cocos",
     "latitude": -12.117,
@@ -2706,6 +3021,15 @@
     "longitude": -76.96,
     "node_index": 8291721,
     "dist_km": 0.15,
+    "country": "USA"
+  },
+  {
+    "station_id": "columbia_river_at_port_westward_near_quincy_or-14246900-usa-usgs",
+    "site_name": "Columbia_River_At_Port_Westward_Near_Quincy_Or",
+    "latitude": 46.18122,
+    "longitude": -123.18345,
+    "node_index": 42163,
+    "dist_km": 0.03,
     "country": "USA"
   },
   {
@@ -2835,6 +3159,15 @@
     "country": "ESP"
   },
   {
+    "station_id": "corunatg-cor-esp-cmems",
+    "site_name": "CorunaTG",
+    "latitude": 43.357,
+    "longitude": -8.389,
+    "node_index": 9690578,
+    "dist_km": 3.76,
+    "country": "ESP"
+  },
+  {
     "station_id": "cove_point-8577188-usa-noaa",
     "site_name": "Cove_Point",
     "latitude": 38.3917,
@@ -2952,6 +3285,24 @@
     "country": "GBR"
   },
   {
+    "station_id": "crookhaven_heads-215408-aus-bom",
+    "site_name": "Crookhaven_Heads",
+    "latitude": -34.9066,
+    "longitude": 150.7592,
+    "node_index": 4670480,
+    "dist_km": 1.26,
+    "country": "AUS"
+  },
+  {
+    "station_id": "crotone-cro-ita-ispra",
+    "site_name": "Crotone",
+    "latitude": 39.08358,
+    "longitude": 17.13706,
+    "node_index": 6232546,
+    "dist_km": 0.51,
+    "country": "ITA"
+  },
+  {
     "station_id": "crown_prince_frederik_is-65970-can-meds",
     "site_name": "Crown_Prince_Frederik_Is",
     "latitude": 70.0,
@@ -3024,6 +3375,15 @@
     "country": "CAN"
   },
   {
+    "station_id": "dakar-223-sen-uhslc_fd",
+    "site_name": "Dakar",
+    "latitude": 14.677,
+    "longitude": -17.42,
+    "node_index": 8874439,
+    "dist_km": 1.45,
+    "country": "SEN"
+  },
+  {
     "station_id": "dakar-223a-sen-uhslc_rq",
     "site_name": "Dakar",
     "latitude": 14.667,
@@ -3058,6 +3418,24 @@
     "node_index": 8874439,
     "dist_km": 1.38,
     "country": "SEN"
+  },
+  {
+    "station_id": "dakar-223e-sen-uhslc_rq",
+    "site_name": "Dakar",
+    "latitude": 14.677,
+    "longitude": -17.42,
+    "node_index": 8874439,
+    "dist_km": 1.45,
+    "country": "SEN"
+  },
+  {
+    "station_id": "dakar-7691360-usa-noaa",
+    "site_name": "Dakar",
+    "latitude": 14.6767,
+    "longitude": -17.42,
+    "node_index": 8874439,
+    "dist_km": 1.45,
+    "country": "USA"
   },
   {
     "station_id": "dalhousie-2165-can-meds",
@@ -3139,6 +3517,24 @@
     "node_index": 2461190,
     "dist_km": 1.24,
     "country": "PHL"
+  },
+  {
+    "station_id": "davis-173-aus-uhslc_fd",
+    "site_name": "Davis",
+    "latitude": -68.45,
+    "longitude": 77.967,
+    "node_index": 5686332,
+    "dist_km": 1.07,
+    "country": "AUS"
+  },
+  {
+    "station_id": "davis-173a-aus-uhslc_rq",
+    "site_name": "Davis",
+    "latitude": -68.45,
+    "longitude": 77.967,
+    "node_index": 5686332,
+    "dist_km": 1.07,
+    "country": "AUS"
   },
   {
     "station_id": "daytona_beach_shores-8721120-usa-noaa",
@@ -3285,6 +3681,33 @@
     "country": "GBR"
   },
   {
+    "station_id": "diego_garcia-2431000-usa-noaa",
+    "site_name": "Diego_Garcia",
+    "latitude": -7.29,
+    "longitude": 72.3933,
+    "node_index": 5290414,
+    "dist_km": 1.11,
+    "country": "USA"
+  },
+  {
+    "station_id": "diego_ramirez-599a-chl-uhslc_rq",
+    "site_name": "Diego_Ramirez",
+    "latitude": -56.508,
+    "longitude": -68.715,
+    "node_index": 6132696,
+    "dist_km": 0.67,
+    "country": "CHL"
+  },
+  {
+    "station_id": "diego_ramirez_island-9952000-usa-noaa",
+    "site_name": "Diego_Ramirez_Island",
+    "latitude": -56.5083,
+    "longitude": -68.715,
+    "node_index": 6132696,
+    "dist_km": 0.67,
+    "country": "USA"
+  },
+  {
     "station_id": "dieppe-24-fra-refmar",
     "site_name": "Dieppe",
     "latitude": 49.92917,
@@ -3301,6 +3724,15 @@
     "node_index": 8328854,
     "dist_km": 1.82,
     "country": "FRA"
+  },
+  {
+    "station_id": "dixon_entrance-9335-can-meds",
+    "site_name": "Dixon_Entrance",
+    "latitude": 54.62,
+    "longitude": -130.83,
+    "node_index": 1095942,
+    "dist_km": 0.34,
+    "country": "CAN"
   },
   {
     "station_id": "dog_island-8728408-usa-noaa",
@@ -3373,6 +3805,15 @@
     "node_index": 11551500,
     "dist_km": 0.01,
     "country": "USA"
+  },
+  {
+    "station_id": "drogden-dro-dnk-cmems",
+    "site_name": "Drogden",
+    "latitude": 55.5358,
+    "longitude": 12.7117,
+    "node_index": 6957336,
+    "dist_km": 2.03,
+    "country": "DNK"
   },
   {
     "station_id": "duck-8651370-usa-noaa",
@@ -3501,6 +3942,15 @@
     "country": "USA"
   },
   {
+    "station_id": "dutch_slough-9415053-usa-noaa",
+    "site_name": "Dutch_Slough",
+    "latitude": 38.0117,
+    "longitude": -121.638,
+    "node_index": 154883,
+    "dist_km": 2.76,
+    "country": "USA"
+  },
+  {
     "station_id": "duxbury-8446166-usa-noaa",
     "site_name": "Duxbury",
     "latitude": 42.0383,
@@ -3537,12 +3987,39 @@
     "country": "FRA"
   },
   {
+    "station_id": "e_isle_dernieres-8762888-usa-noaa",
+    "site_name": "E_Isle_Dernieres",
+    "latitude": 29.0717,
+    "longitude": -90.64,
+    "node_index": 10079098,
+    "dist_km": 0.19,
+    "country": "USA"
+  },
+  {
+    "station_id": "eagle_point-8771013-usa-noaa",
+    "site_name": "Eagle_Point",
+    "latitude": 29.48,
+    "longitude": -94.91831,
+    "node_index": 7945972,
+    "dist_km": 0.1,
+    "country": "USA"
+  },
+  {
     "station_id": "east_41st_street_pier-8518695-usa-noaa",
     "site_name": "East_41St_Street_Pier",
     "latitude": 40.7467,
     "longitude": -73.9683,
     "node_index": 13374015,
     "dist_km": 0.04,
+    "country": "USA"
+  },
+  {
+    "station_id": "east_bay-8729702-usa-noaa",
+    "site_name": "East_Bay",
+    "latitude": 30.45,
+    "longitude": -86.9183,
+    "node_index": 9148091,
+    "dist_km": 0.08,
     "country": "USA"
   },
   {
@@ -3690,6 +4167,15 @@
     "country": "NLD"
   },
   {
+    "station_id": "elfin_cove-9452634-usa-noaa",
+    "site_name": "Elfin_Cove",
+    "latitude": 58.19472,
+    "longitude": -136.34694,
+    "node_index": 1234575,
+    "dist_km": 0.77,
+    "country": "USA"
+  },
+  {
     "station_id": "enewetok-006b-mhl-uhslc_rq",
     "site_name": "Enewetok",
     "latitude": 11.43,
@@ -3762,6 +4248,24 @@
     "country": "AUS"
   },
   {
+    "station_id": "esperanza-601-arg-uhslc_fd",
+    "site_name": "Esperanza",
+    "latitude": -63.395,
+    "longitude": -56.995,
+    "node_index": 6031561,
+    "dist_km": 1.1,
+    "country": "ARG"
+  },
+  {
+    "station_id": "esperanza_bc-8665-can-meds",
+    "site_name": "Esperanza_BC",
+    "latitude": 49.87,
+    "longitude": -126.74,
+    "node_index": 1123342,
+    "dist_km": 0.03,
+    "country": "CAN"
+  },
+  {
     "station_id": "esquimalt_harbour_bc-7109-can-meds",
     "site_name": "Esquimalt_Harbour_BC",
     "latitude": 48.44,
@@ -3805,6 +4309,15 @@
     "node_index": 4757575,
     "dist_km": 1.6,
     "country": "AUS"
+  },
+  {
+    "station_id": "exuma_cays-256a-bhs-uhslc_rq",
+    "site_name": "Exuma_Cays",
+    "latitude": 23.773,
+    "longitude": -76.105,
+    "node_index": 12547913,
+    "dist_km": 0.44,
+    "country": "BHS"
   },
   {
     "station_id": "fanning-012b-kir-uhslc_rq",
@@ -3930,6 +4443,15 @@
     "longitude": -73.26,
     "node_index": 13311614,
     "dist_km": 0.08,
+    "country": "USA"
+  },
+  {
+    "station_id": "fire_island-9455912-usa-noaa",
+    "site_name": "Fire_Island",
+    "latitude": 61.1733,
+    "longitude": -150.213,
+    "node_index": 262788,
+    "dist_km": 0.02,
     "country": "USA"
   },
   {
@@ -4230,12 +4752,39 @@
     "country": "CAN"
   },
   {
+    "station_id": "funafuti-025-tuv-uhslc_fd",
+    "site_name": "Funafuti",
+    "latitude": -8.525,
+    "longitude": 179.195,
+    "node_index": 4105909,
+    "dist_km": 0.92,
+    "country": "TUV"
+  },
+  {
     "station_id": "funafuti-025a-tuv-uhslc_rq",
     "site_name": "Funafuti",
     "latitude": -8.525,
     "longitude": 179.195,
     "node_index": 4105909,
     "dist_km": 0.92,
+    "country": "TUV"
+  },
+  {
+    "station_id": "funafuti-025b-tuv-uhslc_rq",
+    "site_name": "Funafuti",
+    "latitude": -8.503,
+    "longitude": 179.21,
+    "node_index": 4115083,
+    "dist_km": 1.06,
+    "country": "TUV"
+  },
+  {
+    "station_id": "funafuti-67440-tuv-bom",
+    "site_name": "Funafuti",
+    "latitude": -8.5025,
+    "longitude": 179.1952,
+    "node_index": 4105912,
+    "dist_km": 0.16,
     "country": "TUV"
   },
   {
@@ -4419,6 +4968,15 @@
     "country": "DNK"
   },
   {
+    "station_id": "gedser-ged-dnk-cmems",
+    "site_name": "Gedser",
+    "latitude": 54.5667,
+    "longitude": 11.9333,
+    "node_index": 6753358,
+    "dist_km": 0.33,
+    "country": "DNK"
+  },
+  {
     "station_id": "gedser-ged-dnk-dmi",
     "site_name": "Gedser",
     "latitude": 54.56667,
@@ -4518,6 +5076,15 @@
     "country": "GBR"
   },
   {
+    "station_id": "gibraltar-289b-gbr-uhslc_rq",
+    "site_name": "Gibraltar",
+    "latitude": 36.133,
+    "longitude": -5.35,
+    "node_index": 8207277,
+    "dist_km": 0.81,
+    "country": "GBR"
+  },
+  {
     "station_id": "gillies_island-4597-can-meds",
     "site_name": "Gillies_Island",
     "latitude": 56.55,
@@ -4560,6 +5127,15 @@
     "longitude": -73.655,
     "node_index": 13357893,
     "dist_km": 0.07,
+    "country": "USA"
+  },
+  {
+    "station_id": "gloucester_harbor-8441841-usa-noaa",
+    "site_name": "Gloucester_Harbor",
+    "latitude": 42.61,
+    "longitude": -70.66,
+    "node_index": 12346922,
+    "dist_km": 0.05,
     "country": "USA"
   },
   {
@@ -4725,6 +5301,15 @@
     "country": "CAN"
   },
   {
+    "station_id": "granite_mine-9454806-usa-noaa",
+    "site_name": "Granite_Mine",
+    "latitude": 60.95,
+    "longitude": -148.212,
+    "node_index": 654074,
+    "dist_km": 0.56,
+    "country": "USA"
+  },
+  {
     "station_id": "grantline_canal_at_tracy_road_bridge-b95300-usa-cdwr",
     "site_name": "Grantline_Canal_At_Tracy_Road_Bridge",
     "latitude": 37.82004,
@@ -4770,6 +5355,15 @@
     "country": "USA"
   },
   {
+    "station_id": "grena-gre-dnk-cmems",
+    "site_name": "Grena",
+    "latitude": 56.4111,
+    "longitude": 10.9306,
+    "node_index": 7241768,
+    "dist_km": 0.56,
+    "country": "DNK"
+  },
+  {
     "station_id": "griffin_inlet-66755-can-meds",
     "site_name": "Griffin_Inlet",
     "latitude": 75.12,
@@ -4777,6 +5371,15 @@
     "node_index": 7953351,
     "dist_km": 1.02,
     "country": "CAN"
+  },
+  {
+    "station_id": "groote_eylandt-145a-aus-uhslc_rq",
+    "site_name": "Groote_Eylandt",
+    "latitude": -13.86,
+    "longitude": 136.417,
+    "node_index": 3413211,
+    "dist_km": 1.59,
+    "country": "AUS"
   },
   {
     "station_id": "gros_cacouna-3125-can-meds",
@@ -5022,6 +5625,15 @@
     "country": "JPN"
   },
   {
+    "station_id": "hanimaadhoo-117a-mdv-uhslc_rq",
+    "site_name": "Hanimaadhoo",
+    "latitude": 6.767,
+    "longitude": 73.167,
+    "node_index": 5040457,
+    "dist_km": 0.3,
+    "country": "MDV"
+  },
+  {
     "station_id": "hanko-han-fin-cmems",
     "site_name": "Hanko",
     "latitude": 59.8229,
@@ -5094,6 +5706,15 @@
     "country": "NLD"
   },
   {
+    "station_id": "harriman_fiord-9454824-usa-noaa",
+    "site_name": "Harriman_Fiord",
+    "latitude": 61.035,
+    "longitude": -148.313,
+    "node_index": 598847,
+    "dist_km": 0.32,
+    "country": "USA"
+  },
+  {
     "station_id": "harrington_harbour-2550-can-meds",
     "site_name": "Harrington_Harbour",
     "latitude": 50.5,
@@ -5119,6 +5740,15 @@
     "node_index": 7833376,
     "dist_km": 2.23,
     "country": "NOR"
+  },
+  {
+    "station_id": "harvest_oil_p_ca-594a-usa-uhslc_rq",
+    "site_name": "Harvest_Oil_P_CA",
+    "latitude": 34.468,
+    "longitude": -120.673,
+    "node_index": 3563555,
+    "dist_km": 0.46,
+    "country": "USA"
   },
   {
     "station_id": "harvey-dvhar01-aus-bom",
@@ -5310,6 +5940,15 @@
     "country": "NLD"
   },
   {
+    "station_id": "hesnaes-hes-dnk-cmems",
+    "site_name": "Hesnaes",
+    "latitude": 54.8167,
+    "longitude": 12.1333,
+    "node_index": 6773312,
+    "dist_km": 1.32,
+    "country": "DNK"
+  },
+  {
     "station_id": "heusden-heusdn-nld-rws_hist",
     "site_name": "Heusden",
     "latitude": 51.73568,
@@ -5407,6 +6046,24 @@
     "node_index": 343602,
     "dist_km": 0.06,
     "country": "USA"
+  },
+  {
+    "station_id": "hillarys-132a-aus-uhslc_rq",
+    "site_name": "Hillarys",
+    "latitude": -31.825,
+    "longitude": 115.738,
+    "node_index": 4964114,
+    "dist_km": 0.48,
+    "country": "AUS"
+  },
+  {
+    "station_id": "hillarys-62237-aus-bom",
+    "site_name": "Hillarys",
+    "latitude": -31.8256,
+    "longitude": 115.7386,
+    "node_index": 4964114,
+    "dist_km": 0.41,
+    "country": "AUS"
   },
   {
     "station_id": "hilo-1617760-usa-noaa",
@@ -5724,6 +6381,15 @@
     "country": "DNK"
   },
   {
+    "station_id": "hornbaek-hor-dnk-cmems",
+    "site_name": "Hornbaek",
+    "latitude": 56.1,
+    "longitude": 12.4667,
+    "node_index": 7116683,
+    "dist_km": 1.36,
+    "country": "DNK"
+  },
+  {
     "station_id": "hornbaek-hor-dnk-dmi",
     "site_name": "Hornbaek",
     "latitude": 56.1,
@@ -5769,6 +6435,15 @@
     "country": "JPN"
   },
   {
+    "station_id": "hovell_pile-60721-aus-bom",
+    "site_name": "Hovell_Pile",
+    "latitude": -38.3271,
+    "longitude": 144.8987,
+    "node_index": 4844049,
+    "dist_km": 0.71,
+    "country": "AUS"
+  },
+  {
     "station_id": "huahine-587-fra-refmar",
     "site_name": "Huahine",
     "latitude": -16.72156,
@@ -5793,6 +6468,15 @@
     "longitude": -73.7475,
     "node_index": 13394201,
     "dist_km": 0.03,
+    "country": "USA"
+  },
+  {
+    "station_id": "hudson_river_below_poughkeepsie_ny-1372058-usa-usgs",
+    "site_name": "Hudson_River_Below_Poughkeepsie_Ny",
+    "latitude": 41.65219,
+    "longitude": -73.94922,
+    "node_index": 13385063,
+    "dist_km": 0.09,
     "country": "USA"
   },
   {
@@ -5828,6 +6512,15 @@
     "latitude": 39.3517,
     "longitude": -75.2583,
     "node_index": 11030247,
+    "dist_km": 0.04,
+    "country": "USA"
+  },
+  {
+    "station_id": "hyannisport-8447605-usa-noaa",
+    "site_name": "Hyannisport",
+    "latitude": 41.6317,
+    "longitude": -70.3,
+    "node_index": 12952100,
     "dist_km": 0.04,
     "country": "USA"
   },
@@ -6028,6 +6721,15 @@
     "node_index": 7098968,
     "dist_km": 0.63,
     "country": "BRA"
+  },
+  {
+    "station_id": "ilulissat-298a-dnk-uhslc_rq",
+    "site_name": "Ilulissat",
+    "latitude": 69.217,
+    "longitude": -51.1,
+    "node_index": 8904153,
+    "dist_km": 0.47,
+    "country": "DNK"
   },
   {
     "station_id": "immingham-imm-gbr-bodc",
@@ -6318,6 +7020,15 @@
     "country": "USA"
   },
   {
+    "station_id": "jurien_bay-jujur01-aus-bom",
+    "site_name": "Jurien_Bay",
+    "latitude": -30.2872,
+    "longitude": 115.0428,
+    "node_index": 4958249,
+    "dist_km": 0.75,
+    "country": "AUS"
+  },
+  {
     "station_id": "k13a_platform-k13apfm-nld-rws",
     "site_name": "K13a_platform",
     "latitude": 53.217,
@@ -6606,6 +7317,15 @@
     "country": "JPN"
   },
   {
+    "station_id": "kean_point-6230-can-meds",
+    "site_name": "Kean_Point",
+    "latitude": 68.96,
+    "longitude": -102.36,
+    "node_index": 6688859,
+    "dist_km": 2.2,
+    "country": "CAN"
+  },
+  {
     "station_id": "keelung-341-twn-uhslc_fd",
     "site_name": "Keelung",
     "latitude": 25.157,
@@ -6696,6 +7416,15 @@
     "country": "FIN"
   },
   {
+    "station_id": "kennebunkport-8418911-usa-noaa",
+    "site_name": "Kennebunkport",
+    "latitude": 43.3583,
+    "longitude": -70.4767,
+    "node_index": 12252460,
+    "dist_km": 0.05,
+    "country": "USA"
+  },
+  {
     "station_id": "kennedy_cove_bc-8623-can-meds",
     "site_name": "Kennedy_Cove_BC",
     "latitude": 49.14,
@@ -6712,6 +7441,33 @@
     "node_index": 3274697,
     "dist_km": 1.44,
     "country": "SGP"
+  },
+  {
+    "station_id": "kerguelen-180a-fra-uhslc_rq",
+    "site_name": "Kerguelen",
+    "latitude": -49.345,
+    "longitude": 70.22,
+    "node_index": 5589372,
+    "dist_km": 2.4,
+    "country": "FRA"
+  },
+  {
+    "station_id": "kerguelen-23-fra-refmar",
+    "site_name": "Kerguelen",
+    "latitude": -49.35212,
+    "longitude": 70.2191,
+    "node_index": 5589372,
+    "dist_km": 2.35,
+    "country": "FRA"
+  },
+  {
+    "station_id": "kerguelentg_60minute-ker-fra-cmems",
+    "site_name": "KerguelenTG_60minute",
+    "latitude": -49.35212,
+    "longitude": 70.2191,
+    "node_index": 5589372,
+    "dist_km": 2.35,
+    "country": "FRA"
   },
   {
     "station_id": "ketchikan-9450460-usa-noaa",
@@ -6793,6 +7549,24 @@
     "node_index": 4539182,
     "dist_km": 2.24,
     "country": "BGD"
+  },
+  {
+    "station_id": "kinlochbervie-kin-gbr-bodc",
+    "site_name": "Kinlochbervie",
+    "latitude": 58.45669,
+    "longitude": -5.05022,
+    "node_index": 8927075,
+    "dist_km": 0.69,
+    "country": "GBR"
+  },
+  {
+    "station_id": "kinlochbervie-kin-gbr-cmems",
+    "site_name": "Kinlochbervie",
+    "latitude": 58.4572,
+    "longitude": -5.0496,
+    "node_index": 8927075,
+    "dist_km": 0.68,
+    "country": "GBR"
   },
   {
     "station_id": "kiptopeke-8632200-usa-noaa",
@@ -7389,6 +8163,15 @@
     "country": "USA"
   },
   {
+    "station_id": "lagos-233c-nga-uhslc_rq",
+    "site_name": "Lagos",
+    "latitude": 6.423,
+    "longitude": 3.412,
+    "node_index": 7115238,
+    "dist_km": 1.53,
+    "country": "NGA"
+  },
+  {
     "station_id": "lagos_algarve-723a-prt-uhslc_rq",
     "site_name": "Lagos_Algarve",
     "latitude": 37.098,
@@ -7479,6 +8262,15 @@
     "country": "USA"
   },
   {
+    "station_id": "laohutan-631a-chn-uhslc_rq",
+    "site_name": "Laohutan",
+    "latitude": 38.867,
+    "longitude": 121.683,
+    "node_index": 497468,
+    "dist_km": 1.71,
+    "country": "CHN"
+  },
+  {
     "station_id": "lark_harbour-2685-can-meds",
     "site_name": "Lark_Harbour",
     "latitude": 49.1,
@@ -7495,6 +8287,15 @@
     "node_index": 8951503,
     "dist_km": 0.76,
     "country": "FRA"
+  },
+  {
+    "station_id": "las_palmas-217-esp-uhslc_fd",
+    "site_name": "Las_Palmas",
+    "latitude": 28.148,
+    "longitude": -15.407,
+    "node_index": 9376352,
+    "dist_km": 0.86,
+    "country": "ESP"
   },
   {
     "station_id": "las_palmas-217a-esp-uhslc_rq",
@@ -7522,6 +8323,51 @@
     "node_index": 9349595,
     "dist_km": 0.84,
     "country": "ESP"
+  },
+  {
+    "station_id": "las_palmas-217d-esp-uhslc_rq",
+    "site_name": "Las_Palmas",
+    "latitude": 28.133,
+    "longitude": -15.417,
+    "node_index": 9349618,
+    "dist_km": 1.3,
+    "country": "ESP"
+  },
+  {
+    "station_id": "laspalmastg-las-esp-cmems",
+    "site_name": "LasPalmasTG",
+    "latitude": 28.141,
+    "longitude": -15.412,
+    "node_index": 9349618,
+    "dist_km": 1.32,
+    "country": "ESP"
+  },
+  {
+    "station_id": "lautoka-402-fji-uhslc_fd",
+    "site_name": "Lautoka",
+    "latitude": -17.6,
+    "longitude": 177.433,
+    "node_index": 4201445,
+    "dist_km": 0.81,
+    "country": "FJI"
+  },
+  {
+    "station_id": "lautoka-402a-fji-uhslc_rq",
+    "site_name": "Lautoka",
+    "latitude": -17.605,
+    "longitude": 177.438,
+    "node_index": 4201446,
+    "dist_km": 0.94,
+    "country": "FJI"
+  },
+  {
+    "station_id": "lautoka-67070-fji-bom",
+    "site_name": "Lautoka",
+    "latitude": -17.6053,
+    "longitude": 177.4381,
+    "node_index": 4201446,
+    "dist_km": 0.91,
+    "country": "FJI"
   },
   {
     "station_id": "lauwersoog-lauwog-nld-rws",
@@ -7866,6 +8712,24 @@
     "country": "CAN"
   },
   {
+    "station_id": "liverpool-liv-gbr-cmems",
+    "site_name": "Liverpool",
+    "latitude": 53.45,
+    "longitude": -3.01667,
+    "node_index": 8187784,
+    "dist_km": 0.12,
+    "country": "GBR"
+  },
+  {
+    "station_id": "liverpool_gladstone_dock-liv-gbr-bodc",
+    "site_name": "Liverpool_Gladstone_Dock",
+    "latitude": 53.44969,
+    "longitude": -3.01814,
+    "node_index": 8187784,
+    "dist_km": 0.07,
+    "country": "GBR"
+  },
+  {
     "station_id": "livorno-liv-ita-ispra",
     "site_name": "Livorno",
     "latitude": 43.54629,
@@ -7929,6 +8793,51 @@
     "country": "CAN"
   },
   {
+    "station_id": "lora_point-8729816-usa-noaa",
+    "site_name": "Lora_Point",
+    "latitude": 30.515,
+    "longitude": -87.1617,
+    "node_index": 8688619,
+    "dist_km": 0.1,
+    "country": "USA"
+  },
+  {
+    "station_id": "lord_howe-399-aus-uhslc_fd",
+    "site_name": "Lord_Howe",
+    "latitude": -31.533,
+    "longitude": 159.067,
+    "node_index": 4579483,
+    "dist_km": 0.85,
+    "country": "AUS"
+  },
+  {
+    "station_id": "lord_howe-399a-aus-uhslc_rq",
+    "site_name": "Lord_Howe",
+    "latitude": -31.517,
+    "longitude": 159.067,
+    "node_index": 4573228,
+    "dist_km": 0.37,
+    "country": "AUS"
+  },
+  {
+    "station_id": "lord_howe-399b-aus-uhslc_rq",
+    "site_name": "Lord_Howe",
+    "latitude": -31.517,
+    "longitude": 159.067,
+    "node_index": 4573228,
+    "dist_km": 0.37,
+    "country": "AUS"
+  },
+  {
+    "station_id": "lord_howe_island-57720-aus-bom",
+    "site_name": "Lord_Howe_Island",
+    "latitude": -31.5236,
+    "longitude": 159.0582,
+    "node_index": 4579483,
+    "dist_km": 0.52,
+    "country": "AUS"
+  },
+  {
     "station_id": "loreto-319-mex-unam_hist",
     "site_name": "Loreto",
     "latitude": 26.015,
@@ -7945,6 +8854,15 @@
     "node_index": 3485480,
     "dist_km": 3.16,
     "country": "MEX"
+  },
+  {
+    "station_id": "lorne-60790-aus-bom",
+    "site_name": "Lorne",
+    "latitude": -38.5472,
+    "longitude": 143.9888,
+    "node_index": 4906956,
+    "dist_km": 1.05,
+    "country": "AUS"
   },
   {
     "station_id": "los_angeles-9410660-usa-noaa",
@@ -8082,6 +9000,15 @@
     "country": "CHN"
   },
   {
+    "station_id": "lynn-8443187-usa-noaa",
+    "site_name": "Lynn",
+    "latitude": 42.4583,
+    "longitude": -70.9433,
+    "node_index": 12061698,
+    "dist_km": 0.06,
+    "country": "USA"
+  },
+  {
     "station_id": "ma58-ma58-jpn-jodc_jma",
     "site_name": "Ma58",
     "latitude": 27.09388,
@@ -8115,6 +9042,24 @@
     "longitude": 149.2333,
     "node_index": 3859294,
     "dist_km": 1.17,
+    "country": "AUS"
+  },
+  {
+    "station_id": "macquarie_is-680-aus-uhslc_fd",
+    "site_name": "Macquarie_Is",
+    "latitude": -54.483,
+    "longitude": 158.967,
+    "node_index": 5048053,
+    "dist_km": 1.22,
+    "country": "AUS"
+  },
+  {
+    "station_id": "macquarie_is-680c-aus-uhslc_rq",
+    "site_name": "Macquarie_Is",
+    "latitude": -54.483,
+    "longitude": 158.967,
+    "node_index": 5048053,
+    "dist_km": 1.22,
     "country": "AUS"
   },
   {
@@ -8208,12 +9153,39 @@
     "country": "JPN"
   },
   {
+    "station_id": "majuro-005-mhl-uhslc_fd",
+    "site_name": "Majuro",
+    "latitude": 7.107,
+    "longitude": 171.373,
+    "node_index": 3207991,
+    "dist_km": 0.14,
+    "country": "MHL"
+  },
+  {
     "station_id": "majuro-005a-mhl-uhslc_rq",
     "site_name": "Majuro",
     "latitude": 7.107,
     "longitude": 171.373,
     "node_index": 3207991,
     "dist_km": 0.14,
+    "country": "MHL"
+  },
+  {
+    "station_id": "majuro-005b-mhl-uhslc_rq",
+    "site_name": "Majuro",
+    "latitude": 7.108,
+    "longitude": 171.372,
+    "node_index": 3207991,
+    "dist_km": 0.03,
+    "country": "MHL"
+  },
+  {
+    "station_id": "majuro-67680-mhl-bom",
+    "site_name": "Majuro",
+    "latitude": 7.106,
+    "longitude": 171.3728,
+    "node_index": 3207991,
+    "dist_km": 0.22,
     "country": "MHL"
   },
   {
@@ -8250,6 +9222,15 @@
     "longitude": -4.4154,
     "node_index": 7866322,
     "dist_km": 0.54,
+    "country": "ESP"
+  },
+  {
+    "station_id": "malagatg-mal-esp-cmems",
+    "site_name": "MalagaTG",
+    "latitude": 36.712,
+    "longitude": -4.417,
+    "node_index": 7866322,
+    "dist_km": 0.6,
     "country": "ESP"
   },
   {
@@ -8397,6 +9378,15 @@
     "country": "PNG"
   },
   {
+    "station_id": "manzanillo-395-mex-uhslc_fd",
+    "site_name": "Manzanillo",
+    "latitude": 19.05,
+    "longitude": -104.333,
+    "node_index": 4301260,
+    "dist_km": 0.14,
+    "country": "MEX"
+  },
+  {
     "station_id": "manzanillo-395-mex-unam_hist",
     "site_name": "Manzanillo",
     "latitude": 19.05667,
@@ -8412,6 +9402,15 @@
     "longitude": -104.33,
     "node_index": 4301260,
     "dist_km": 0.33,
+    "country": "MEX"
+  },
+  {
+    "station_id": "manzanillo-395b-mex-uhslc_rq",
+    "site_name": "Manzanillo",
+    "latitude": 19.063,
+    "longitude": -104.298,
+    "node_index": 4301259,
+    "dist_km": 3.28,
     "country": "MEX"
   },
   {
@@ -8577,6 +9576,33 @@
     "country": "JPN"
   },
   {
+    "station_id": "mattapoisett-8447531-usa-noaa",
+    "site_name": "Mattapoisett",
+    "latitude": 41.6567,
+    "longitude": -70.8133,
+    "node_index": 12836994,
+    "dist_km": 0.03,
+    "country": "USA"
+  },
+  {
+    "station_id": "mawson-177-aus-uhslc_fd",
+    "site_name": "Mawson",
+    "latitude": -67.6,
+    "longitude": 62.867,
+    "node_index": 5737700,
+    "dist_km": 0.67,
+    "country": "AUS"
+  },
+  {
+    "station_id": "mawson-177a-aus-uhslc_rq",
+    "site_name": "Mawson",
+    "latitude": -67.6,
+    "longitude": 62.867,
+    "node_index": 5737700,
+    "dist_km": 0.67,
+    "country": "AUS"
+  },
+  {
     "station_id": "mayottetg_60minute-may-fra-cmems",
     "site_name": "MayotteTG_60minute",
     "latitude": -12.78333,
@@ -8604,6 +9630,15 @@
     "country": "USA"
   },
   {
+    "station_id": "mbts_navd88-mbts-usa-sfwmd",
+    "site_name": "MBTS_NAVD88",
+    "latitude": 25.23917,
+    "longitude": -80.42167,
+    "node_index": 11143863,
+    "dist_km": 0.09,
+    "country": "USA"
+  },
+  {
     "station_id": "mcbean_island-5920-can-meds",
     "site_name": "Mcbean_Island",
     "latitude": 72.64,
@@ -8628,6 +9663,15 @@
     "longitude": -82.425,
     "node_index": 7620006,
     "dist_km": 0.1,
+    "country": "USA"
+  },
+  {
+    "station_id": "mdts-mdts-usa-sfwmd",
+    "site_name": "MDTS",
+    "latitude": 25.27861,
+    "longitude": -80.395,
+    "node_index": 11276998,
+    "dist_km": 0.02,
     "country": "USA"
   },
   {
@@ -8946,6 +9990,15 @@
     "country": "CAN"
   },
   {
+    "station_id": "miri-388a-mys-uhslc_rq",
+    "site_name": "Miri",
+    "latitude": 4.392,
+    "longitude": 113.972,
+    "node_index": 2321163,
+    "dist_km": 1.89,
+    "country": "MYS"
+  },
+  {
     "station_id": "mispillion_river_entrance-8556198-usa-noaa",
     "site_name": "Mispillion_River_Entrance",
     "latitude": 38.945,
@@ -9187,6 +10240,15 @@
     "node_index": 4406066,
     "dist_km": 0.9,
     "country": "AUS"
+  },
+  {
+    "station_id": "morgans_point-8770613-usa-noaa",
+    "site_name": "Morgans_Point",
+    "latitude": 29.68169,
+    "longitude": -94.985,
+    "node_index": 7476856,
+    "dist_km": 0.04,
+    "country": "USA"
   },
   {
     "station_id": "moriches_cgs-8513388-usa-noaa",
@@ -9486,6 +10548,15 @@
     "country": "USA"
   },
   {
+    "station_id": "naos-300b-pan-uhslc_rq",
+    "site_name": "Naos",
+    "latitude": 8.917,
+    "longitude": -79.533,
+    "node_index": 4406584,
+    "dist_km": 0.93,
+    "country": "PAN"
+  },
+  {
     "station_id": "napier-668a-nzl-uhslc_rq",
     "site_name": "Napier",
     "latitude": -39.483,
@@ -9585,12 +10656,39 @@
     "country": "CAN"
   },
   {
+    "station_id": "nauru-004-nru-uhslc_fd",
+    "site_name": "Nauru",
+    "latitude": -0.532,
+    "longitude": 166.91,
+    "node_index": 3443579,
+    "dist_km": 0.41,
+    "country": "NRU"
+  },
+  {
     "station_id": "nauru-004a-nru-uhslc_rq",
     "site_name": "Nauru",
     "latitude": -0.528,
     "longitude": 166.905,
     "node_index": 3443578,
     "dist_km": 0.78,
+    "country": "NRU"
+  },
+  {
+    "station_id": "nauru-004b-nru-uhslc_rq",
+    "site_name": "Nauru",
+    "latitude": -0.532,
+    "longitude": 166.91,
+    "node_index": 3443579,
+    "dist_km": 0.41,
+    "country": "NRU"
+  },
+  {
+    "station_id": "nauru-67640-nru-bom",
+    "site_name": "Nauru",
+    "latitude": -0.5317,
+    "longitude": 166.9101,
+    "node_index": 3443579,
+    "dist_km": 0.44,
     "country": "NRU"
   },
   {
@@ -9819,6 +10917,15 @@
     "country": "AUS"
   },
   {
+    "station_id": "newhaven-new-gbr-cmems",
+    "site_name": "Newhaven",
+    "latitude": 50.7833,
+    "longitude": 0.06667,
+    "node_index": 8370521,
+    "dist_km": 0.57,
+    "country": "GBR"
+  },
+  {
     "station_id": "newhaven-nha-gbr-bodc",
     "site_name": "Newhaven",
     "latitude": 50.78178,
@@ -9880,6 +10987,24 @@
     "node_index": 13024847,
     "dist_km": 0.06,
     "country": "USA"
+  },
+  {
+    "station_id": "newport-new-gbr-cmems",
+    "site_name": "Newport",
+    "latitude": 51.5496,
+    "longitude": -2.986,
+    "node_index": 8541585,
+    "dist_km": 0.02,
+    "country": "GBR"
+  },
+  {
+    "station_id": "newport-npo-gbr-bodc",
+    "site_name": "Newport",
+    "latitude": 51.55,
+    "longitude": -2.98744,
+    "node_index": 8541585,
+    "dist_km": 0.13,
+    "country": "GBR"
   },
   {
     "station_id": "newport_beach-9410580-usa-noaa",
@@ -9981,6 +11106,33 @@
     "country": "JPN"
   },
   {
+    "station_id": "nome-9468756-usa-noaa",
+    "site_name": "Nome",
+    "latitude": 64.49461,
+    "longitude": -165.43964,
+    "node_index": 4933734,
+    "dist_km": 0.09,
+    "country": "USA"
+  },
+  {
+    "station_id": "nome_ak-595-usa-uhslc_fd",
+    "site_name": "Nome_AK",
+    "latitude": 64.5,
+    "longitude": -165.43,
+    "node_index": 4928135,
+    "dist_km": 0.35,
+    "country": "USA"
+  },
+  {
+    "station_id": "nome_ak-595a-usa-uhslc_rq",
+    "site_name": "Nome_AK",
+    "latitude": 64.5,
+    "longitude": -165.43,
+    "node_index": 4928135,
+    "dist_km": 0.35,
+    "country": "USA"
+  },
+  {
     "station_id": "noordwijk_meetpost-noordwmpt-nld-rws_hist",
     "site_name": "Noordwijk_meetpost",
     "latitude": 52.27389,
@@ -9997,6 +11149,15 @@
     "node_index": 7152165,
     "dist_km": 0.84,
     "country": "CAN"
+  },
+  {
+    "station_id": "nordrerose-nor-dnk-cmems",
+    "site_name": "NordreRose",
+    "latitude": 55.6361,
+    "longitude": 12.6867,
+    "node_index": 6987967,
+    "dist_km": 0.84,
+    "country": "DNK"
   },
   {
     "station_id": "norfolk_island-062a-aus-uhslc_rq",
@@ -10179,6 +11340,15 @@
     "country": "TON"
   },
   {
+    "station_id": "nukualofa-66600-ton-bom",
+    "site_name": "Nukualofa",
+    "latitude": -21.1368,
+    "longitude": -175.1807,
+    "node_index": 4569033,
+    "dist_km": 1.23,
+    "country": "TON"
+  },
+  {
     "station_id": "nukuhivatg_60minute-nuk-fra-cmems",
     "site_name": "NukuHivaTG_60minute",
     "latitude": -8.9149,
@@ -10314,6 +11484,15 @@
     "country": "JPN"
   },
   {
+    "station_id": "oil_platform_harvest-9411406-usa-noaa",
+    "site_name": "Oil_Platform_Harvest",
+    "latitude": 34.46917,
+    "longitude": -120.68194,
+    "node_index": 3573458,
+    "dist_km": 0.27,
+    "country": "USA"
+  },
+  {
     "station_id": "oita-hd16-jpn-jodc_jcg",
     "site_name": "Oita",
     "latitude": 33.26612,
@@ -10383,6 +11562,24 @@
     "longitude": -121.55306,
     "node_index": 68888,
     "dist_km": 8.67,
+    "country": "USA"
+  },
+  {
+    "station_id": "old_river_barrier_near_dmc_above-b95366-usa-cdwr",
+    "site_name": "Old_River_Barrier_Near_Dmc_Above",
+    "latitude": 37.81056,
+    "longitude": -121.54222,
+    "node_index": 68888,
+    "dist_km": 10.83,
+    "country": "USA"
+  },
+  {
+    "station_id": "old_river_barrier_near_dmc_below-b95365-usa-cdwr",
+    "site_name": "Old_River_Barrier_Near_Dmc_Below",
+    "latitude": 37.81111,
+    "longitude": -121.54389,
+    "node_index": 68888,
+    "dist_km": 10.74,
     "country": "USA"
   },
   {
@@ -10800,6 +11997,15 @@
     "country": "PER"
   },
   {
+    "station_id": "palermo-pal-ita-ispra",
+    "site_name": "Palermo",
+    "latitude": 38.12141,
+    "longitude": 13.37133,
+    "node_index": 6592459,
+    "dist_km": 0.13,
+    "country": "ITA"
+  },
+  {
     "station_id": "palinuro-pal-ita-ispra",
     "site_name": "Palinuro",
     "latitude": 40.02991,
@@ -10815,6 +12021,15 @@
     "longitude": -85.7,
     "node_index": 9548115,
     "dist_km": 0.06,
+    "country": "USA"
+  },
+  {
+    "station_id": "panama_city_beach-761a-usa-uhslc_rq",
+    "site_name": "Panama_City_Beach",
+    "latitude": 30.213,
+    "longitude": -85.88,
+    "node_index": 10136535,
+    "dist_km": 0.11,
     "country": "USA"
   },
   {
@@ -10924,6 +12139,15 @@
     "node_index": 8643280,
     "dist_km": 0.07,
     "country": "USA"
+  },
+  {
+    "station_id": "patonga-212440-aus-bom",
+    "site_name": "Patonga",
+    "latitude": -33.55098,
+    "longitude": 151.27462,
+    "node_index": 4652768,
+    "dist_km": 3.36,
+    "country": "AUS"
   },
   {
     "station_id": "patricia_bay_bc-7277-can-meds",
@@ -11205,6 +12429,15 @@
     "country": "PER"
   },
   {
+    "station_id": "pisco-683b-per-uhslc_rq",
+    "site_name": "Pisco",
+    "latitude": -13.417,
+    "longitude": -76.133,
+    "node_index": 5190389,
+    "dist_km": 6.37,
+    "country": "PER"
+  },
+  {
     "station_id": "plum_island-8440452-usa-noaa",
     "site_name": "Plum_Island",
     "latitude": 42.8167,
@@ -11230,6 +12463,15 @@
     "node_index": 12347499,
     "dist_km": 0.07,
     "country": "USA"
+  },
+  {
+    "station_id": "plymouth-ply-gbr-cmems",
+    "site_name": "Plymouth",
+    "latitude": 50.3684,
+    "longitude": -4.1852,
+    "node_index": 9082706,
+    "dist_km": 3.28,
+    "country": "GBR"
   },
   {
     "station_id": "point_atkinson_bc-7795-can-meds",
@@ -11601,6 +12843,15 @@
     "country": "GBR"
   },
   {
+    "station_id": "port_eri_isle_of_man-iom-gbr-bodc",
+    "site_name": "Port_Eri_Isle_of_Man",
+    "latitude": 54.08522,
+    "longitude": -4.76806,
+    "node_index": 8370574,
+    "dist_km": 1.3,
+    "country": "GBR"
+  },
+  {
     "station_id": "port_giles-61685-aus-bom",
     "site_name": "Port_Giles",
     "latitude": -35.0218,
@@ -11671,6 +12922,15 @@
     "node_index": 13247786,
     "dist_km": 0.1,
     "country": "USA"
+  },
+  {
+    "station_id": "port_kembla-342a-aus-uhslc_rq",
+    "site_name": "Port_Kembla",
+    "latitude": -34.473,
+    "longitude": 150.912,
+    "node_index": 4681791,
+    "dist_km": 1.6,
+    "country": "AUS"
   },
   {
     "station_id": "port_kembla-60420-aus-bom",
@@ -11826,6 +13086,42 @@
     "country": "USA"
   },
   {
+    "station_id": "port_simpson_bc-9390-can-meds",
+    "site_name": "Port_Simpson_BC",
+    "latitude": 54.56,
+    "longitude": -130.43,
+    "node_index": 997777,
+    "dist_km": 0.09,
+    "country": "CAN"
+  },
+  {
+    "station_id": "port_stanley-290-gbr-uhslc_fd",
+    "site_name": "Port_Stanley",
+    "latitude": -51.75,
+    "longitude": -57.933,
+    "node_index": 6475173,
+    "dist_km": 0.43,
+    "country": "GBR"
+  },
+  {
+    "station_id": "port_stanley-290b-gbr-uhslc_rq",
+    "site_name": "Port_Stanley",
+    "latitude": -51.75,
+    "longitude": -57.933,
+    "node_index": 6475173,
+    "dist_km": 0.43,
+    "country": "GBR"
+  },
+  {
+    "station_id": "port_stanvac-100a-aus-uhslc_rq",
+    "site_name": "Port_Stanvac",
+    "latitude": -35.108,
+    "longitude": 138.467,
+    "node_index": 4833093,
+    "dist_km": 1.15,
+    "country": "AUS"
+  },
+  {
     "station_id": "port_stanvac-61583-aus-bom",
     "site_name": "Port_Stanvac",
     "latitude": -35.1086,
@@ -11880,12 +13176,39 @@
     "country": "SYC"
   },
   {
+    "station_id": "port_vila-046-vut-uhslc_fd",
+    "site_name": "Port_Vila",
+    "latitude": -17.767,
+    "longitude": 168.3,
+    "node_index": 4132720,
+    "dist_km": 2.13,
+    "country": "VUT"
+  },
+  {
     "station_id": "port_vila-046a-vut-uhslc_rq",
     "site_name": "Port_Vila",
     "latitude": -17.733,
     "longitude": 168.317,
     "node_index": 4123623,
     "dist_km": 3.2,
+    "country": "VUT"
+  },
+  {
+    "station_id": "port_vila-046b-vut-uhslc_rq",
+    "site_name": "Port_Vila",
+    "latitude": -17.762,
+    "longitude": 168.293,
+    "node_index": 4132711,
+    "dist_km": 1.78,
+    "country": "VUT"
+  },
+  {
+    "station_id": "port_vila-57320-vut-bom",
+    "site_name": "Port_Vila",
+    "latitude": -17.7614,
+    "longitude": 168.2928,
+    "node_index": 4132711,
+    "dist_km": 1.72,
     "country": "VUT"
   },
   {
@@ -11913,6 +13236,24 @@
     "longitude": -2.7284,
     "node_index": 8434131,
     "dist_km": 1.78,
+    "country": "GBR"
+  },
+  {
+    "station_id": "portellen-por-gbr-cmems",
+    "site_name": "PortEllen",
+    "latitude": 55.6274,
+    "longitude": -6.1901,
+    "node_index": 9137235,
+    "dist_km": 1.17,
+    "country": "GBR"
+  },
+  {
+    "station_id": "porterin-por-gbr-cmems",
+    "site_name": "PortErin",
+    "latitude": 54.0854,
+    "longitude": -4.7681,
+    "node_index": 8370574,
+    "dist_km": 1.31,
     "country": "GBR"
   },
   {
@@ -11952,6 +13293,24 @@
     "country": "USA"
   },
   {
+    "station_id": "portland_saus-129-aus-uhslc_fd",
+    "site_name": "Portland_SAus",
+    "latitude": -38.343,
+    "longitude": 141.613,
+    "node_index": 4975285,
+    "dist_km": 1.03,
+    "country": "AUS"
+  },
+  {
+    "station_id": "portland_victoria-129a-aus-uhslc_rq",
+    "site_name": "Portland_Victoria",
+    "latitude": -38.343,
+    "longitude": 141.613,
+    "node_index": 4975285,
+    "dist_km": 1.03,
+    "country": "AUS"
+  },
+  {
     "station_id": "porto_grande-216a-prt-uhslc_rq",
     "site_name": "Porto_Grande",
     "latitude": 16.867,
@@ -11985,6 +13344,24 @@
     "longitude": -5.1189,
     "node_index": 8609280,
     "dist_km": 0.55,
+    "country": "GBR"
+  },
+  {
+    "station_id": "portsmouth-por-gbr-cmems",
+    "site_name": "Portsmouth",
+    "latitude": 50.8004,
+    "longitude": -1.1102,
+    "node_index": 8455381,
+    "dist_km": 2.97,
+    "country": "GBR"
+  },
+  {
+    "station_id": "portsmouth-ptm-gbr-bodc",
+    "site_name": "Portsmouth",
+    "latitude": 50.80219,
+    "longitude": -1.11125,
+    "node_index": 8455381,
+    "dist_km": 3.18,
     "country": "GBR"
   },
   {
@@ -12150,6 +13527,24 @@
     "country": "USA"
   },
   {
+    "station_id": "pt_la_rue-121-syc-uhslc_fd",
+    "site_name": "Pt_La_Rue",
+    "latitude": -4.672,
+    "longitude": 55.528,
+    "node_index": 5385207,
+    "dist_km": 0.19,
+    "country": "SYC"
+  },
+  {
+    "station_id": "pt_la_rue-121a-syc-uhslc_rq",
+    "site_name": "Pt_La_Rue",
+    "latitude": -4.672,
+    "longitude": 55.528,
+    "node_index": 5385207,
+    "dist_km": 0.19,
+    "country": "SYC"
+  },
+  {
     "station_id": "public_landing-8570649-usa-noaa",
     "site_name": "Public_Landing",
     "latitude": 38.1483,
@@ -12231,6 +13626,15 @@
     "country": "CHL"
   },
   {
+    "station_id": "puerto_quetza-301b-gtm-uhslc_rq",
+    "site_name": "Puerto_Quetza",
+    "latitude": 13.922,
+    "longitude": -90.785,
+    "node_index": 4524881,
+    "dist_km": 0.83,
+    "country": "GTM"
+  },
+  {
     "station_id": "puerto_quetzal-301a-gtm-uhslc_rq",
     "site_name": "Puerto_Quetzal",
     "latitude": 13.922,
@@ -12303,6 +13707,24 @@
     "country": "NLD"
   },
   {
+    "station_id": "pyrite_point-9465123-usa-noaa",
+    "site_name": "Pyrite_Point",
+    "latitude": 58.62,
+    "longitude": -161.542,
+    "node_index": 2759194,
+    "dist_km": 0.17,
+    "country": "USA"
+  },
+  {
+    "station_id": "qaqortoq-299a-dnk-uhslc_rq",
+    "site_name": "Qaqortoq",
+    "latitude": 60.717,
+    "longitude": -46.033,
+    "node_index": 10388355,
+    "dist_km": 1.44,
+    "country": "DNK"
+  },
+  {
     "station_id": "quai_irving-3264-can-meds",
     "site_name": "Quai_Irving",
     "latitude": 46.76,
@@ -12319,6 +13741,15 @@
     "node_index": 1243258,
     "dist_km": 0.47,
     "country": "CAN"
+  },
+  {
+    "station_id": "queenscliff-60732-aus-bom",
+    "site_name": "Queenscliff",
+    "latitude": -38.2728,
+    "longitude": 144.6626,
+    "node_index": 4878239,
+    "dist_km": 1.09,
+    "country": "AUS"
   },
   {
     "station_id": "quepos-087a-cri-uhslc_rq",
@@ -12384,12 +13815,39 @@
     "country": "USA"
   },
   {
+    "station_id": "rarotonga-023-cok-uhslc_fd",
+    "site_name": "Rarotonga",
+    "latitude": -21.207,
+    "longitude": -159.775,
+    "node_index": 4813155,
+    "dist_km": 1.33,
+    "country": "COK"
+  },
+  {
     "station_id": "rarotonga-023a-cok-uhslc_rq",
     "site_name": "Rarotonga",
     "latitude": -21.207,
     "longitude": -159.775,
     "node_index": 4813155,
     "dist_km": 1.33,
+    "country": "COK"
+  },
+  {
+    "station_id": "rarotonga-023b-cok-uhslc_rq",
+    "site_name": "Rarotonga",
+    "latitude": -21.2,
+    "longitude": -159.787,
+    "node_index": 4813155,
+    "dist_km": 0.18,
+    "country": "COK"
+  },
+  {
+    "station_id": "rarotonga_avarua_harbour-65980-cok-bom",
+    "site_name": "Rarotonga_Avarua_Harbour",
+    "latitude": -21.2048,
+    "longitude": -159.7848,
+    "node_index": 4813155,
+    "dist_km": 0.55,
     "country": "COK"
   },
   {
@@ -12645,6 +14103,24 @@
     "country": "CAN"
   },
   {
+    "station_id": "rochefort-118-fra-refmar",
+    "site_name": "Rochefort",
+    "latitude": 45.94633,
+    "longitude": -0.95348,
+    "node_index": 8925728,
+    "dist_km": 9.84,
+    "country": "FRA"
+  },
+  {
+    "station_id": "rocheforttg_60minute-roc-fra-cmems",
+    "site_name": "RochefortTG_60minute",
+    "latitude": 45.94634,
+    "longitude": -0.95348,
+    "node_index": 8925728,
+    "dist_km": 9.84,
+    "country": "FRA"
+  },
+  {
     "station_id": "rockport-8774770-usa-noaa",
     "site_name": "Rockport",
     "latitude": 28.0217,
@@ -12679,6 +14155,15 @@
     "node_index": 5543301,
     "dist_km": 1.03,
     "country": "MUS"
+  },
+  {
+    "station_id": "rodvig-rod-dnk-cmems",
+    "site_name": "Rodvig",
+    "latitude": 55.2542,
+    "longitude": 12.3728,
+    "node_index": 6882143,
+    "dist_km": 0.81,
+    "country": "DNK"
   },
   {
     "station_id": "roompot_binnen-roompbnn-nld-rws_hist",
@@ -12753,6 +14238,15 @@
     "country": "FRA"
   },
   {
+    "station_id": "rosslyn_bay-330a-aus-uhslc_rq",
+    "site_name": "Rosslyn_Bay",
+    "latitude": -23.162,
+    "longitude": 150.79,
+    "node_index": 4104128,
+    "dist_km": 0.46,
+    "country": "AUS"
+  },
+  {
     "station_id": "rosslyn_bay-59670-aus-bom",
     "site_name": "Rosslyn_Bay",
     "latitude": -23.1667,
@@ -12778,6 +14272,24 @@
     "node_index": 7532257,
     "dist_km": 22.79,
     "country": "NLD"
+  },
+  {
+    "station_id": "royan-308-fra-refmar",
+    "site_name": "Royan",
+    "latitude": 45.62058,
+    "longitude": -1.02781,
+    "node_index": 8977414,
+    "dist_km": 0.62,
+    "country": "FRA"
+  },
+  {
+    "station_id": "royantg_60minute-roy-fra-cmems",
+    "site_name": "RoyanTG_60minute",
+    "latitude": 45.62058,
+    "longitude": -1.02781,
+    "node_index": 8977414,
+    "dist_km": 0.62,
+    "country": "FRA"
   },
   {
     "station_id": "rozenburgsesluis_noordzijde-rozbssnzde-nld-rws_hist",
@@ -12850,6 +14362,15 @@
     "node_index": 7506197,
     "dist_km": 12.64,
     "country": "NLD"
+  },
+  {
+    "station_id": "saavedra_islands_bc-8645-can-meds",
+    "site_name": "Saavedra_Islands_BC",
+    "latitude": 49.62,
+    "longitude": -126.62,
+    "node_index": 1871261,
+    "dist_km": 0.05,
+    "country": "CAN"
   },
   {
     "station_id": "sabine_pass_n_tx-766a-usa-uhslc_rq",
@@ -13113,6 +14634,15 @@
     "country": "FRA"
   },
   {
+    "station_id": "saint_pierre_et_miquelon-115-fra-refmar",
+    "site_name": "Saint_Pierre_Et_Miquelon",
+    "latitude": 46.77883,
+    "longitude": -56.16831,
+    "node_index": 12483506,
+    "dist_km": 0.8,
+    "country": "FRA"
+  },
+  {
     "station_id": "saint_quay_portrieux-506-fra-refmar",
     "site_name": "Saint_Quay_Portrieux",
     "latitude": 48.6475,
@@ -13158,6 +14688,15 @@
     "country": "FRA"
   },
   {
+    "station_id": "saintpierreetmiquelontg_60minute-sai-fra-cmems",
+    "site_name": "SaintPierreEtMiquelonTG_60minute",
+    "latitude": 46.77883,
+    "longitude": -56.16831,
+    "node_index": 12483506,
+    "dist_km": 0.8,
+    "country": "FRA"
+  },
+  {
     "station_id": "saintquayportrieuxtg_60minute-sai-fra-cmems",
     "site_name": "SaintQuayPortrieuxTG_60minute",
     "latitude": 48.6475,
@@ -13192,6 +14731,15 @@
     "node_index": 681160,
     "dist_km": 0.23,
     "country": "JPN"
+  },
+  {
+    "station_id": "sakonnet-8450768-usa-noaa",
+    "site_name": "Sakonnet",
+    "latitude": 41.465,
+    "longitude": -71.1933,
+    "node_index": 13146362,
+    "dist_km": 0.09,
+    "country": "USA"
   },
   {
     "station_id": "salalah-114-omn-uhslc_fd",
@@ -13230,6 +14778,15 @@
     "country": "ZAF"
   },
   {
+    "station_id": "salem-8442645-usa-noaa",
+    "site_name": "Salem",
+    "latitude": 42.5233,
+    "longitude": -70.8767,
+    "node_index": 11820910,
+    "dist_km": 0.06,
+    "country": "USA"
+  },
+  {
     "station_id": "salem-8537979-usa-noaa",
     "site_name": "Salem",
     "latitude": 39.5767,
@@ -13237,6 +14794,15 @@
     "node_index": 9114116,
     "dist_km": 0.06,
     "country": "USA"
+  },
+  {
+    "station_id": "salerno-sal-ita-ispra",
+    "site_name": "Salerno",
+    "latitude": 40.67664,
+    "longitude": 14.75084,
+    "node_index": 6521539,
+    "dist_km": 1.44,
+    "country": "ITA"
   },
   {
     "station_id": "salina_cruz-394-mex-unam_hist",
@@ -13473,6 +15039,15 @@
     "country": "USA"
   },
   {
+    "station_id": "sandakan-389a-mys-uhslc_rq",
+    "site_name": "Sandakan",
+    "latitude": 5.81,
+    "longitude": 118.067,
+    "node_index": 2406657,
+    "dist_km": 1.18,
+    "country": "MYS"
+  },
+  {
     "station_id": "sandy_hook-8531680-usa-noaa",
     "site_name": "Sandy_Hook",
     "latitude": 40.46694,
@@ -13578,6 +15153,15 @@
     "longitude": -3.7908,
     "node_index": 9375828,
     "dist_km": 1.78,
+    "country": "ESP"
+  },
+  {
+    "station_id": "santandertg-san-esp-cmems",
+    "site_name": "SantanderTG",
+    "latitude": 43.461,
+    "longitude": -3.791,
+    "node_index": 9375828,
+    "dist_km": 1.82,
     "country": "ESP"
   },
   {
@@ -13932,6 +15516,15 @@
     "country": "JPN"
   },
   {
+    "station_id": "shield_point-8729747-usa-noaa",
+    "site_name": "Shield_Point",
+    "latitude": 30.5817,
+    "longitude": -87.015,
+    "node_index": 8156935,
+    "dist_km": 0.05,
+    "country": "USA"
+  },
+  {
     "station_id": "shijiusuo-642a-chn-uhslc_rq",
     "site_name": "Shijiusuo",
     "latitude": 35.383,
@@ -14013,6 +15606,15 @@
     "country": "CUB"
   },
   {
+    "station_id": "sidney_bc-7260-can-meds",
+    "site_name": "Sidney_BC",
+    "latitude": 48.65,
+    "longitude": -123.39,
+    "node_index": 636375,
+    "dist_km": 0.06,
+    "country": "CAN"
+  },
+  {
     "station_id": "simons_town-221-zaf-uhslc_fd",
     "site_name": "Simons_Town",
     "latitude": -34.183,
@@ -14067,6 +15669,15 @@
     "country": "USA"
   },
   {
+    "station_id": "sisimiut-296a-dnk-uhslc_rq",
+    "site_name": "Sisimiut",
+    "latitude": 66.933,
+    "longitude": -53.667,
+    "node_index": 9864856,
+    "dist_km": 0.71,
+    "country": "DNK"
+  },
+  {
     "station_id": "sitka-9451600-usa-noaa",
     "site_name": "Sitka",
     "latitude": 57.05169,
@@ -14094,6 +15705,24 @@
     "country": "USA"
   },
   {
+    "station_id": "sjaellandsodde-sja-dnk-cmems",
+    "site_name": "SjaellandsOdde",
+    "latitude": 55.975,
+    "longitude": 11.3722,
+    "node_index": 7142534,
+    "dist_km": 1.44,
+    "country": "DNK"
+  },
+  {
+    "station_id": "skagen-ska-dnk-cmems",
+    "site_name": "Skagen",
+    "latitude": 57.7194,
+    "longitude": 10.5858,
+    "node_index": 7601108,
+    "dist_km": 0.99,
+    "country": "DNK"
+  },
+  {
     "station_id": "skagsudde-2321-swe-smhi",
     "site_name": "Skagsudde",
     "latitude": 63.1906,
@@ -14119,6 +15748,24 @@
     "node_index": 468187,
     "dist_km": 0.23,
     "country": "USA"
+  },
+  {
+    "station_id": "skanor-30488-swe-smhi",
+    "site_name": "Skanor",
+    "latitude": 55.4167,
+    "longitude": 12.8294,
+    "node_index": 6934441,
+    "dist_km": 0.99,
+    "country": "SWE"
+  },
+  {
+    "station_id": "skanor-ska-swe-cmems",
+    "site_name": "Skanor",
+    "latitude": 55.4167,
+    "longitude": 12.8294,
+    "node_index": 6934441,
+    "dist_km": 0.99,
+    "country": "SWE"
   },
   {
     "station_id": "smith_point_bridge-8513825-usa-noaa",
@@ -14164,6 +15811,15 @@
     "node_index": 9029775,
     "dist_km": 0.6,
     "country": "FRA"
+  },
+  {
+    "station_id": "socorro-090-mex-uhslc_fd",
+    "site_name": "Socorro",
+    "latitude": 18.733,
+    "longitude": -111.017,
+    "node_index": 4320734,
+    "dist_km": 0.3,
+    "country": "MEX"
   },
   {
     "station_id": "solomons_island-8577330-usa-noaa",
@@ -14229,6 +15885,15 @@
     "country": "USA"
   },
   {
+    "station_id": "south_caicos-720a-gbr-uhslc_rq",
+    "site_name": "South_Caicos",
+    "latitude": 21.483,
+    "longitude": -71.533,
+    "node_index": 12759469,
+    "dist_km": 0.65,
+    "country": "GBR"
+  },
+  {
     "station_id": "south_jamesport-8512735-usa-noaa",
     "site_name": "South_Jamesport",
     "latitude": 40.935,
@@ -14238,8 +15903,26 @@
     "country": "USA"
   },
   {
+    "station_id": "south_padre_island_cg_station-8779748-usa-noaa",
+    "site_name": "South_Padre_Island_Cg_Station",
+    "latitude": 26.07247,
+    "longitude": -97.16686,
+    "node_index": 9578253,
+    "dist_km": 0.05,
+    "country": "USA"
+  },
+  {
     "station_id": "south_pass-8760551-usa-noaa",
     "site_name": "South_Pass",
+    "latitude": 28.99,
+    "longitude": -89.14,
+    "node_index": 10364296,
+    "dist_km": 0.06,
+    "country": "USA"
+  },
+  {
+    "station_id": "south_pass_la-764a-usa-uhslc_rq",
+    "site_name": "South_Pass_LA",
     "latitude": 28.99,
     "longitude": -89.14,
     "node_index": 10364296,
@@ -14317,6 +16000,15 @@
     "node_index": 7574840,
     "dist_km": 0.5,
     "country": "CAN"
+  },
+  {
+    "station_id": "spodsbjerg-spo-dnk-cmems",
+    "site_name": "Spodsbjerg",
+    "latitude": 54.9333,
+    "longitude": 10.8333,
+    "node_index": 6823167,
+    "dist_km": 1.26,
+    "country": "DNK"
   },
   {
     "station_id": "spring_bay-335-aus-uhslc_fd",
@@ -14400,6 +16092,33 @@
     "country": "CAN"
   },
   {
+    "station_id": "st_helena-292a-shn-uhslc_rq",
+    "site_name": "St_Helena",
+    "latitude": -15.917,
+    "longitude": -5.717,
+    "node_index": 7177243,
+    "dist_km": 1.4,
+    "country": "SHN"
+  },
+  {
+    "station_id": "st_helena-sth-gbr-noc",
+    "site_name": "St_Helena",
+    "latitude": -15.9205,
+    "longitude": -5.7178,
+    "node_index": 7177243,
+    "dist_km": 1.1,
+    "country": "GBR"
+  },
+  {
+    "station_id": "st_helier_jersey-jer-gbr-bodc",
+    "site_name": "St_Helier_Jersey",
+    "latitude": 49.18333,
+    "longitude": -2.11667,
+    "node_index": 8774567,
+    "dist_km": 1.39,
+    "country": "GBR"
+  },
+  {
     "station_id": "st_johns-276-can-uhslc_fd",
     "site_name": "St_Johns",
     "latitude": 47.567,
@@ -14461,6 +16180,15 @@
     "node_index": 8883621,
     "dist_km": 0.07,
     "country": "USA"
+  },
+  {
+    "station_id": "stanley-sta-gbr-noc",
+    "site_name": "Stanley",
+    "latitude": -51.6924,
+    "longitude": -57.8205,
+    "node_index": 6480771,
+    "dist_km": 2.01,
+    "country": "GBR"
   },
   {
     "station_id": "stavanger-svg-nor-nhs",
@@ -14560,6 +16288,15 @@
     "node_index": 339886,
     "dist_km": 0.47,
     "country": "CAN"
+  },
+  {
+    "station_id": "sthelier-sth-gbr-cmems",
+    "site_name": "StHelier",
+    "latitude": 49.1833,
+    "longitude": -2.1167,
+    "node_index": 8774567,
+    "dist_km": 1.39,
+    "country": "GBR"
   },
   {
     "station_id": "stockholm-2069-swe-smhi",
@@ -14931,6 +16668,24 @@
     "country": "NZL"
   },
   {
+    "station_id": "taranto-tar-ita-ispra",
+    "site_name": "Taranto",
+    "latitude": 40.4756,
+    "longitude": 17.22376,
+    "node_index": 6168104,
+    "dist_km": 1.1,
+    "country": "ITA"
+  },
+  {
+    "station_id": "tarawa_bairiki-002-kir-uhslc_fd",
+    "site_name": "Tarawa_Bairiki",
+    "latitude": 1.362,
+    "longitude": 172.93,
+    "node_index": 3544890,
+    "dist_km": 1.31,
+    "country": "KIR"
+  },
+  {
     "station_id": "tarawa_bairiki-002b-kir-uhslc_rq",
     "site_name": "Tarawa_Bairiki",
     "latitude": 1.332,
@@ -14955,6 +16710,24 @@
     "longitude": 172.93,
     "node_index": 3544890,
     "dist_km": 1.31,
+    "country": "KIR"
+  },
+  {
+    "station_id": "tarawa_betio-002d-kir-uhslc_rq",
+    "site_name": "Tarawa_Betio",
+    "latitude": 1.363,
+    "longitude": 172.93,
+    "node_index": 3544890,
+    "dist_km": 1.34,
+    "country": "KIR"
+  },
+  {
+    "station_id": "tarawa_betio-67590-kir-bom",
+    "site_name": "Tarawa_Betio",
+    "latitude": 1.3651,
+    "longitude": 172.933,
+    "node_index": 3544890,
+    "dist_km": 1.14,
     "country": "KIR"
   },
   {
@@ -15012,6 +16785,15 @@
     "country": "BGD"
   },
   {
+    "station_id": "tenerife-228a-esp-uhslc_rq",
+    "site_name": "Tenerife",
+    "latitude": 28.478,
+    "longitude": -16.24,
+    "node_index": 9376253,
+    "dist_km": 0.51,
+    "country": "ESP"
+  },
+  {
     "station_id": "tenerife-ten-esp-da_mm",
     "site_name": "Tenerife",
     "latitude": 28.48,
@@ -15019,6 +16801,24 @@
     "node_index": 9376253,
     "dist_km": 0.73,
     "country": "ESP"
+  },
+  {
+    "station_id": "tenerifetg-ten-esp-cmems",
+    "site_name": "TenerifeTG",
+    "latitude": 28.48,
+    "longitude": -16.24,
+    "node_index": 9376253,
+    "dist_km": 0.73,
+    "country": "ESP"
+  },
+  {
+    "station_id": "termisa-284a-bra-uhslc_rq",
+    "site_name": "Termisa",
+    "latitude": -4.817,
+    "longitude": -37.05,
+    "node_index": 9161484,
+    "dist_km": 1.48,
+    "country": "BRA"
   },
   {
     "station_id": "terneuzen-ternzn-nld-rws",
@@ -15102,6 +16902,24 @@
     "country": "USA"
   },
   {
+    "station_id": "thevenard-128-aus-uhslc_fd",
+    "site_name": "Thevenard",
+    "latitude": -32.15,
+    "longitude": 133.64,
+    "node_index": 4844039,
+    "dist_km": 1.19,
+    "country": "AUS"
+  },
+  {
+    "station_id": "thevenard-128a-aus-uhslc_rq",
+    "site_name": "Thevenard",
+    "latitude": -32.15,
+    "longitude": 133.64,
+    "node_index": 4844039,
+    "dist_km": 1.19,
+    "country": "AUS"
+  },
+  {
     "station_id": "thevenard-62000-aus-bom",
     "site_name": "Thevenard",
     "latitude": -32.1489,
@@ -15127,6 +16945,15 @@
     "node_index": 4076949,
     "dist_km": 0.67,
     "country": "FRA"
+  },
+  {
+    "station_id": "three_mile_slough-9415193-usa-noaa",
+    "site_name": "Three_Mile_Slough",
+    "latitude": 38.0867,
+    "longitude": -121.685,
+    "node_index": 199061,
+    "dist_km": 0.01,
+    "country": "USA"
   },
   {
     "station_id": "three_mile_slough_at_san_joaquin_river-b95060-usa-cdwr",
@@ -15181,6 +17008,15 @@
     "node_index": 4919625,
     "dist_km": 1.52,
     "country": "NZL"
+  },
+  {
+    "station_id": "tinian-698a-mnp-uhslc_rq",
+    "site_name": "Tinian",
+    "latitude": 14.96,
+    "longitude": 145.618,
+    "node_index": 1647463,
+    "dist_km": 0.06,
+    "country": "MNP"
   },
   {
     "station_id": "tioman-323a-mys-uhslc_rq",
@@ -15318,6 +17154,15 @@
     "country": "USA"
   },
   {
+    "station_id": "tomakomaihigashiko-0146-jpn-jodc_pahb",
+    "site_name": "Tomakomaihigashiko",
+    "latitude": 42.60583,
+    "longitude": 141.81722,
+    "node_index": 1889675,
+    "dist_km": 0.13,
+    "country": "JPN"
+  },
+  {
     "station_id": "tomakomainishiko-0136-jpn-jodc_pahb",
     "site_name": "Tomakomainishiko",
     "latitude": 42.62972,
@@ -15325,6 +17170,15 @@
     "node_index": 1902253,
     "dist_km": 0.16,
     "country": "JPN"
+  },
+  {
+    "station_id": "topolobampo-676-mex-unam_hist",
+    "site_name": "Topolobampo",
+    "latitude": 25.58667,
+    "longitude": -109.05667,
+    "node_index": 3651543,
+    "dist_km": 3.53,
+    "country": "MEX"
   },
   {
     "station_id": "tosashimizu-ma39-jpn-jodc_jma",
@@ -15561,6 +17415,15 @@
     "country": "COL"
   },
   {
+    "station_id": "turkey_point-8723423-usa-noaa",
+    "site_name": "Turkey_Point",
+    "latitude": 25.4367,
+    "longitude": -80.33,
+    "node_index": 10728448,
+    "dist_km": 0.09,
+    "country": "USA"
+  },
+  {
     "station_id": "turku-tur-fin-cmems",
     "site_name": "Turku",
     "latitude": 60.4283,
@@ -15757,6 +17620,15 @@
     "node_index": 719264,
     "dist_km": 0.57,
     "country": "USA"
+  },
+  {
+    "station_id": "valenciatg-val-esp-cmems",
+    "site_name": "ValenciaTG",
+    "latitude": 39.46,
+    "longitude": -0.33,
+    "node_index": 6979814,
+    "dist_km": 0.82,
+    "country": "ESP"
   },
   {
     "station_id": "vallarta-393a-mex-uhslc_rq",
@@ -16020,6 +17892,15 @@
     "country": "ESP"
   },
   {
+    "station_id": "vigotg-vig-esp-cmems",
+    "site_name": "VigoTG",
+    "latitude": 42.243,
+    "longitude": -8.726,
+    "node_index": 9295766,
+    "dist_km": 0.55,
+    "country": "ESP"
+  },
+  {
     "station_id": "viken-2228-swe-smhi",
     "site_name": "Viken",
     "latitude": 56.1422,
@@ -16036,6 +17917,15 @@
     "node_index": 7108148,
     "dist_km": 0.96,
     "country": "SWE"
+  },
+  {
+    "station_id": "viker-vik-nor-nhs",
+    "site_name": "Viker",
+    "latitude": 59.03605,
+    "longitude": 10.94977,
+    "node_index": 7506317,
+    "dist_km": 0.79,
+    "country": "NOR"
   },
   {
     "station_id": "vikertg-vik-nor-cmems",
@@ -16245,6 +18135,15 @@
     "country": "CAN"
   },
   {
+    "station_id": "walsoorden-walsodn-nld-rws",
+    "site_name": "Walsoorden",
+    "latitude": 51.39843,
+    "longitude": 4.02621,
+    "node_index": 7353862,
+    "dist_km": 1.2,
+    "country": "NLD"
+  },
+  {
     "station_id": "walvis_bay-220-nam-uhslc_fd",
     "site_name": "Walvis_Bay",
     "latitude": -22.95,
@@ -16261,6 +18160,15 @@
     "node_index": 6549994,
     "dist_km": 1.08,
     "country": "NAM"
+  },
+  {
+    "station_id": "wando_river_above_mt_pleasant_sc-21720698-usa-usgs",
+    "site_name": "Wando_River_Above_Mt_Pleasant_Sc",
+    "latitude": 32.85906,
+    "longitude": -79.8962,
+    "node_index": 11587926,
+    "dist_km": 0.06,
+    "country": "USA"
   },
   {
     "station_id": "wanganui-075a-nzl-uhslc_rq",
@@ -16380,6 +18288,15 @@
     "country": "NLD"
   },
   {
+    "station_id": "west_channel_pile-60739-aus-bom",
+    "site_name": "West_Channel_Pile",
+    "latitude": -38.1944,
+    "longitude": 144.7552,
+    "node_index": 4849630,
+    "dist_km": 1.33,
+    "country": "AUS"
+  },
+  {
     "station_id": "west_port-074a-nzl-uhslc_rq",
     "site_name": "West_Port",
     "latitude": -41.733,
@@ -16452,6 +18369,24 @@
     "country": "PNG"
   },
   {
+    "station_id": "weymouth-wey-gbr-bodc",
+    "site_name": "Weymouth",
+    "latitude": 50.6085,
+    "longitude": -2.44794,
+    "node_index": 8849243,
+    "dist_km": 1.24,
+    "country": "GBR"
+  },
+  {
+    "station_id": "weymouth-wey-gbr-cmems",
+    "site_name": "Weymouth",
+    "latitude": 50.6079,
+    "longitude": -2.4465,
+    "node_index": 8849243,
+    "dist_km": 1.22,
+    "country": "GBR"
+  },
+  {
     "station_id": "whaler_point-65906-can-meds",
     "site_name": "Whaler_Point",
     "latitude": 73.82,
@@ -16503,6 +18438,15 @@
     "longitude": -73.8133,
     "node_index": 13367958,
     "dist_km": 0.02,
+    "country": "USA"
+  },
+  {
+    "station_id": "whittier-9454949-usa-noaa",
+    "site_name": "Whittier",
+    "latitude": 60.7783,
+    "longitude": -148.665,
+    "node_index": 627305,
+    "dist_km": 0.35,
     "country": "USA"
   },
   {
@@ -16693,6 +18637,33 @@
     "node_index": 12862765,
     "dist_km": 0.01,
     "country": "USA"
+  },
+  {
+    "station_id": "woodwards_landing_bc-7610-can-meds",
+    "site_name": "Woodwards_Landing_Bc",
+    "latitude": 49.13,
+    "longitude": -123.08,
+    "node_index": 253779,
+    "dist_km": 0.66,
+    "country": "CAN"
+  },
+  {
+    "station_id": "workington-wor-gbr-bodc",
+    "site_name": "Workington",
+    "latitude": 54.65072,
+    "longitude": -3.56717,
+    "node_index": 8058424,
+    "dist_km": 0.98,
+    "country": "GBR"
+  },
+  {
+    "station_id": "workington-wor-gbr-cmems",
+    "site_name": "Workington",
+    "latitude": 54.65,
+    "longitude": -3.56667,
+    "node_index": 8058424,
+    "dist_km": 1.05,
+    "country": "GBR"
   },
   {
     "station_id": "wyndham-165a-aus-uhslc_rq",
