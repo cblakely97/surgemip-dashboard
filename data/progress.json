@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15",
+  "last_updated": "2026-04-28",
   "scenarios": [
     {
       "id": "cfs-reanalysis",
@@ -22,12 +22,15 @@
         1991,
         1992,
         1993,
-        1994
+        1994,
+        1995,
+        1996,
+        1997,
+        1998
       ],
       "status": "running",
-      "running_year": 1995,
-      "running_pct": 77.7,
-      "queued": true
+      "running_year": 1999,
+      "running_pct": 3.5
     },
     {
       "id": "hadgem-present",
