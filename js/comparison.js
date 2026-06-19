@@ -16,6 +16,55 @@
   var markerLayer = L.layerGroup().addTo(map);
   var allStations = [];   // populated after fetch
   var markerById = {};    // station_id → marker
+  var currentData = null; // full-res data for the currently selected station
+  var TARGET_POINTS = 5000;
+
+  // -----------------------------------------------------------------------
+  // LTTB downsampling (Largest-Triangle-Three-Buckets)
+  // Returns indices into the original array.
+  // -----------------------------------------------------------------------
+
+  function lttbIndices(y, target) {
+    var n = y.length;
+    if (target >= n || target < 3) {
+      var all = new Array(n);
+      for (var k = 0; k < n; k++) all[k] = k;
+      return all;
+    }
+    var indices = [0];
+    var bucketSize = (n - 2) / (target - 2);
+    var prevIndex = 0;
+    for (var i = 1; i < target - 1; i++) {
+      var rangeStart = Math.floor((i - 1) * bucketSize) + 1;
+      var rangeEnd = Math.min(Math.floor(i * bucketSize) + 1, n);
+      var nextStart = Math.min(Math.floor((i + 0) * bucketSize) + 1, n - 1);
+      var nextEnd = Math.min(Math.floor((i + 1) * bucketSize) + 1, n);
+      // Average of next bucket
+      var avgX = 0, avgY = 0, cnt = 0;
+      for (var j = nextStart; j < nextEnd; j++) {
+        if (y[j] !== null) { avgX += j; avgY += y[j]; cnt++; }
+      }
+      if (cnt > 0) { avgX /= cnt; avgY /= cnt; }
+      // Find point in current bucket with max triangle area
+      var maxArea = -1, bestIdx = rangeStart;
+      var pX = prevIndex, pY = y[prevIndex] || 0;
+      for (var j = rangeStart; j < rangeEnd; j++) {
+        if (y[j] === null) continue;
+        var area = Math.abs((pX - avgX) * (y[j] - pY) - (pX - j) * (avgY - pY));
+        if (area > maxArea) { maxArea = area; bestIdx = j; }
+      }
+      indices.push(bestIdx);
+      prevIndex = bestIdx;
+    }
+    indices.push(n - 1);
+    return indices;
+  }
+
+  function pickByIndices(arr, indices) {
+    var out = new Array(indices.length);
+    for (var i = 0; i < indices.length; i++) out[i] = arr[indices[i]];
+    return out;
+  }
 
   // -----------------------------------------------------------------------
   // Color by correlation
@@ -221,71 +270,86 @@
     return times;
   }
 
-  function renderTimeseries(data, plotDiv) {
-    plotDiv.innerHTML = '';
-
-    // Reconstruct shared time axis from compact format
-    var times = buildTimeAxis(data.t0, data.dt_hours, data.n);
-
-    // Upper subplot: GESLA + ADCIRC (nulls create gaps in the lines)
-    var geslaTrace = {
-      x: times,
-      y: data.gesla,
-      type: 'scattergl',
-      mode: 'lines',
-      name: 'GESLA',
-      line: { color: '#000000', width: 1 },
-      connectgaps: false,
-      xaxis: 'x',
-      yaxis: 'y',
-    };
-
-    var adcircTrace = {
-      x: times,
-      y: data.adcirc,
-      type: 'scattergl',
-      mode: 'lines',
-      name: 'ADCIRC',
-      line: { color: '#1f77b4', width: 1 },
-      connectgaps: false,
-      xaxis: 'x',
-      yaxis: 'y',
-    };
-
-    // Lower subplot: nontidal residuals if available, else raw residual
-    var traces = [geslaTrace, adcircTrace];
+  function buildTracesForRange(data, startIdx, endIdx, target) {
+    var n = endIdx - startIdx;
+    var startMs = new Date(data.t0).getTime();
+    var stepMs = data.dt_hours * 3600000;
     var hasNontidal = data.gesla_nontidal && data.adcirc_nontidal;
-    var lowerTraces = [];
 
-    if (hasNontidal) {
-      lowerTraces.push({
-        x: times,
-        y: data.gesla_nontidal,
-        type: 'scattergl',
-        mode: 'lines',
-        name: 'GESLA nontidal',
-        line: { color: '#000000', width: 1 },
-        connectgaps: false,
-        xaxis: 'x2',
-        yaxis: 'y2',
-      });
-      lowerTraces.push({
-        x: times,
-        y: data.adcirc_nontidal,
-        type: 'scattergl',
-        mode: 'lines',
-        name: 'ADCIRC nontidal',
-        line: { color: '#1f77b4', width: 1 },
-        connectgaps: false,
-        xaxis: 'x2',
-        yaxis: 'y2',
-      });
+    // Pick the primary series for LTTB (prefer ADCIRC — always populated)
+    var primary = data.adcirc.slice(startIdx, endIdx);
+    var idx;
+    if (n > target) {
+      idx = lttbIndices(primary, target);
     } else {
-      var residTrace = computeResidualTrace(times, data.adcirc, data.gesla);
-      if (residTrace) lowerTraces.push(residTrace);
+      idx = new Array(n);
+      for (var k = 0; k < n; k++) idx[k] = k;
     }
 
-    traces = traces.concat(lowerTraces);
+    // Build time axis only for selected indices
+    var times = new Array(idx.length);
+    for (var i = 0; i < idx.length; i++) {
+      times[i] = new Date(startMs + (startIdx + idx[i]) * stepMs)
+        .toISOString().slice(0, 19);
+    }
+
+    var geslaSlice = pickByIndices(data.gesla.slice(startIdx, endIdx), idx);
+    var adcircSlice = pickByIndices(primary, idx);
+
+    var traces = [
+      {
+        x: times, y: geslaSlice, type: 'scattergl', mode: 'lines',
+        name: 'GESLA', line: { color: '#000000', width: 1 },
+        connectgaps: false, xaxis: 'x', yaxis: 'y',
+      },
+      {
+        x: times, y: adcircSlice, type: 'scattergl', mode: 'lines',
+        name: 'ADCIRC', line: { color: '#1f77b4', width: 1 },
+        connectgaps: false, xaxis: 'x', yaxis: 'y',
+      },
+    ];
+
+    if (hasNontidal) {
+      var gnt = pickByIndices(data.gesla_nontidal.slice(startIdx, endIdx), idx);
+      var ant = pickByIndices(data.adcirc_nontidal.slice(startIdx, endIdx), idx);
+      traces.push({
+        x: times, y: gnt, type: 'scattergl', mode: 'lines',
+        name: 'GESLA nontidal', line: { color: '#000000', width: 1 },
+        connectgaps: false, xaxis: 'x2', yaxis: 'y2',
+      });
+      traces.push({
+        x: times, y: ant, type: 'scattergl', mode: 'lines',
+        name: 'ADCIRC nontidal', line: { color: '#1f77b4', width: 1 },
+        connectgaps: false, xaxis: 'x2', yaxis: 'y2',
+      });
+    } else {
+      var residValues = new Array(idx.length);
+      var hasResid = false;
+      for (var i = 0; i < idx.length; i++) {
+        if (adcircSlice[i] !== null && geslaSlice[i] !== null) {
+          residValues[i] = adcircSlice[i] - geslaSlice[i];
+          hasResid = true;
+        } else {
+          residValues[i] = null;
+        }
+      }
+      if (hasResid) {
+        traces.push({
+          x: times, y: residValues, type: 'scattergl', mode: 'lines',
+          name: 'Residual', line: { color: '#d62728', width: 1 },
+          connectgaps: false, xaxis: 'x2', yaxis: 'y2',
+        });
+      }
+    }
+
+    return { traces: traces, hasNontidal: hasNontidal, hasResid: !hasNontidal };
+  }
+
+  function renderTimeseries(data, plotDiv) {
+    plotDiv.innerHTML = '';
+    currentData = data;
+
+    var result = buildTracesForRange(data, 0, data.n, TARGET_POINTS);
 
     // Metrics annotation
     var annotations = [];
@@ -323,7 +387,7 @@
         title: 'Date',
       },
       yaxis2: {
-        title: hasNontidal ? 'Nontidal sea level (m)' : 'Residual (m)',
+        title: result.hasNontidal ? 'Nontidal sea level (m)' : 'Residual (m)',
         domain: [0, 0.28],
       },
       title: { text: title, font: { size: 14 } },
@@ -331,7 +395,7 @@
       legend: { orientation: 'h', y: 1.06 },
       margin: { l: 60, r: 20, t: 50, b: 40 },
       template: 'plotly_white',
-      shapes: (!hasNontidal && lowerTraces.length) ? [{
+      shapes: result.hasResid ? [{
         type: 'line',
         xref: 'paper', yref: 'y2',
         x0: 0, x1: 1, y0: 0, y1: 0,
@@ -339,40 +403,32 @@
       }] : [],
     };
 
-    Plotly.newPlot(plotDiv, traces, layout, {
+    Plotly.newPlot(plotDiv, result.traces, layout, {
       responsive: true,
       displaylogo: false,
       modeBarButtonsToRemove: ['lasso2d', 'select2d'],
     });
+
+    // Refine resolution on zoom
+    plotDiv.on('plotly_relayout', function (evt) {
+      if (!currentData) return;
+      var xMin = evt['xaxis.range[0]'] || evt['xaxis2.range[0]'];
+      var xMax = evt['xaxis.range[1]'] || evt['xaxis2.range[1]'];
+      if (!xMin || !xMax) return;
+
+      var startMs = new Date(currentData.t0).getTime();
+      var stepMs = currentData.dt_hours * 3600000;
+      var i0 = Math.max(0, Math.floor((new Date(xMin).getTime() - startMs) / stepMs));
+      var i1 = Math.min(currentData.n, Math.ceil((new Date(xMax).getTime() - startMs) / stepMs));
+      if (i1 <= i0) return;
+
+      var refined = buildTracesForRange(currentData, i0, i1, TARGET_POINTS);
+      Plotly.react(plotDiv, refined.traces, plotDiv.layout, {
+        responsive: true,
+        displaylogo: false,
+        modeBarButtonsToRemove: ['lasso2d', 'select2d'],
+      });
+    });
   }
 
-  function computeResidualTrace(times, adcirc, gesla) {
-    // Arrays are already aligned — compute element-wise residual
-    if (!adcirc || !gesla || !times.length) return null;
-
-    var residValues = new Array(times.length);
-    var hasData = false;
-    for (var i = 0; i < times.length; i++) {
-      if (adcirc[i] !== null && gesla[i] !== null) {
-        residValues[i] = adcirc[i] - gesla[i];
-        hasData = true;
-      } else {
-        residValues[i] = null;
-      }
-    }
-
-    if (!hasData) return null;
-
-    return {
-      x: times,
-      y: residValues,
-      type: 'scattergl',
-      mode: 'lines',
-      name: 'Residual',
-      line: { color: '#d62728', width: 1 },
-      connectgaps: false,
-      xaxis: 'x2',
-      yaxis: 'y2',
-    };
-  }
 })();
