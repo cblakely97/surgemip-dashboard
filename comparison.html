@@ -33,6 +33,11 @@
   <div id="map"></div>
   <div id="timeseries-panel">
     <div class="placeholder">Click a station on the map to view its time series comparison</div>
+    <div id="plot-controls" style="display:none; padding:0.3rem 0.6rem;">
+      <label style="cursor:pointer; font-size:0.85rem; user-select:none;">
+        <input type="checkbox" id="demean-toggle"> Remove mean (zero-center both series)
+      </label>
+    </div>
     <div id="timeseries-plot"></div>
   </div>
 </div>
@@ -47,6 +52,6 @@
   </p>
 </div>
 
-<script src="js/comparison.js?v=4"></script>
+<script src="js/comparison.js?v=5"></script>
 </body>
 </html>

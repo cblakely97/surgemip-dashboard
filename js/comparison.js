@@ -17,7 +17,17 @@
   var allStations = [];   // populated after fetch
   var markerById = {};    // station_id → marker
   var currentData = null; // full-res data for the currently selected station
+  var currentMeans = null; // per-series means for demeaning
+  var demeanEnabled = false;
   var TARGET_POINTS = 5000;
+
+  function nanMean(arr) {
+    var sum = 0, cnt = 0;
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i] !== null && arr[i] !== undefined) { sum += arr[i]; cnt++; }
+    }
+    return cnt > 0 ? sum / cnt : 0;
+  }
 
   // -----------------------------------------------------------------------
   // LTTB downsampling (Largest-Triangle-Three-Buckets)
@@ -63,6 +73,14 @@
   function pickByIndices(arr, indices) {
     var out = new Array(indices.length);
     for (var i = 0; i < indices.length; i++) out[i] = arr[indices[i]];
+    return out;
+  }
+
+  function applyOffset(arr, offset) {
+    var out = new Array(arr.length);
+    for (var i = 0; i < arr.length; i++) {
+      out[i] = arr[i] !== null && arr[i] !== undefined ? arr[i] + offset : null;
+    }
     return out;
   }
 
@@ -229,6 +247,9 @@
     selectedMarker = marker;
 
     loadTimeseries(stationId);
+
+    var controls = document.getElementById('plot-controls');
+    if (controls) controls.style.display = '';
   }
 
   // -----------------------------------------------------------------------
@@ -296,6 +317,12 @@
     var geslaSlice = pickByIndices(data.gesla.slice(startIdx, endIdx), idx);
     var adcircSlice = pickByIndices(primary, idx);
 
+    // Apply demeaning if enabled (subtract each series' full-record mean)
+    if (demeanEnabled && currentMeans) {
+      geslaSlice = applyOffset(geslaSlice, -currentMeans.gesla);
+      adcircSlice = applyOffset(adcircSlice, -currentMeans.adcirc);
+    }
+
     var traces = [
       {
         x: times, y: geslaSlice, type: 'scattergl', mode: 'lines',
@@ -312,6 +339,10 @@
     if (hasNontidal) {
       var gnt = pickByIndices(data.gesla_nontidal.slice(startIdx, endIdx), idx);
       var ant = pickByIndices(data.adcirc_nontidal.slice(startIdx, endIdx), idx);
+      if (demeanEnabled && currentMeans) {
+        gnt = applyOffset(gnt, -currentMeans.gesla_nontidal);
+        ant = applyOffset(ant, -currentMeans.adcirc_nontidal);
+      }
       traces.push({
         x: times, y: gnt, type: 'scattergl', mode: 'lines',
         name: 'GESLA nontidal', line: { color: '#000000', width: 1 },
@@ -345,9 +376,22 @@
     return { traces: traces, hasNontidal: hasNontidal, hasResid: !hasNontidal };
   }
 
+  function replot() {
+    if (!currentData) return;
+    var plotDiv = document.getElementById('timeseries-plot');
+    renderTimeseries(currentData, plotDiv);
+  }
+
   function renderTimeseries(data, plotDiv) {
     plotDiv.innerHTML = '';
     currentData = data;
+
+    currentMeans = {
+      gesla: nanMean(data.gesla),
+      adcirc: nanMean(data.adcirc),
+      gesla_nontidal: data.gesla_nontidal ? nanMean(data.gesla_nontidal) : 0,
+      adcirc_nontidal: data.adcirc_nontidal ? nanMean(data.adcirc_nontidal) : 0,
+    };
 
     var result = buildTracesForRange(data, 0, data.n, TARGET_POINTS);
 
@@ -379,7 +423,7 @@
       grid: { rows: 2, columns: 1, subplots: [['xy'], ['xy2']] },
       xaxis: { anchor: 'y', matches: 'x2' },
       yaxis: {
-        title: 'Sea level (m)',
+        title: demeanEnabled ? 'Sea level anomaly (m)' : 'Sea level (m)',
         domain: [0.35, 1],
       },
       xaxis2: {
@@ -428,6 +472,18 @@
         displaylogo: false,
         modeBarButtonsToRemove: ['lasso2d', 'select2d'],
       });
+    });
+  }
+
+  // -----------------------------------------------------------------------
+  // Demean toggle
+  // -----------------------------------------------------------------------
+
+  var demeanBox = document.getElementById('demean-toggle');
+  if (demeanBox) {
+    demeanBox.addEventListener('change', function () {
+      demeanEnabled = demeanBox.checked;
+      replot();
     });
   }
 
