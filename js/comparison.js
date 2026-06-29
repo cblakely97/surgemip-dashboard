@@ -2,6 +2,10 @@
 (function () {
   'use strict';
 
+  // Timeseries data is hosted as GitHub Release assets to keep the repo
+  // under the GitHub Pages size limit. Update this tag when new data is released.
+  var DATA_BASE_URL = 'https://github.com/cblakely97/surgemip-dashboard/releases/download/data-v1';
+
   // -----------------------------------------------------------------------
   // Map setup
   // -----------------------------------------------------------------------
@@ -104,7 +108,7 @@
   // Load stations and populate map
   // -----------------------------------------------------------------------
 
-  fetch('data/stations.json')
+  fetch(DATA_BASE_URL + '/stations.json')
     .then(function (r) { return r.json(); })
     .then(function (stations) {
       stations.forEach(function (stn) {
@@ -264,7 +268,7 @@
     if (placeholder) placeholder.style.display = 'none';
     plotDiv.innerHTML = '<p style="color:#6c757d;padding:1rem">Loading...</p>';
 
-    fetch('data/timeseries/' + stationId + '.json')
+    fetch(DATA_BASE_URL + '/' + stationId + '.json')
       .then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
         return r.json();
