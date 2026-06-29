@@ -1,5 +1,2 @@
 .DS_Store
 .claude/
-data/timeseries/
-data/stations.json
-data/station_node_map.json
