@@ -421,13 +421,15 @@
     // Guard: if ADCIRC is nearly all NaN the node was permanently dry —
     // show a message rather than a blank plot.
     var nValid = 0;
-    for (var i = 0; i < data.adcirc.length; i++) {
+    var nTotal = data.adcirc ? data.adcirc.length : 0;
+    for (var i = 0; i < nTotal; i++) {
       if (data.adcirc[i] !== null) nValid++;
     }
     if (nValid < 100) {
       plotDiv.innerHTML =
         '<p style="color:#6c757d;padding:1rem">No model data at this location ' +
-        '(node is outside the wet domain for most of the simulation).</p>';
+        '(node is outside the wet domain for most of the simulation). ' +
+        '[debug: n=' + nTotal + ' valid=' + nValid + ' has_nontidal=' + data.has_nontidal + ']</p>';
       return;
     }
 
