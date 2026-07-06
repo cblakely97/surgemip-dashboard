@@ -272,7 +272,9 @@
     var offset = end + 1;
 
     function readInt16(off) {
-      var raw = new Int16Array(buf, off, n);
+      // buf.slice ensures the new ArrayBuffer is 2-byte aligned regardless
+      // of where the header ended.
+      var raw = new Int16Array(buf.slice(off, off + n * 2));
       var out = new Array(n);
       for (var i = 0; i < n; i++) {
         out[i] = raw[i] === -32768 ? null : raw[i] * 0.001;
