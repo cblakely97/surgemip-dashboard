@@ -256,6 +256,39 @@
   // Time series loading and plotting
   // -----------------------------------------------------------------------
 
+  // Parse a .bin timeseries file:
+  //   [JSON header, null-terminated]
+  //   [Int16 × n: adcirc]   (mm, -32768 = NaN)
+  //   [Int16 × n: gesla]
+  //   [Int16 × n: adcirc_nontidal]  (only if header.has_nontidal)
+  //   [Int16 × n: gesla_nontidal]   (only if header.has_nontidal)
+  function parseBin(buf) {
+    var bytes = new Uint8Array(buf);
+    // Find null terminator of JSON header
+    var end = 0;
+    while (end < bytes.length && bytes[end] !== 0) end++;
+    var header = JSON.parse(new TextDecoder().decode(bytes.subarray(0, end)));
+    var n = header.n;
+    var offset = end + 1;
+
+    function readInt16(off) {
+      var raw = new Int16Array(buf, off, n);
+      var out = new Array(n);
+      for (var i = 0; i < n; i++) {
+        out[i] = raw[i] === -32768 ? null : raw[i] * 0.001;
+      }
+      return out;
+    }
+
+    header.adcirc = readInt16(offset);          offset += n * 2;
+    header.gesla  = readInt16(offset);          offset += n * 2;
+    if (header.has_nontidal) {
+      header.adcirc_nontidal = readInt16(offset); offset += n * 2;
+      header.gesla_nontidal  = readInt16(offset);
+    }
+    return header;
+  }
+
   function loadTimeseries(stationId) {
     var panel = document.getElementById('timeseries-panel');
     var placeholder = panel.querySelector('.placeholder');
@@ -264,12 +297,12 @@
     if (placeholder) placeholder.style.display = 'none';
     plotDiv.innerHTML = '<p style="color:#6c757d;padding:1rem">Loading...</p>';
 
-    fetch('data/timeseries/' + stationId + '.json')
+    fetch('data/timeseries/' + stationId + '.bin')
       .then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.json();
+        return r.arrayBuffer();
       })
-      .then(function (data) { renderTimeseries(data, plotDiv); })
+      .then(function (buf) { renderTimeseries(parseBin(buf), plotDiv); })
       .catch(function (err) {
         plotDiv.innerHTML =
           '<p style="color:#d62728;padding:1rem">Failed to load time series: ' +
