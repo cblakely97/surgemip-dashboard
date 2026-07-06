@@ -418,6 +418,19 @@
   }
 
   function renderTimeseries(data, plotDiv) {
+    // Guard: if ADCIRC is nearly all NaN the node was permanently dry —
+    // show a message rather than a blank plot.
+    var nValid = 0;
+    for (var i = 0; i < data.adcirc.length; i++) {
+      if (data.adcirc[i] !== null) nValid++;
+    }
+    if (nValid < 100) {
+      plotDiv.innerHTML =
+        '<p style="color:#6c757d;padding:1rem">No model data at this location ' +
+        '(node is outside the wet domain for most of the simulation).</p>';
+      return;
+    }
+
     plotDiv.innerHTML = '';
     currentData = data;
 
