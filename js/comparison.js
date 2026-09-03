@@ -3,10 +3,9 @@
   'use strict';
 
   // Base URL for timeseries .bin files. When served via GitHub Pages the
-  // files live in the orphan `data` branch (served via raw.githubusercontent.com
-  // which sends CORS headers, unlike GitHub Release downloads).
-  // Swap to 'data/timeseries' for local development with a full data dir.
-  var TIMESERIES_BASE_URL = 'https://raw.githubusercontent.com/cblakely97/surgemip-dashboard/data/timeseries';
+  // Timeseries .bin files are served same-origin from data/timeseries/
+  // (committed to the repo). No CORS issues since Pages serves them directly.
+  var TIMESERIES_BASE_URL = 'data/timeseries';
 
   // -----------------------------------------------------------------------
   // Map setup
