@@ -2,6 +2,11 @@
 (function () {
   'use strict';
 
+  // Base URL for timeseries .bin files. When served via GitHub Pages the
+  // files live in a GitHub Release (to keep the repo under size limits).
+  // Swap to 'data/timeseries' for local development with a full data dir.
+  var TIMESERIES_BASE_URL = 'https://github.com/cblakely97/surgemip-dashboard/releases/download/data-v1';
+
   // -----------------------------------------------------------------------
   // Map setup
   // -----------------------------------------------------------------------
@@ -299,7 +304,7 @@
     if (placeholder) placeholder.style.display = 'none';
     plotDiv.innerHTML = '<p style="color:#6c757d;padding:1rem">Loading...</p>';
 
-    fetch('data/timeseries/' + stationId + '.bin')
+    fetch(TIMESERIES_BASE_URL + '/' + stationId + '.bin')
       .then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
         return r.arrayBuffer();
