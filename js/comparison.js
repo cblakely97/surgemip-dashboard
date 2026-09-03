@@ -3,9 +3,10 @@
   'use strict';
 
   // Base URL for timeseries .bin files. When served via GitHub Pages the
-  // files live in a GitHub Release (to keep the repo under size limits).
+  // files live in the orphan `data` branch (served via raw.githubusercontent.com
+  // which sends CORS headers, unlike GitHub Release downloads).
   // Swap to 'data/timeseries' for local development with a full data dir.
-  var TIMESERIES_BASE_URL = 'https://github.com/cblakely97/surgemip-dashboard/releases/download/data-v1';
+  var TIMESERIES_BASE_URL = 'https://raw.githubusercontent.com/cblakely97/surgemip-dashboard/data/timeseries';
 
   // -----------------------------------------------------------------------
   // Map setup
