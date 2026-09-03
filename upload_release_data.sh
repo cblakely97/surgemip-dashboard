@@ -41,13 +41,13 @@ echo "==> Uploading metadata files..."
   "${DATA_DIR}/stations.json" \
   "${DATA_DIR}/station_node_map.json"
 
-# Upload all timeseries JSONs in parallel batches
+# Upload all timeseries .bin files in batches
 TIMESERIES_DIR="${DATA_DIR}/timeseries"
-FILES=("${TIMESERIES_DIR}"/*.json)
+FILES=("${TIMESERIES_DIR}"/*.bin)
 TOTAL=${#FILES[@]}
 BATCH=50   # gh release upload accepts multiple files at once; 50 is safe
 
-echo "==> Uploading ${TOTAL} timeseries files in batches of ${BATCH}..."
+echo "==> Uploading ${TOTAL} timeseries .bin files in batches of ${BATCH}..."
 for ((i=0; i<TOTAL; i+=BATCH)); do
   BATCH_FILES=("${FILES[@]:i:BATCH}")
   echo "    Batch $((i/BATCH + 1)) / $(( (TOTAL + BATCH - 1) / BATCH )) (files $((i+1))–$((i+${#BATCH_FILES[@]})))"
@@ -59,4 +59,4 @@ done
 
 echo "==> Done! ${TOTAL} files uploaded to release ${TAG}."
 echo "    Dashboard will fetch from:"
-echo "    https://github.com/${REPO}/releases/download/${TAG}/<station_id>.json"
+echo "    https://github.com/${REPO}/releases/download/${TAG}/<station_id>.bin"
