@@ -309,6 +309,16 @@
         if (!r.ok) throw new Error('HTTP ' + r.status);
         return r.arrayBuffer();
       })
+      .then(function (buf) {
+        // Decompress if still gzip (magic bytes 1f 8b). GitHub Pages may
+        // auto-decompress via Content-Encoding, in which case buf is already raw.
+        var magic = new Uint8Array(buf, 0, 2);
+        if (magic[0] === 0x1f && magic[1] === 0x8b) {
+          var ds = new DecompressionStream('gzip');
+          return new Response(new Blob([buf]).stream().pipeThrough(ds)).arrayBuffer();
+        }
+        return buf;
+      })
       .then(function (buf) { renderTimeseries(parseBin(buf), plotDiv); })
       .catch(function (err) {
         plotDiv.innerHTML =
